@@ -1,0 +1,8002 @@
+[
+	{
+		"codigoCliente" : "oficina",
+		"nombres" : "Carlos ",
+		"apellidos" : "Pereira",
+		"razonSocial" : "Carlos Pereira",
+		"direccion" : "QUILLACOLLO",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "oficina",
+		"nombres" : "oficina",
+		"apellidos" : "",
+		"razonSocial" : "oficina",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-02-1",
+		"nombres" : "Anahy ",
+		"apellidos" : "Colque",
+		"razonSocial" : "Anahy Colque",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-08-1",
+		"nombres" : "Ivet ",
+		"apellidos" : "Colque",
+		"razonSocial" : "Ivet Colque",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-88 1",
+		"nombres" : "Maria ",
+		"apellidos" : "Torrico",
+		"razonSocial" : "Maria Torrico",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-08-2",
+		"nombres" : "Betzabe",
+		"apellidos" : "Cornejo",
+		"razonSocial" : "Betzabe Cornejo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-14-1",
+		"nombres" : "Cristel",
+		"apellidos" : "Navia",
+		"razonSocial" : "Cristel Navia",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-78-1",
+		"nombres" : "Fabiola ",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Fabiola Rdriguez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-78-2",
+		"nombres" : "Marizol",
+		"apellidos" : "Ocampo",
+		"razonSocial" : "Marizol Ocampo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-28-1",
+		"nombres" : "Cinda",
+		"apellidos" : "Clileno",
+		"razonSocial" : "Cinda Clileno",
+		"direccion" : "Calle Achachairu",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-28-2",
+		"nombres" : "Vanessa",
+		"apellidos" : "Terceros",
+		"razonSocial" : "Vanessa Terceros",
+		"direccion" : "Calle La Salvadora",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-12-1",
+		"nombres" : "Rosmery ",
+		"apellidos" : "Cuellar",
+		"razonSocial" : "Rosmery Cuellar",
+		"direccion" : "Calle Rafael Bustillos",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-12-1",
+		"nombres" : "Rosmery ",
+		"apellidos" : "Cuellar",
+		"razonSocial" : "Rosmery Cuellar",
+		"direccion" : "Calle Rafael Bustillos",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-26-1",
+		"nombres" : "Jhannet ",
+		"apellidos" : "Apaza",
+		"razonSocial" : "Jhannet Apaza",
+		"direccion" : "Calle Acacia",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-26-2",
+		"nombres" : "Rosmery ",
+		"apellidos" : "Zubieta",
+		"razonSocial" : "Rosmery Zubieta",
+		"direccion" : "Calle Acacia (Hosp. Univalle)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-53-1",
+		"nombres" : "Castellon",
+		"apellidos" : "",
+		"razonSocial" : "Castellon",
+		"direccion" : "Calle Achachairu",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-42-1",
+		"nombres" : "Nelly",
+		"apellidos" : "Herrera",
+		"razonSocial" : "Nelly Herrera",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-45-1",
+		"nombres" : "Salome",
+		"apellidos" : "Atahuichi",
+		"razonSocial" : "Salome Atahuichi",
+		"direccion" : "Av. Guayacan",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Abra",
+		"nombres" : "Dionicia ",
+		"apellidos" : "Cadima",
+		"razonSocial" : "Dionicia Cadima",
+		"direccion" : "Prov. El Abra",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Abra",
+		"nombres" : "Fanny",
+		"apellidos" : "Giron",
+		"razonSocial" : "Fanny Giron",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Abra",
+		"nombres" : "Maria",
+		"apellidos" : "Gutierrez",
+		"razonSocial" : "Maria Gutierrez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Nelly",
+		"apellidos" : "Pardo",
+		"razonSocial" : "Nelly Pardo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Celestina",
+		"apellidos" : "Mostacedo",
+		"razonSocial" : "Celestina Mostacedo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "Abra",
+		"nombres" : "Lidia ",
+		"apellidos" : "Cespedes",
+		"razonSocial" : "Lidia Cespedes",
+		"direccion" : "(lado radio taxi Esperanza)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Esperanza",
+		"apellidos" : "Zambrana",
+		"razonSocial" : "Esperanza Zambrana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "Abra",
+		"nombres" : "Margarita",
+		"apellidos" : "Pozo",
+		"razonSocial" : "Margarita Pozo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Maica",
+		"nombres" : "Maita",
+		"apellidos" : "",
+		"razonSocial" : "Maita",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Abra",
+		"nombres" : "Dionicia",
+		"apellidos" : "Cadima",
+		"razonSocial" : "Dionicia Cadima (abra)",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Fanny",
+		"apellidos" : "Guiron",
+		"razonSocial" : "Fanny Guiron (abra)",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Nelly",
+		"apellidos" : "Fardo",
+		"razonSocial" : "Nelly Fardo (abra)",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Oleste ",
+		"apellidos" : "Terrazas",
+		"razonSocial" : "Oleste terrazas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Jaquelin ",
+		"apellidos" : "Terrazas",
+		"razonSocial" : "Jaquelin terrazas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17",
+		"nombres" : "Farmacia Melga",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Melga",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Sra Carmen caldos",
+		"apellidos" : "",
+		"razonSocial" : "Sra Carmen (caldos)",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Berna ",
+		"apellidos" : "Copa",
+		"razonSocial" : "Berna Copa",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31",
+		"nombres" : "Vicky",
+		"apellidos" : "",
+		"razonSocial" : "Vicky",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "5-36-1",
+		"nombres" : "Rufina ",
+		"apellidos" : "",
+		"razonSocial" : "Rufina",
+		"direccion" : "Feria Santa Barbara",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-1-1",
+		"nombres" : "Farmacia Dios del Cielo",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Dios del Cielo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-2-1",
+		"nombres" : "Farmacia Cruz del Norte",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Cruz del Norte",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-3-1",
+		"nombres" : "Farmacia San Marcos",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia San Marcos",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-3-1",
+		"nombres" : "Diergo",
+		"apellidos" : "Heredia Rejas",
+		"razonSocial" : "Diego Heredia Rejas",
+		"direccion" : "(Farmacia San Marcos)",
+		"nit" : "6488328015"
+	},
+	{
+		"codigoCliente" : "15-6-1",
+		"nombres" : "Eva ",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Rodriguez",
+		"direccion" : "",
+		"nit" : "3007012"
+	},
+	{
+		"codigoCliente" : "15-6-4",
+		"nombres" : "Angelica",
+		"apellidos" : "Muñoz",
+		"razonSocial" : "Angelica Muñoz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-6-5",
+		"nombres" : "Aurora ",
+		"apellidos" : "Condori",
+		"razonSocial" : "Aurora Condori",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-9-1",
+		"nombres" : "FarmaSana",
+		"apellidos" : "",
+		"razonSocial" : "FarmaSana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-11-2",
+		"nombres" : "Aldo ",
+		"apellidos" : "Villarruel",
+		"razonSocial" : "Aldo Villarruel",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-13-1",
+		"nombres" : "Farmacia Paris",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Paris",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-13-2",
+		"nombres" : "Farmacia San Carlos",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia San Carlos",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-14-1",
+		"nombres" : "Farmacia Concepcion",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Concepcion",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-14-1",
+		"nombres" : "Farmacia Concepcion",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Concepcion",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-15-1",
+		"nombres" : "Rose Mariel",
+		"apellidos" : "",
+		"razonSocial" : "Rose Mariel",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-12-1",
+		"nombres" : "Farmacia Sarai",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Sarai",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-10-2",
+		"nombres" : "Olivia",
+		"apellidos" : "Gumucio",
+		"razonSocial" : "Olivia Gumucio",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-10-2",
+		"nombres" : "Olivia",
+		"apellidos" : "Gumucio",
+		"razonSocial" : "Olivia Gumucio",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-5-1",
+		"nombres" : "Isabel ",
+		"apellidos" : "Campero",
+		"razonSocial" : "Isabel Campero",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-6-6",
+		"nombres" : "Maldonado",
+		"apellidos" : "",
+		"razonSocial" : "Maldonado",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-7-1",
+		"nombres" : "Ivon",
+		"apellidos" : "Lizarazu",
+		"razonSocial" : "Lizarazu",
+		"direccion" : "",
+		"nit" : ""
+	},
+	{
+		"codigoCliente" : "15-15-20",
+		"nombres" : "Mari luz",
+		"apellidos" : "",
+		"razonSocial" : "Mari luz",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "4-33-1",
+		"nombres" : "Angelica ",
+		"apellidos" : "",
+		"razonSocial" : "Angelica ",
+		"direccion" : "Barrio 12 de Enero Av. Capitan Arzabe",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35",
+		"nombres" : "Jhonny",
+		"apellidos" : "Garcia",
+		"razonSocial" : "Jhonny Garcia",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-07-1",
+		"nombres" : "Sejas",
+		"apellidos" : "",
+		"razonSocial" : "Sejas",
+		"direccion" : "Av. Francisco Anaya ",
+		"nit" : "4383639"
+	},
+	{
+		"codigoCliente" : "4-38-1",
+		"nombres" : "Sonia",
+		"apellidos" : "Mendieta",
+		"razonSocial" : "Rene Mendieta",
+		"direccion" : "",
+		"nit" : "448942"
+	},
+	{
+		"codigoCliente" : "4-06-1",
+		"nombres" : "Alsira ",
+		"apellidos" : "Claros",
+		"razonSocial" : "Alsira Claros",
+		"direccion" : "Av. Francisco Anaya",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Catalina ",
+		"apellidos" : "Quiñones",
+		"razonSocial" : "Catalina Quiñones",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-47-1",
+		"nombres" : "Lucy",
+		"apellidos" : "Aranibar",
+		"razonSocial" : "Aranibar",
+		"direccion" : "Av. Nelida de Guerra final",
+		"nit" : "5245943"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Patricia",
+		"apellidos" : "Montaño",
+		"razonSocial" : "Patricia Montaño",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-31-3",
+		"nombres" : "Farmacia SomosBolivia",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia SomosBolivia",
+		"direccion" : "Av. Capitan Arzabe esq. Nelida de Guerra",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "4-19-1",
+		"nombres" : "Patricia",
+		"apellidos" : "Zambrana",
+		"razonSocial" : "Patricia Zambrana",
+		"direccion" : "Calle 20 de Diciembre",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-29-1",
+		"nombres" : "Jhonny Ramos",
+		"apellidos" : "",
+		"razonSocial" : "Jhonny Ramos",
+		"direccion" : "Av. Capitan Arzabe frente a la cancha",
+		"nit" : "5315615"
+	},
+	{
+		"codigoCliente" : "4-24-1",
+		"nombres" : "Alejandro",
+		"apellidos" : "Manzano",
+		"razonSocial" : "Alejandro Manzano",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-19-2",
+		"nombres" : "Silvia",
+		"apellidos" : "Sotomayor",
+		"razonSocial" : "Silvia Sotomayor",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "29-01-1",
+		"nombres" : "Carola",
+		"apellidos" : "Licona",
+		"razonSocial" : "Carola Licona",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "29-02-1",
+		"nombres" : "Esperanza",
+		"apellidos" : "Licona",
+		"razonSocial" : "Esperanza Licona",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "29-03-1",
+		"nombres" : "Cinthia",
+		"apellidos" : "Espinoza",
+		"razonSocial" : "Cinthia Espinoza",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "29-04-1",
+		"nombres" : "Fanny ",
+		"apellidos" : "Hinojosa",
+		"razonSocial" : "Fanny Hinojosa",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-03-1",
+		"nombres" : "Mabel ",
+		"apellidos" : " Peredo",
+		"razonSocial" : "Mabel Peredo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-71-1",
+		"nombres" : "Silvia",
+		"apellidos" : "Aviles",
+		"razonSocial" : "Silvia Aviles",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-37-1",
+		"nombres" : "Lidia",
+		"apellidos" : "Claros",
+		"razonSocial" : "Lidia Claros",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-29-1",
+		"nombres" : "Eulogia",
+		"apellidos" : "Lazarte",
+		"razonSocial" : "Eulogia Lazarte",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-41-1",
+		"nombres" : "Alejandra",
+		"apellidos" : "Aguilar",
+		"razonSocial" : "Alejandra Aguilar",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "28-46-1",
+		"nombres" : "Frida",
+		"apellidos" : " Cano",
+		"razonSocial" : "Frida Cano",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-13-1",
+		"nombres" : "Lidia",
+		"apellidos" : "Andrade",
+		"razonSocial" : "Lidia Andrade",
+		"direccion" : "",
+		"nit" : "3562507014"
+	},
+	{
+		"codigoCliente" : "28-100-1",
+		"nombres" : "Rosmery",
+		"apellidos" : "Veizaga",
+		"razonSocial" : "Rosmery Veizaga",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-100-2",
+		"nombres" : "Ana",
+		"apellidos" : "Soto",
+		"razonSocial" : "Ana Soto",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-26-1",
+		"nombres" : "Fany",
+		"apellidos" : "Soto",
+		"razonSocial" : "Fany Soto",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4",
+		"nombres" : "Delia",
+		"apellidos" : "Coca",
+		"razonSocial" : "Delia Coca",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-03-1",
+		"nombres" : "Carmen",
+		"apellidos" : " Romero",
+		"razonSocial" : "Romero",
+		"direccion" : "Av Albina Patiño esq. Constantino Morales",
+		"nit" : "965310"
+	},
+	{
+		"codigoCliente" : "4-04-1",
+		"nombres" : "Jhovana ",
+		"apellidos" : "Valdez",
+		"razonSocial" : "Jhovana Valdez",
+		"direccion" : "Av.Albina Patiño duchas San Aurelio",
+		"nit" : "3613599012"
+	},
+	{
+		"codigoCliente" : "4-02-1",
+		"nombres" : "Giovana",
+		"apellidos" : "Heredia",
+		"razonSocial" : "Giovana Heredia",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "4-02-12",
+		"nombres" : "Wilson",
+		"apellidos" : "Lima",
+		"razonSocial" : "Wilson Lima",
+		"direccion" : "Av. Albina Patiño",
+		"nit" : "8761927"
+	},
+	{
+		"codigoCliente" : "4-11-1",
+		"nombres" : "Noemi ",
+		"apellidos" : "Serrudo",
+		"razonSocial" : "Noemi Serrudo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Urcupiña",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Urcupiña",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Farmacia Sayary",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Sayary",
+		"direccion" : "Calle Santa Cruz y Luis Uria",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-17-1",
+		"nombres" : "Darlen ",
+		"apellidos" : "Yugar",
+		"razonSocial" : "Darlen Yugar",
+		"direccion" : "Av. Santa Cruz casi Luis Uria",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "19-49-1",
+		"nombres" : "Farmacia Tarija",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Tarija",
+		"direccion" : "Av. America esquina Santa Cruz",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "19-02-1",
+		"nombres" : "Lujan",
+		"apellidos" : "",
+		"razonSocial" : "Lujan",
+		"direccion" : "Av. Gualberto Villarruel",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "19-09-1",
+		"nombres" : "Carbajal",
+		"apellidos" : "",
+		"razonSocial" : "Carbajal",
+		"direccion" : "Calle Guadalquivir esq. gualberto Villarroel",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "19-23-1",
+		"nombres" : "Angela Arce de Leon",
+		"apellidos" : "",
+		"razonSocial" : "Angela Arce de Leon",
+		"direccion" : "Calle Portales",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "19-20-1",
+		"nombres" : "Agreda",
+		"apellidos" : "",
+		"razonSocial" : "Agreda",
+		"direccion" : "Av. Santa Cruz",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "19-37-1",
+		"nombres" : "Med Fast",
+		"apellidos" : "",
+		"razonSocial" : "Med Fast",
+		"direccion" : "Av. Potosi",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "19-44-1",
+		"nombres" : "Chumacero",
+		"apellidos" : "",
+		"razonSocial" : "Chumacero",
+		"direccion" : "Av. Santa Cruz",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "19-43-1",
+		"nombres" : "Alvaro",
+		"apellidos" : "Maldonado",
+		"razonSocial" : "Rivera",
+		"direccion" : "Av. Aniceto Padilla",
+		"nit" : "3750353"
+	},
+	{
+		"codigoCliente" : "19-42-1",
+		"nombres" : "Ramon ",
+		"apellidos" : "Tames",
+		"razonSocial" : "Ramon Tames",
+		"direccion" : "Av.Simon Bolivar",
+		"nit" : "800273015"
+	},
+	{
+		"codigoCliente" : "19-42-2",
+		"nombres" : "Mario",
+		"apellidos" : "Tames",
+		"razonSocial" : "Mario Tames",
+		"direccion" : "Av. Simon Bolivar",
+		"nit" : "829737014"
+	},
+	{
+		"codigoCliente" : "19-24-1",
+		"nombres" : "Isidora",
+		"apellidos" : "Quinteros",
+		"razonSocial" : "Isidora Quinteros",
+		"direccion" : "Calle Trinidad",
+		"nit" : "5936016"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Constansa",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Constansa",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia 21 de Julio",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia 21 de Julio",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Vidal",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Vidal",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Farmacia Maldonado",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Maldonado",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Lili",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Lili",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Rosario",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Rosario",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Quillacollo",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Quillacollo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Central Bolivia",
+		"apellidos" : "",
+		"razonSocial" : "Judith Flores Ramos",
+		"direccion" : "",
+		"nit" : "3765557010"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Santa Lucia ",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Santa Lucia ",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Maria Caballero",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Maria Caballero",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Figueroa",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Figueroa",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Farmacia Metropolitana",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Metropolitana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Katerine",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Katerine",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Diana",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Diana",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Los Andes",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Los Andes",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Señor de Mayo",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Señor de Mayo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Mercado Campecino",
+		"apellidos" : "",
+		"razonSocial" : "Mercado Campecino",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Balderrama",
+		"apellidos" : "",
+		"razonSocial" : "Balderrama",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Froilan",
+		"apellidos" : "Arias",
+		"razonSocial" : "Froilan Arias",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "20-30-1",
+		"nombres" : "Gladis",
+		"apellidos" : "Huanca",
+		"razonSocial" : "Gladis Huanca",
+		"direccion" : "Ramon RIvero Bloques Militares",
+		"nit" : "3817308"
+	},
+	{
+		"codigoCliente" : "20-11-1",
+		"nombres" : "Leandro",
+		"apellidos" : "Bustamante",
+		"razonSocial" : "Leandro Bustamante",
+		"direccion" : "Calle Luis Quintin Vila",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "20-25-1",
+		"nombres" : "Silvia",
+		"apellidos" : "Camacho",
+		"razonSocial" : "Silvia Camacho",
+		"direccion" : "Av. Aniceto Arce",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "20-29-1",
+		"nombres" : "Magdalena",
+		"apellidos" : "Alvares",
+		"razonSocial" : "Magdalena Alvares",
+		"direccion" : "Av. Aniceto Arce",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "20-29-1",
+		"nombres" : "Zenobio",
+		"apellidos" : "Huallata",
+		"razonSocial" : "Zenobio Huallata",
+		"direccion" : "Av, Aniceto Arce",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "20-26-2",
+		"nombres" : "Antonia",
+		"apellidos" : "Tolave",
+		"razonSocial" : "Antonia Tolave",
+		"direccion" : "Calle Venezuela",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "20-26-3",
+		"nombres" : "Morales",
+		"apellidos" : "",
+		"razonSocial" : "Morales",
+		"direccion" : "Av. Venezuela",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "20-14-1",
+		"nombres" : "Abam",
+		"apellidos" : "",
+		"razonSocial" : "Abam",
+		"direccion" : "Calle Aniceto Arce lado Col. Domingo Savio",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Clinica Aranjuez",
+		"apellidos" : "",
+		"razonSocial" : "Clinica Aranjuez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Rosmery",
+		"apellidos" : "Huanca",
+		"razonSocial" : "Rosmery Huanca",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Tania",
+		"apellidos" : " Flores",
+		"razonSocial" : "Tania Flores",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Felipa ",
+		"apellidos" : "Villaroel",
+		"razonSocial" : "Felipa Villaroel",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "20-28-1",
+		"nombres" : "Farmacia Andalucia",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Andalucia",
+		"direccion" : "Calle Venezuela esq. F. Blanco",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Candelaria",
+		"apellidos" : "",
+		"razonSocial" : "Candelaria",
+		"direccion" : "Lado Local(cholitas)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Teolinda",
+		"apellidos" : "",
+		"razonSocial" : "Teolinda",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Dionicia",
+		"apellidos" : "Montes",
+		"razonSocial" : "Dionicia Montes",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Lidia Chulve",
+		"apellidos" : "",
+		"razonSocial" : "Lidia Chulve",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Primitiva",
+		"apellidos" : "",
+		"razonSocial" : "Solatirado Alex",
+		"direccion" : "(tiene arbol de paraiso)",
+		"nit" : "8828705"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Rosa ",
+		"apellidos" : "Mari",
+		"razonSocial" : "Rosa Mari",
+		"direccion" : "(ferreteria)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Marcelo",
+		"apellidos" : "Orellana",
+		"razonSocial" : "Marcelo Orellana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Salome",
+		"apellidos" : "Gonzales",
+		"razonSocial" : "Salome Gonzales",
+		"direccion" : "(Frente valeria)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Sergio",
+		"apellidos" : " Pinaya",
+		"razonSocial" : "Sergio Pinaya",
+		"direccion" : "Tinglado de techo",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "39",
+		"nombres" : "Celestina",
+		"apellidos" : "",
+		"razonSocial" : "Celestina",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Celina",
+		"apellidos" : "",
+		"razonSocial" : "Celina",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "jhonny",
+		"nombres" : "",
+		"apellidos" : "Quiroz",
+		"razonSocial" : "Quiroz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Carla",
+		"apellidos" : "Quiroz",
+		"razonSocial" : "Carla Quiroz",
+		"direccion" : "(Frente bacilia guzman)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Teodora",
+		"apellidos" : "Gonzales",
+		"razonSocial" : "Teodora Gonzales",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Betty",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Betty Mamani",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Deysi ",
+		"apellidos" : "Callahuara",
+		"razonSocial" : "Deysi Callahuara",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "32",
+		"nombres" : "Celestino",
+		"apellidos" : "",
+		"razonSocial" : "Celestino",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-2-1",
+		"nombres" : "Rosemary",
+		"apellidos" : "Rios",
+		"razonSocial" : "Rosemary Rios",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-2-2",
+		"nombres" : "Ruth",
+		"apellidos" : "Pinto",
+		"razonSocial" : "Ruth Pinto",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-2-3",
+		"nombres" : "Corina ",
+		"apellidos" : "Guarabia",
+		"razonSocial" : "Corina Guarabia",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-2-4",
+		"nombres" : "Doly",
+		"apellidos" : "Flores",
+		"razonSocial" : "Doly Flores",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-2-6",
+		"nombres" : "Gregoria",
+		"apellidos" : "Eramay",
+		"razonSocial" : "Gregoria Eramay",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-3-1",
+		"nombres" : "Silvia ",
+		"apellidos" : "Maldonado",
+		"razonSocial" : "Silvia Maldonado",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-3-2",
+		"nombres" : "Martha",
+		"apellidos" : "Leon",
+		"razonSocial" : "Martha Leon",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-4-3",
+		"nombres" : "Adalid ",
+		"apellidos" : "Garcia",
+		"razonSocial" : "Adalid Garcia",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-4-2",
+		"nombres" : "Gladiz",
+		"apellidos" : " Orellana",
+		"razonSocial" : "Gladiz Orellana",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-4-1",
+		"nombres" : "Matilde",
+		"apellidos" : " Rocha",
+		"razonSocial" : "Matilde Rocha",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-5-1",
+		"nombres" : "Hilda",
+		"apellidos" : "Murillo",
+		"razonSocial" : "Guzman",
+		"direccion" : "",
+		"nit" : "1101440"
+	},
+	{
+		"codigoCliente" : "31-6-4",
+		"nombres" : "Julieta",
+		"apellidos" : "Uriarte",
+		"razonSocial" : "Julieta Uriarte",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-6-6",
+		"nombres" : "Monica",
+		"apellidos" : "Muñoz",
+		"razonSocial" : "Monica Muñoz",
+		"direccion" : "",
+		"nit" : ""
+	},
+	{
+		"codigoCliente" : "31-3-4",
+		"nombres" : "Olivia ",
+		"apellidos" : "Gallegos",
+		"razonSocial" : "Olivia Gallegos",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-3-3",
+		"nombres" : "Gladis",
+		"apellidos" : " Sandoval",
+		"razonSocial" : "Gladis Sandoval",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-6-2",
+		"nombres" : "Doña Paulina ",
+		"apellidos" : "",
+		"razonSocial" : "Doña Paulina ",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-3-5",
+		"nombres" : "Fernando",
+		"apellidos" : " Lopez",
+		"razonSocial" : "Fernando Lopez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-11-1",
+		"nombres" : "Ronal",
+		"apellidos" : "Fernandez",
+		"razonSocial" : "Ronal Fernandez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-12-1",
+		"nombres" : "Hilda",
+		"apellidos" : "Heredia",
+		"razonSocial" : "Hilda Heredia",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-13-1",
+		"nombres" : "Maria",
+		"apellidos" : "Magne",
+		"razonSocial" : "Maria Magne",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-17-1",
+		"nombres" : "Juana",
+		"apellidos" : " Pablo",
+		"razonSocial" : "Juana Pablo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-16-1",
+		"nombres" : "Alison",
+		"apellidos" : "Flores",
+		"razonSocial" : "Alison Flores",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-19-1",
+		"nombres" : "Juan ",
+		"apellidos" : "Jimenez",
+		"razonSocial" : "Juan Jimenez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-19-2",
+		"nombres" : "Celia ",
+		"apellidos" : "Salguero",
+		"razonSocial" : "Celia Salguero",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-21-1",
+		"nombres" : "Felix ",
+		"apellidos" : "Quiroz",
+		"razonSocial" : "Felix Quiroz",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-22-1",
+		"nombres" : "Doña Simona",
+		"apellidos" : "",
+		"razonSocial" : "Doña Simona",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-32-2",
+		"nombres" : "Mery",
+		"apellidos" : "Espinoza",
+		"razonSocial" : "Mery Espinoza",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-26-1",
+		"nombres" : "Brenda",
+		"apellidos" : "Ramirez",
+		"razonSocial" : "Brenda Ramirez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-27-1",
+		"nombres" : "Felicidad",
+		"apellidos" : " Agreda",
+		"razonSocial" : "Felicidad Agreda",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-27-2",
+		"nombres" : "Lola",
+		"apellidos" : "Reboso",
+		"razonSocial" : "Lola Reboso",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-27-3",
+		"nombres" : "Mariela",
+		"apellidos" : "Paye",
+		"razonSocial" : "Mariela Paye",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-27-4",
+		"nombres" : "Luiza",
+		"apellidos" : "Herrera",
+		"razonSocial" : "Luiza Herrera",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-26-6",
+		"nombres" : "Doña Ines",
+		"apellidos" : "Taboada",
+		"razonSocial" : "Ustaris",
+		"direccion" : "",
+		"nit" : "3007896"
+	},
+	{
+		"codigoCliente" : "31-30-1",
+		"nombres" : "Martha ",
+		"apellidos" : "Garcia",
+		"razonSocial" : "Martha Garcia",
+		"direccion" : "Barrio Manaco (Frente cerrajero)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-53-1",
+		"nombres" : "Bertha",
+		"apellidos" : "Yucra",
+		"razonSocial" : "Bertha Yucra",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-55-2",
+		"nombres" : "Maria",
+		"apellidos" : "Zurita",
+		"razonSocial" : "Maria Zurita",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-56-1",
+		"nombres" : "Susana",
+		"apellidos" : "Guzman",
+		"razonSocial" : "Susana Guzman",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "1-02-1",
+		"nombres" : "Badani",
+		"apellidos" : "",
+		"razonSocial" : "Badani",
+		"direccion" : "Calle Teniente Arevalo",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "1-13-2",
+		"nombres" : "Nely",
+		"apellidos" : "Antezana",
+		"razonSocial" : "Nely Antezana",
+		"direccion" : "Calle Mexico",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "1-13-1",
+		"nombres" : "Pedrazas",
+		"apellidos" : "",
+		"razonSocial" : "Justiniano",
+		"direccion" : "Calle Reza",
+		"nit" : "2925048"
+	},
+	{
+		"codigoCliente" : "1-10-1",
+		"nombres" : "Roberto",
+		"apellidos" : "Prado",
+		"razonSocial" : "Roberto Prado",
+		"direccion" : "Calle Reza esq. Junin",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "1-30-1",
+		"nombres" : "Florita",
+		"apellidos" : "",
+		"razonSocial" : "Florita",
+		"direccion" : "Calle Colombia",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "1-30-2",
+		"nombres" : "Rene",
+		"apellidos" : "Valdez",
+		"razonSocial" : "Rene Valdez",
+		"direccion" : "Calle Tumusla",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "2-05-2",
+		"nombres" : "Jhannet",
+		"apellidos" : " Mercado",
+		"razonSocial" : "Mercado",
+		"direccion" : "Plazuela Corasonista",
+		"nit" : "2902840018"
+	},
+	{
+		"codigoCliente" : "2-29-1",
+		"nombres" : "Constanza ",
+		"apellidos" : "Orosco",
+		"razonSocial" : "Gina Orosco",
+		"direccion" : "Calle Junin",
+		"nit" : "837215"
+	},
+	{
+		"codigoCliente" : "2-37-1",
+		"nombres" : "Rosas",
+		"apellidos" : "",
+		"razonSocial" : "Rosas",
+		"direccion" : "Calle Ladislao Cabrera",
+		"nit" : "3567153"
+	},
+	{
+		"codigoCliente" : "2-31-1",
+		"nombres" : "Ivis ",
+		"apellidos" : "Gamboa",
+		"razonSocial" : "Ivis Gamboa",
+		"direccion" : "Calle Mendez Arcos",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "3-25-1",
+		"nombres" : "Litsi",
+		"apellidos" : " Bocanegra",
+		"razonSocial" : "Litsi Bocanegra",
+		"direccion" : "Calle Tarapaca",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "2-026-1",
+		"nombres" : "Juana",
+		"apellidos" : "Ramos",
+		"razonSocial" : "Juana Ramos",
+		"direccion" : "Mercado Osorio",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "2-26-2",
+		"nombres" : "Zenon",
+		"apellidos" : "Padilla",
+		"razonSocial" : "Zenon Padilla",
+		"direccion" : "Mercado Osorio",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "2-17-1",
+		"nombres" : "Gutierrez",
+		"apellidos" : "",
+		"razonSocial" : "Gutierrez",
+		"direccion" : "Calle Santivañez",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "3-11-2",
+		"nombres" : "Gutierrez",
+		"apellidos" : "",
+		"razonSocial" : "Gutierrez",
+		"direccion" : "Calle General Acha",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "1-34-1",
+		"nombres" : "Huanca",
+		"apellidos" : "",
+		"razonSocial" : "Huanca",
+		"direccion" : "Calle Tumusla",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "21-12-1",
+		"nombres" : "Soto",
+		"apellidos" : "",
+		"razonSocial" : "Soto",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-01-2",
+		"nombres" : "Rosario Julio ",
+		"apellidos" : "Sakata",
+		"razonSocial" : "Rosario Julio Sakata",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-02-1",
+		"nombres" : "Martha ",
+		"apellidos" : "Cuba",
+		"razonSocial" : "Martha Cuba",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "1-32-1",
+		"nombres" : "Lurdes ",
+		"apellidos" : "Guzman",
+		"razonSocial" : "Lurdes Guzman ",
+		"direccion" : "Calle Junin esq. Colombia",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-11-1",
+		"nombres" : "Filomena",
+		"apellidos" : "Silvestre",
+		"razonSocial" : "Filomena Silvestre",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21",
+		"nombres" : "Demetrio",
+		"apellidos" : "Quispe",
+		"razonSocial" : "Demetrio Quispe",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-04-1",
+		"nombres" : "Solange",
+		"apellidos" : "",
+		"razonSocial" : "Solange",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-05-1",
+		"nombres" : "Edmy",
+		"apellidos" : "Alarcon",
+		"razonSocial" : "Edmy Alarcon",
+		"direccion" : "C/Antofagasta #065",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-06-1",
+		"nombres" : "Fermina Javier",
+		"apellidos" : "",
+		"razonSocial" : "Fermina Javier",
+		"direccion" : "C/Antofagasta y Luis espinal",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Leonida ",
+		"apellidos" : "Pacheco",
+		"razonSocial" : "Leonida Pacheco",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "23-06-1",
+		"nombres" : "Elena",
+		"apellidos" : "Vidal",
+		"razonSocial" : "Elena Vidal",
+		"direccion" : "Av. Circunvalacion esq. Ticallacta",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "50-10-1",
+		"nombres" : "Serafin",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Sefarin Mamani",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "50-11-1",
+		"nombres" : "Cast",
+		"apellidos" : "",
+		"razonSocial" : "Cast",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "50-10-2",
+		"nombres" : "Flora",
+		"apellidos" : "",
+		"razonSocial" : "Flora",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "50-10-3",
+		"nombres" : "Maria",
+		"apellidos" : "Chacon",
+		"razonSocial" : "Maria Chacon",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "50-10-4",
+		"nombres" : "Carmen",
+		"apellidos" : "Chalco",
+		"razonSocial" : "Carmen Chalco",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Ely",
+		"apellidos" : "",
+		"razonSocial" : "Ely",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-1-2",
+		"nombres" : "Oleste ",
+		"apellidos" : "Terrazas",
+		"razonSocial" : "Oleste Terrazas",
+		"direccion" : "terminal",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "17-1-3",
+		"nombres" : "Jhaquelin",
+		"apellidos" : "Terrazas",
+		"razonSocial" : "Jhaquelin Terrazas",
+		"direccion" : "Terminal",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "17-1-4",
+		"nombres" : "Marcelina",
+		"apellidos" : " Rojas",
+		"razonSocial" : "Marcelina Rojas",
+		"direccion" : "terminal",
+		"nit" : ""
+	},
+	{
+		"codigoCliente" : "34-1-6",
+		"nombres" : "Ely",
+		"apellidos" : "Hanco",
+		"razonSocial" : "Ely Hanco",
+		"direccion" : "Terminal",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "34-1-8",
+		"nombres" : "Farmacia Melga",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Melga",
+		"direccion" : "Terminal",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "34-1-9",
+		"nombres" : "Señora Benito",
+		"apellidos" : "",
+		"razonSocial" : "Señora Benito",
+		"direccion" : "Terminal",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "34-2-4",
+		"nombres" : "Deysi",
+		"apellidos" : "Adubiri",
+		"razonSocial" : "Deysi Adubiri",
+		"direccion" : "Terminal",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "34-2-2",
+		"nombres" : "Berna ",
+		"apellidos" : "Copa",
+		"razonSocial" : "Berna Copa",
+		"direccion" : "Terminal",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "33-061-1",
+		"nombres" : "Dora",
+		"apellidos" : "Padilla",
+		"razonSocial" : "Dora Padilla",
+		"direccion" : "",
+		"nit" : "5236050013"
+	},
+	{
+		"codigoCliente" : "33-061-2",
+		"nombres" : "Matilde",
+		"apellidos" : "Quelca",
+		"razonSocial" : "Matilde Quelca",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "33-60-4",
+		"nombres" : "Patricia",
+		"apellidos" : "Guzman",
+		"razonSocial" : "Patricia Guzman",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "33-060-3",
+		"nombres" : "Delma",
+		"apellidos" : "Pozo",
+		"razonSocial" : "Jaime Rivero",
+		"direccion" : "",
+		"nit" : "2863040"
+	},
+	{
+		"codigoCliente" : "33-060-2",
+		"nombres" : "Dilma",
+		"apellidos" : "Villarroel",
+		"razonSocial" : "Dilma Villarroel",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "33-60-6",
+		"nombres" : "Gabriela",
+		"apellidos" : "Rivera",
+		"razonSocial" : "Gabriela Rivera",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "33-070-1",
+		"nombres" : "Alicia",
+		"apellidos" : "Moya",
+		"razonSocial" : "Alicia Moya",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "33-068-1",
+		"nombres" : "Felicidad",
+		"apellidos" : "Rivas",
+		"razonSocial" : "Felicidad Rivas",
+		"direccion" : "Av. Cap. Ustariz",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "33-068-4",
+		"nombres" : "Elvia",
+		"apellidos" : "Funes",
+		"razonSocial" : "Elvia Funes",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "33-070-2",
+		"nombres" : "Olga",
+		"apellidos" : "Mejia",
+		"razonSocial" : "Olga Mejia",
+		"direccion" : "Av. Capitan Ustariz",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "33-69-1",
+		"nombres" : "Erika",
+		"apellidos" : "Vasquez",
+		"razonSocial" : "Erika Vasquez",
+		"direccion" : "Av. Gral. Bilbao",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "33-053-2",
+		"nombres" : "Norka",
+		"apellidos" : "Escalera",
+		"razonSocial" : "Escalera",
+		"direccion" : "",
+		"nit" : "3727592"
+	},
+	{
+		"codigoCliente" : "16-87-1",
+		"nombres" : "Florencia",
+		"apellidos" : "",
+		"razonSocial" : "Florencia",
+		"direccion" : "Abra",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-26-3",
+		"nombres" : "Veliz",
+		"apellidos" : "",
+		"razonSocial" : "Veliz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-79-1",
+		"nombres" : "Ecofarma",
+		"apellidos" : "",
+		"razonSocial" : "Ecofarma",
+		"direccion" : "Av. Guañacan",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-56-1",
+		"nombres" : "Julieta ",
+		"apellidos" : "Garcia",
+		"razonSocial" : "Julieta Garcia",
+		"direccion" : "Calle colibrí entre golondrinas bajando el colegio 26 de octubre",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Tamborada",
+		"nombres" : "Carlos ",
+		"apellidos" : "Castellon",
+		"razonSocial" : "Carlos Castellon",
+		"direccion" : "Tamborada",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "99-1",
+		"nombres" : "Nelly ",
+		"apellidos" : "Gonzales",
+		"razonSocial" : "Nelly Gonzales",
+		"direccion" : "San Sebastian mujeres",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "99-2",
+		"nombres" : "Jhannet ",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Jhannet Mamani",
+		"direccion" : "San Sebastian Mujeres",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "99-3",
+		"nombres" : "Albina",
+		"apellidos" : "Torrico",
+		"razonSocial" : "Albina Torrico",
+		"direccion" : "San Sebastian Mujeres",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Norma",
+		"apellidos" : "Espejo",
+		"razonSocial" : "Norma Espejo",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Tienda Maria ",
+		"apellidos" : "",
+		"razonSocial" : "Tienda Maria ",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Maria Elena",
+		"apellidos" : "",
+		"razonSocial" : "Maria Elena",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Sara",
+		"apellidos" : "",
+		"razonSocial" : "Sara",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Maria",
+		"apellidos" : "Montenegro",
+		"razonSocial" : "Maria Montenegro",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Alicia ",
+		"apellidos" : "Alvarez",
+		"razonSocial" : "Alicia Alvarez",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Silvia",
+		"apellidos" : "Velasco",
+		"razonSocial" : "Silvia Velasco",
+		"direccion" : "petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Teodomira",
+		"apellidos" : "Rojas",
+		"razonSocial" : "Teodomira Rojas",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Maxima",
+		"apellidos" : "Terceros",
+		"razonSocial" : "Maxima Terceros",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Martin",
+		"apellidos" : "",
+		"razonSocial" : "Martin",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "David",
+		"apellidos" : "",
+		"razonSocial" : "David",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Jose",
+		"apellidos" : " Calizaya",
+		"razonSocial" : "Jose Calizaya",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Tienda Choca",
+		"apellidos" : "",
+		"razonSocial" : "Tienda Choca",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Carmen ",
+		"apellidos" : "Locat",
+		"razonSocial" : "Carmen Locat",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Sofia ",
+		"apellidos" : "Zeballos",
+		"razonSocial" : "Sofia Zeballos",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Baño publico",
+		"apellidos" : "",
+		"razonSocial" : "Baño publico",
+		"direccion" : "Lado iglesia",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Roberto",
+		"apellidos" : "",
+		"razonSocial" : "Roberto",
+		"direccion" : "Iglesia",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Maria ",
+		"apellidos" : "Estrada",
+		"razonSocial" : "Maria Estrada",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Doña Nathi",
+		"apellidos" : "",
+		"razonSocial" : "Doña Nathi",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Margarita",
+		"apellidos" : "Soliz",
+		"razonSocial" : "Margarita Soliz",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Shirley",
+		"apellidos" : "Vargas",
+		"razonSocial" : "Shirley Vargas",
+		"direccion" : "Petrolera",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-9-2",
+		"nombres" : "Calani",
+		"apellidos" : "",
+		"razonSocial" : "Calani",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-6-8",
+		"nombres" : "Julieta ",
+		"apellidos" : "Jimenez",
+		"razonSocial" : "Jimenez",
+		"direccion" : "",
+		"nit" : "2883041"
+	},
+	{
+		"codigoCliente" : "15-17-1",
+		"nombres" : "Farmacia Adaya",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Adaya",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-6-7",
+		"nombres" : "Farmacia Virgen del Amparo",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Virgen del Amparo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-7-2",
+		"nombres" : "Farmacia Olimpia",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Olimpia",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-11-1",
+		"nombres" : "Genfarma",
+		"apellidos" : "",
+		"razonSocial" : "Genfarma",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-14-2",
+		"nombres" : "Farmacia Maricarmen",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Maricarmen",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-15-5",
+		"nombres" : "Sofia ",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Sofia Mamani",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Saul",
+		"apellidos" : "Solis",
+		"razonSocial" : "Saul Solis",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-36-1",
+		"nombres" : "Elizabeth ",
+		"apellidos" : "Alborda",
+		"razonSocial" : "Elizabeth Alborda",
+		"direccion" : "Barrio 12 de Enero Calle 3",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-37-1",
+		"nombres" : "Juana ",
+		"apellidos" : "Calle",
+		"razonSocial" : "Juana Calle ",
+		"direccion" : "Barrio 12 de Enero Calle 3",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-35-1",
+		"nombres" : "Maxima",
+		"apellidos" : "Salzuri",
+		"razonSocial" : "Maxima Salzuri",
+		"direccion" : "Barrio 12 de Enero Calle 3",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-35-2",
+		"nombres" : "Sara",
+		"apellidos" : " Alcocer",
+		"razonSocial" : "Sara Alcocer",
+		"direccion" : "Barrio 12 de Enero calle 2",
+		"nit" : "3053969"
+	},
+	{
+		"codigoCliente" : "4-25-1",
+		"nombres" : "Nilda",
+		"apellidos" : "Ortega",
+		"razonSocial" : "Nilda Ortega",
+		"direccion" : "Calle 20 de Diciembre",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-38-2",
+		"nombres" : "Hortencia ",
+		"apellidos" : "Arispe",
+		"razonSocial" : "Hortencia Arispe",
+		"direccion" : "Barrio 12 de Enero calle 3",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-34-1",
+		"nombres" : "Elena",
+		"apellidos" : "Ayala",
+		"razonSocial" : "Elena Ayala",
+		"direccion" : "Barrio 12 de Enero calle 1",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-31-1",
+		"nombres" : "Catalina",
+		"apellidos" : "Quiñones",
+		"razonSocial" : "Catalina Quiñones",
+		"direccion" : "Frente alojamiento",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-29-3",
+		"nombres" : "Ernesto",
+		"apellidos" : "Peñaloza",
+		"razonSocial" : "Ernesto Peñaloza",
+		"direccion" : "Av. Capitan Arzabe",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "4-02-3",
+		"nombres" : "Ruth ",
+		"apellidos" : "Sevilla",
+		"razonSocial" : "Ruth Sevilla",
+		"direccion" : "Calle Waldo Ballivian",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-02-8",
+		"nombres" : "Justina",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Gertrudis",
+		"direccion" : "Av. Blanco Galindo (toldo Doña Justa )",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "29-01-1",
+		"nombres" : "Tereza",
+		"apellidos" : "Soliz",
+		"razonSocial" : "Tereza Soliz",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "29-03-03",
+		"nombres" : "Mirian ",
+		"apellidos" : "Yelma",
+		"razonSocial" : "Mirian Yelma",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "29-04-1",
+		"nombres" : "Nataly",
+		"apellidos" : " Chavez",
+		"razonSocial" : "Nataly Chavez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "29-05-1",
+		"nombres" : "Tereza",
+		"apellidos" : "Chigua",
+		"razonSocial" : "Tereza Chigua",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-02-1",
+		"nombres" : "Camacho",
+		"apellidos" : "",
+		"razonSocial" : "Camacho",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "28-304-1",
+		"nombres" : "Ana ",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Ana Rodriguez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-37-1",
+		"nombres" : "Alejandra",
+		"apellidos" : "Ysha",
+		"razonSocial" : "Alejandra Ysha",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "28-46-1",
+		"nombres" : "Frida",
+		"apellidos" : "Cano",
+		"razonSocial" : "Frida Cano",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-01-1",
+		"nombres" : "Carla ",
+		"apellidos" : "Torrico",
+		"razonSocial" : "Carla Torrico",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-10-1",
+		"nombres" : "Roman",
+		"apellidos" : "Hinojosa",
+		"razonSocial" : "Roman Hinojosa",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-88-1",
+		"nombres" : "Fermina",
+		"apellidos" : "Cassia",
+		"razonSocial" : "Fermina Cassia",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-87-1",
+		"nombres" : "Deysi ",
+		"apellidos" : "Orellana",
+		"razonSocial" : "Deysi Orellana",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "4-02-10",
+		"nombres" : "Bacilio ",
+		"apellidos" : "Villca",
+		"razonSocial" : "Bacilio Villca",
+		"direccion" : "Av Santa Cruz",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-34-3",
+		"nombres" : "Elsa",
+		"apellidos" : "Soliz",
+		"razonSocial" : "Elsa Soliz",
+		"direccion" : "Barrio 1 de Enero calle 1",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-34-2",
+		"nombres" : "Uvaldina ",
+		"apellidos" : "Veliz",
+		"razonSocial" : "Uvaldina Veliz",
+		"direccion" : "Barrio 12 de Enero calle 1",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-1-1",
+		"nombres" : "Luisa",
+		"apellidos" : "Cahuana",
+		"razonSocial" : "Luisa Cahuana",
+		"direccion" : "Calle General Pando",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-2-2",
+		"nombres" : "Yolanda",
+		"apellidos" : "Sarmiento",
+		"razonSocial" : "Yolanda Sarmiento",
+		"direccion" : "Calle General Pando (Electrodomesticos)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "35-2-4",
+		"nombres" : "Dubeiza",
+		"apellidos" : "Arebalo",
+		"razonSocial" : "Dubeiza Arebalo",
+		"direccion" : "Calle General Pando",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-1-4",
+		"nombres" : "Juana ",
+		"apellidos" : "Cruz",
+		"razonSocial" : "Juana Cruz",
+		"direccion" : "Calle General Pando",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-2-5",
+		"nombres" : "Abelina ",
+		"apellidos" : " Colque",
+		"razonSocial" : "Abelina Colque",
+		"direccion" : "Calle General Pando",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-2-6",
+		"nombres" : "Dora ",
+		"apellidos" : "Colque",
+		"razonSocial" : "Dora Colque",
+		"direccion" : "Calle General Pando",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-3-1",
+		"nombres" : "Magdalena",
+		"apellidos" : "Rico",
+		"razonSocial" : "Magdalena Rico",
+		"direccion" : "Calle General Pando",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-8-1",
+		"nombres" : "Doña Juana Romero",
+		"apellidos" : "",
+		"razonSocial" : "Doña Juana Romero",
+		"direccion" : "Calle Oruro",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "35-10-3",
+		"nombres" : "Doña Juana",
+		"apellidos" : "",
+		"razonSocial" : "Doña Juana",
+		"direccion" : "Calle F",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-12-2",
+		"nombres" : "Diana ",
+		"apellidos" : "Ayala",
+		"razonSocial" : "Diana Ayala",
+		"direccion" : "Calle F",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-14-1",
+		"nombres" : "Doña Mary",
+		"apellidos" : "",
+		"razonSocial" : "Doña Mary",
+		"direccion" : "Calle Avaroa",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Tienda Coca Cola",
+		"apellidos" : "",
+		"razonSocial" : "Tienda Coca Cola",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Katia ",
+		"apellidos" : "Torrico",
+		"razonSocial" : "Katia Torrico",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Teresa",
+		"apellidos" : "Villarroel",
+		"razonSocial" : "Teresa Villarroel",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Sonia",
+		"apellidos" : "Roman",
+		"razonSocial" : "Sonia Roman",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Gloria ",
+		"apellidos" : " Espinoza",
+		"razonSocial" : "Gloria Espinoza",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Palmira ",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Palmira Mamani",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Irene",
+		"apellidos" : "Godoy",
+		"razonSocial" : "Irene Godoy",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Blanca",
+		"apellidos" : "Torrico",
+		"razonSocial" : "Blanca Torrico",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Marina",
+		"apellidos" : " Farro",
+		"razonSocial" : "Marina Farro",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Serafina",
+		"apellidos" : "",
+		"razonSocial" : "Serafina",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Benita",
+		"apellidos" : " Lobera",
+		"razonSocial" : "Benita Lobera",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Aurora ",
+		"apellidos" : "Tupaj",
+		"razonSocial" : "Aurora Tupaj",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Aurelia",
+		"apellidos" : "Velarde",
+		"razonSocial" : "Aurelia Velarde",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Alejandrina",
+		"apellidos" : "",
+		"razonSocial" : "Alejandrina",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Isidora",
+		"apellidos" : "Gutierrez",
+		"razonSocial" : "Isidora Gutierrez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Zonia",
+		"apellidos" : "Almendras",
+		"razonSocial" : "Zonia Almendras",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Elena",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Elena Mamani",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Laura",
+		"apellidos" : "Torrico",
+		"razonSocial" : "Laura Torrico",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "Roymar 100",
+		"nombres" : "Roymar ",
+		"apellidos" : "Reyes",
+		"razonSocial" : "Roymar Reyes",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "18-03-1",
+		"nombres" : "Marcela ",
+		"apellidos" : "",
+		"razonSocial" : "Marcela ",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-03-2",
+		"nombres" : "Rosario ",
+		"apellidos" : "Rocha",
+		"razonSocial" : "Rosario Rocha",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-07-1",
+		"nombres" : "Delina",
+		"apellidos" : "Orellana",
+		"razonSocial" : "Delina Orellana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-06-1",
+		"nombres" : "Norma",
+		"apellidos" : "Rueda",
+		"razonSocial" : "Norma Rueda",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-09-1",
+		"nombres" : "Jose",
+		"apellidos" : "Nuñez",
+		"razonSocial" : "Jose Nuñez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-13-1",
+		"nombres" : "Farmacia Criscon",
+		"apellidos" : "",
+		"razonSocial" : "Rocha",
+		"direccion" : "",
+		"nit" : "2914248"
+	},
+	{
+		"codigoCliente" : "18-14-1",
+		"nombres" : "Delma",
+		"apellidos" : "Coria",
+		"razonSocial" : "Delma Coria",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-23-1",
+		"nombres" : "Profarma",
+		"apellidos" : "",
+		"razonSocial" : "Profarma",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-23-2",
+		"nombres" : "Meri ",
+		"apellidos" : "Bellot",
+		"razonSocial" : "Mari Medina ",
+		"direccion" : "",
+		"nit" : "3094752014"
+	},
+	{
+		"codigoCliente" : "17-17-1",
+		"nombres" : "Virginia",
+		"apellidos" : "Jimenez",
+		"razonSocial" : "Virginia Jimenez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "18-14-1",
+		"nombres" : "Delina",
+		"apellidos" : "Coria",
+		"razonSocial" : "Delina Coria",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Victor",
+		"apellidos" : "Rocha",
+		"razonSocial" : "Victor Rocha",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-13-1",
+		"nombres" : "Roxana ",
+		"apellidos" : "Iraola",
+		"razonSocial" : "Roxana Iraola",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-13-4",
+		"nombres" : "Gabina ",
+		"apellidos" : "Camacho",
+		"razonSocial" : "Gabina Camacho",
+		"direccion" : "",
+		"nit" : "3017838015"
+	},
+	{
+		"codigoCliente" : "32-21-1",
+		"nombres" : "Dña Marlene",
+		"apellidos" : "",
+		"razonSocial" : "Dña Marlene",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-21-2",
+		"nombres" : "Lurdes ",
+		"apellidos" : "Salinas",
+		"razonSocial" : "Lurdes Salinas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-21-3",
+		"nombres" : "Edgar",
+		"apellidos" : "Terceros",
+		"razonSocial" : "Edgar Terceros",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-28-1",
+		"nombres" : "Roxana",
+		"apellidos" : "Merccado",
+		"razonSocial" : "Roxana Mercado",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-28-2",
+		"nombres" : "",
+		"apellidos" : "Poveda",
+		"razonSocial" : "Poveda",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "20-26-1",
+		"nombres" : "Toledo",
+		"apellidos" : "",
+		"razonSocial" : "Toledo",
+		"direccion" : "Calle Venezuela",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "20",
+		"nombres" : "Bravo",
+		"apellidos" : "",
+		"razonSocial" : "Bravo",
+		"direccion" : "Calle Venezuela",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "20-24-1",
+		"nombres" : "Mercatodo",
+		"apellidos" : "",
+		"razonSocial" : "Mercatodo",
+		"direccion" : "Calle Venezuela ",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "19-49-2",
+		"nombres" : "Esteban",
+		"apellidos" : " Macias",
+		"razonSocial" : "Esteban Macias",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "19-44-2",
+		"nombres" : "Natalia",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Natalia Rodriguez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Maria",
+		"apellidos" : "Delizia",
+		"razonSocial" : "Maria Delizia",
+		"direccion" : "Toldo coca cola Lado Norah",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Ruth",
+		"apellidos" : "Navia",
+		"razonSocial" : "Ruth Navia",
+		"direccion" : "(toldo virgen de guadalupe)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Valeria",
+		"apellidos" : "Herrera",
+		"razonSocial" : "Valeria Herrera",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Tino",
+		"apellidos" : "",
+		"razonSocial" : "Tino",
+		"direccion" : "tienda ventanita rejas blancos",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Emiliana",
+		"apellidos" : "Baraona",
+		"razonSocial" : "Emiliana Baraona",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Tienda Doña Teo",
+		"apellidos" : "",
+		"razonSocial" : "Tienda Doña Teo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Beatriz",
+		"apellidos" : "",
+		"razonSocial" : "Beatriz",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Maria Luisa",
+		"apellidos" : "",
+		"razonSocial" : "Maria Luisa",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-1-2",
+		"nombres" : "Antonia",
+		"apellidos" : "Limachi",
+		"razonSocial" : "Antonia Limachi",
+		"direccion" : "Av. Ferrocarril",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-2-3",
+		"nombres" : "Maritza",
+		"apellidos" : "Agreda",
+		"razonSocial" : "Maritza Agreda",
+		"direccion" : "Av. Ferrocarril",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "17-01-1",
+		"nombres" : "Flora",
+		"apellidos" : " Zambrana",
+		"razonSocial" : "Flora Zambrana",
+		"direccion" : "Terminal",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "17-01-5",
+		"nombres" : "Maria",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Maria Rodriguez",
+		"direccion" : "Terminal",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-01-1",
+		"nombres" : "Karina",
+		"apellidos" : "Cordova",
+		"razonSocial" : "Karina Cordova",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-01-3",
+		"nombres" : "Maria",
+		"apellidos" : "Torrez",
+		"razonSocial" : "Maria Torrez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-03-1",
+		"nombres" : "Rosa",
+		"apellidos" : " Vera",
+		"razonSocial" : "Rosa Vera",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-06-2",
+		"nombres" : "Maria Eugenia",
+		"apellidos" : "Paulo",
+		"razonSocial" : "Maria Eugenia Paulo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-07-1",
+		"nombres" : "Ximena",
+		"apellidos" : "Pereira",
+		"razonSocial" : "Ximena Pereira",
+		"direccion" : "C/Alamos y 10 de Noviembre",
+		"nit" : "3049029"
+	},
+	{
+		"codigoCliente" : "21-08-1",
+		"nombres" : "Flores",
+		"apellidos" : "",
+		"razonSocial" : "Flores",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-09-1",
+		"nombres" : "Oswaldo",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Oswaldo Mamani",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Amparo",
+		"apellidos" : " Arce",
+		"razonSocial" : "Amparo Arce",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Sulma ",
+		"apellidos" : "Colque",
+		"razonSocial" : "Sulma Colque",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Marlene",
+		"apellidos" : "Cabrera",
+		"razonSocial" : "Marlene Cabrera",
+		"direccion" : "C/Santiaguilla",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Flora ",
+		"apellidos" : "Fuentes",
+		"razonSocial" : "Ramiro Quiroz",
+		"direccion" : "C/ Litoral lado ferreteria ",
+		"nit" : "4434040015"
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Jose Luis",
+		"apellidos" : "Veizaga",
+		"razonSocial" : "Jose Luis Veizaga",
+		"direccion" : "av. Chalancaya parada trufi 111",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Telma",
+		"apellidos" : "Claros",
+		"razonSocial" : "Telma Claros",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "15-7-3",
+		"nombres" : "Farmacia Sacaba",
+		"apellidos" : "",
+		"razonSocial" : "Jheison Parada Arancibia",
+		"direccion" : "(Farmacia Sacaba)",
+		"nit" : "7909048019"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Elizabeth ",
+		"apellidos" : "Armentis",
+		"razonSocial" : "Elizabeth Armentis",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-12-2",
+		"nombres" : "Jaime",
+		"apellidos" : "Jamachi",
+		"razonSocial" : "Jaime Jamachi",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-10-1",
+		"nombres" : "Sofia ",
+		"apellidos" : "Guaman",
+		"razonSocial" : "Sofia Guaman",
+		"direccion" : "Calle Colombia",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-16-1",
+		"nombres" : "Sulema",
+		"apellidos" : "Zurita",
+		"razonSocial" : "Sulema Zurita",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-26-4",
+		"nombres" : "Noelia ",
+		"apellidos" : "Silvestre",
+		"razonSocial" : "Noelia Silvestre",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-43-1",
+		"nombres" : "Julia",
+		"apellidos" : "Vargas",
+		"razonSocial" : "Julia Vargas",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-80-1",
+		"nombres" : "Angela",
+		"apellidos" : "Cejas",
+		"razonSocial" : "Angela Cejas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-021-1",
+		"nombres" : "Ovando",
+		"apellidos" : "",
+		"razonSocial" : "Ovando",
+		"direccion" : "",
+		"nit" : "797161"
+	},
+	{
+		"codigoCliente" : "35-28-1",
+		"nombres" : "Tania",
+		"apellidos" : "Ortega",
+		"razonSocial" : "Tania Ortega",
+		"direccion" : "Sobre las rrieles",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-22-2",
+		"nombres" : "Maria Elena",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Maria Elena Rodriguez",
+		"direccion" : "Lado al Coliseo",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-20-4",
+		"nombres" : "Jose",
+		"apellidos" : "Escalera",
+		"razonSocial" : "Jose Escalera",
+		"direccion" : "Calle Avaroa (casa Carlos)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "36-20-2",
+		"nombres" : "Nancy",
+		"apellidos" : "Aguilar",
+		"razonSocial" : "Nancy Aguilar",
+		"direccion" : "Calle Avaroa",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-15-2",
+		"nombres" : "Sandra ",
+		"apellidos" : "Quiroz",
+		"razonSocial" : "Sandra Quiroz",
+		"direccion" : "Calle Avaroa",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-0-1",
+		"nombres" : "Teresa de Castillo",
+		"apellidos" : "",
+		"razonSocial" : "Teresa de Castillo",
+		"direccion" : "Av. Ernesto Cespedez casi Sucre",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-0-2",
+		"nombres" : "Deisy",
+		"apellidos" : "Meneses",
+		"razonSocial" : "Deisy Meneses",
+		"direccion" : "Av. Ernesto Cespedez",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "6-09-1",
+		"nombres" : "Isabel",
+		"apellidos" : "Quinquela",
+		"razonSocial" : "Jesus Garcia",
+		"direccion" : "Av. Panamericana",
+		"nit" : "3094814"
+	},
+	{
+		"codigoCliente" : "6-16-1",
+		"nombres" : "Vascope",
+		"apellidos" : "",
+		"razonSocial" : "Vascope",
+		"direccion" : "Av. Pnamericana",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "6-16-2",
+		"nombres" : "Fabiola",
+		"apellidos" : "Saravia",
+		"razonSocial" : "Fabiola Saravia",
+		"direccion" : "Av. Panamericana",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "6-28-1",
+		"nombres" : "Apolonia",
+		"apellidos" : "Garcia",
+		"razonSocial" : "Apolonia Garcia",
+		"direccion" : "Av. Panamericana",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "6-27-1",
+		"nombres" : "Miguel",
+		"apellidos" : "Rojas",
+		"razonSocial" : "Felix",
+		"direccion" : "Av. Panamericana",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "6-28-2",
+		"nombres" : "Teresa ",
+		"apellidos" : "Orellana",
+		"razonSocial" : "Teresa Orellana",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "6-03-1",
+		"nombres" : "Torrico",
+		"apellidos" : "",
+		"razonSocial" : "Irma Prado",
+		"direccion" : "Calle Chapare",
+		"nit" : "839732"
+	},
+	{
+		"codigoCliente" : "7-14-1",
+		"nombres" : "Benita",
+		"apellidos" : "Ferrufino",
+		"razonSocial" : "Benita Ferrufino",
+		"direccion" : "Calle Molina",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-15-1",
+		"nombres" : "Vani ",
+		"apellidos" : "Castro",
+		"razonSocial" : "Vani Castro",
+		"direccion" : "Mercado de loreto",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-13-1",
+		"nombres" : "Yolanda",
+		"apellidos" : "Maidana",
+		"razonSocial" : "Yolanda Maidana",
+		"direccion" : "Calle Manuel Loredo",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-30-2",
+		"nombres" : "Agustina",
+		"apellidos" : "Rojas",
+		"razonSocial" : "Agustina Rojas",
+		"direccion" : "Av. Copacabana",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-30-1",
+		"nombres" : "Farmacia Luzneyda",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Luzneyda",
+		"direccion" : "Av. Copacabana",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-36-6",
+		"nombres" : "Mery",
+		"apellidos" : "Borras",
+		"razonSocial" : "Mery Borras",
+		"direccion" : "Feria Santa Barbara",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-36-2",
+		"nombres" : "Charo Cardona",
+		"apellidos" : "",
+		"razonSocial" : "Charo Cardona",
+		"direccion" : "Feria Santa Barbara",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "7-36-1",
+		"nombres" : "Macario",
+		"apellidos" : "Mollo",
+		"razonSocial" : "Macario Mollo",
+		"direccion" : "Feria Santa Barbara",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-36-3",
+		"nombres" : "Rufina",
+		"apellidos" : "Marc",
+		"razonSocial" : "Rufina Marc",
+		"direccion" : "Feria Santa Barbara",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-25-1",
+		"nombres" : "Vidal",
+		"apellidos" : "",
+		"razonSocial" : "Iriarte",
+		"direccion" : "Av. Copacabana",
+		"nit" : "3569099"
+	},
+	{
+		"codigoCliente" : "7-25-2",
+		"nombres" : "Murillo",
+		"apellidos" : "",
+		"razonSocial" : "Murillo",
+		"direccion" : "Av. Copacabana",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Araceli ",
+		"apellidos" : "Colque",
+		"razonSocial" : "Araceli Colque",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-39-1",
+		"nombres" : "Sabina",
+		"apellidos" : "Hidalgo",
+		"razonSocial" : "Sabina Hidalgo",
+		"direccion" : "Av. de la Patria",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-1-3",
+		"nombres" : "Carmela",
+		"apellidos" : "Medrano",
+		"razonSocial" : "Carmela Medrano",
+		"direccion" : "Calle General Pando",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-2-3",
+		"nombres" : "Ramiro",
+		"apellidos" : "Ramirez ",
+		"razonSocial" : "Ramiro Ramirez",
+		"direccion" : "Calle General Pando",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-1-5",
+		"nombres" : "Felicidad",
+		"apellidos" : "",
+		"razonSocial" : "Felicidad",
+		"direccion" : "Calle General Pando",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-6-2",
+		"nombres" : "Tienda Altita",
+		"apellidos" : "",
+		"razonSocial" : "Tienda Altita",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-9-2",
+		"nombres" : "Mercedes",
+		"apellidos" : "Uzeda",
+		"razonSocial" : "Uzeda Mercedes",
+		"direccion" : "Plaza de granos",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-10-2",
+		"nombres" : "Rosa ",
+		"apellidos" : "Zambrana",
+		"razonSocial" : "Rosa Zambrana",
+		"direccion" : "Plaza de granos",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-12-1",
+		"nombres" : "Remedios",
+		"apellidos" : " Mamani",
+		"razonSocial" : "Remedios Mamani",
+		"direccion" : "Av.  Max Bascope",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "28-53-1",
+		"nombres" : "Ines ",
+		"apellidos" : "Mercado",
+		"razonSocial" : "Arce",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "29-03-3",
+		"nombres" : "Yola ",
+		"apellidos" : "Alegre",
+		"razonSocial" : "Fernando Ledezma",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Roberto",
+		"apellidos" : "Rivas",
+		"razonSocial" : "Roberto Rivas",
+		"direccion" : "Av. 16 de Julio (Lado venta de cds toldo coca cola)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Roxana",
+		"apellidos" : "Fernandez",
+		"razonSocial" : "Roxana Fernandez",
+		"direccion" : "Av. 16 de Julio (antes del gym tinglado plomo)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Romelia",
+		"apellidos" : "Terceros",
+		"razonSocial" : "Romelia",
+		"direccion" : "Av. 16 de Julio",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Rosa ",
+		"apellidos" : "Martinez",
+		"razonSocial" : "Rosa Martinez",
+		"direccion" : "Av. 16 de Julio (Lado salon de belleza)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Fabiola",
+		"apellidos" : "Baltazar",
+		"razonSocial" : "Fabiola Baltazar",
+		"direccion" : "Av. 16 de Julio(Venta de pollos)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Maria",
+		"apellidos" : "Zambrana",
+		"razonSocial" : "Sabino Zambrana",
+		"direccion" : "Av. 16 de Julio (frente condominio)",
+		"nit" : "993981"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Belmira",
+		"apellidos" : "Gutierrez",
+		"razonSocial" : "Belmira Gutierrez",
+		"direccion" : "Av. 16 de Julio (Llegando a la esquina)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Enrique ",
+		"apellidos" : "Zea",
+		"razonSocial" : "Enrique Zea",
+		"direccion" : "Av. 16 de Julio (Subida con gradas)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Darwin",
+		"apellidos" : "Carrillo",
+		"razonSocial" : "Darwin Carrillo",
+		"direccion" : "Av 16 de Julio (Agencia pollo, techo calamina lado farmacia)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Caty",
+		"apellidos" : "Calziro",
+		"razonSocial" : "Caty Calziro",
+		"direccion" : "Av. 16 de Julio",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Rosario",
+		"apellidos" : "Balverde",
+		"razonSocial" : "Rosario Valverde",
+		"direccion" : "Av. 16 de Julio (pension)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Cliente Mercado",
+		"apellidos" : "",
+		"razonSocial" : "Cliente Mercado",
+		"direccion" : "Av. 16 de Julio",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "Jhonny",
+		"nombres" : "Jhonny ",
+		"apellidos" : "Arteaga",
+		"razonSocial" : "Jhonny Arteaga",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-02-11",
+		"nombres" : "Lidia",
+		"apellidos" : "Paco",
+		"razonSocial" : "Lidia Paco",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-02-6",
+		"nombres" : "Ramiro",
+		"apellidos" : "Gamboa",
+		"razonSocial" : "Ramiro Gamboa",
+		"direccion" : "",
+		"nit" : "3737761"
+	},
+	{
+		"codigoCliente" : "4-02-5",
+		"nombres" : "Maria",
+		"apellidos" : "Cabezas",
+		"razonSocial" : "Maria Cabezas",
+		"direccion" : "Av. Blanco Galindo",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "4-012-1",
+		"nombres" : "Celia ",
+		"apellidos" : "Castro",
+		"razonSocial" : "Celia Castro",
+		"direccion" : "Calle Carmela Serruto casi Santa Cruz",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-39-3",
+		"nombres" : "Florentina",
+		"apellidos" : "Silez",
+		"razonSocial" : "Florentina Silez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31",
+		"nombres" : "Paty",
+		"apellidos" : "",
+		"razonSocial" : "Paty",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-06-2",
+		"nombres" : "Ninfa",
+		"apellidos" : "Chacon",
+		"razonSocial" : "Ninfa Chacon",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-29-1",
+		"nombres" : "Nilda",
+		"apellidos" : "Iriarte",
+		"razonSocial" : "Nilda Iriarte",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-32-2",
+		"nombres" : "Albina",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Albina Mamani",
+		"direccion" : "Frente casa campestre",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Vega",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Vega",
+		"direccion" : "Calle Waldo Ballivian esq. Carmela Serruto",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Peñaloza",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Peñaloza",
+		"direccion" : "Plazuela 15 de Agosto",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Farmacia Luciana",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Luciana",
+		"direccion" : "Calle Carmela Serruto y 23 de Marzo",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Roxana",
+		"apellidos" : "",
+		"razonSocial" : "Roxana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "oficina",
+		"nombres" : "Erika",
+		"apellidos" : "",
+		"razonSocial" : "Erika",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "53",
+		"nombres" : "Blanca",
+		"apellidos" : "Balderrama",
+		"razonSocial" : "Blanca Balderrama",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "19-20-1",
+		"nombres" : "Agreda",
+		"apellidos" : "",
+		"razonSocial" : "Agreda",
+		"direccion" : "Av. Santa Cruz",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "19-42-3",
+		"nombres" : "Maria",
+		"apellidos" : "Vargas",
+		"razonSocial" : "Maria Vargas",
+		"direccion" : "Av. Oblitas",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-1-3",
+		"nombres" : "Ema",
+		"apellidos" : "Lopez",
+		"razonSocial" : "Ema Lopez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-10-1",
+		"nombres" : "Esperanza ",
+		"apellidos" : " Salamanca",
+		"razonSocial" : "Esperanza Salamanca",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-7-1",
+		"nombres" : "Maura ",
+		"apellidos" : "Valencia",
+		"razonSocial" : "Maura Valencia",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-3-6",
+		"nombres" : "Bertha",
+		"apellidos" : "Quispe",
+		"razonSocial" : "Bertha Quispe",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-8-1",
+		"nombres" : "Charo",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Charo Rodriguez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-9-1",
+		"nombres" : "Wily",
+		"apellidos" : "Aramburo",
+		"razonSocial" : "Wily Aramburo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-26-3",
+		"nombres" : "Carmen",
+		"apellidos" : "Balderrama",
+		"razonSocial" : "Carmen Balderrama",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-26-4",
+		"nombres" : "Monica",
+		"apellidos" : "Uriona",
+		"razonSocial" : "Monica Uriona",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-28-3",
+		"nombres" : "Cardenas",
+		"apellidos" : "",
+		"razonSocial" : "Cardenas",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-20-2",
+		"nombres" : "Saturdino ",
+		"apellidos" : "Flores",
+		"razonSocial" : "Saturdino Flores",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-1-1",
+		"nombres" : "Eva",
+		"apellidos" : "Sanchez",
+		"razonSocial" : "Eva Sanchez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "2-07-1",
+		"nombres" : "Antonieta",
+		"apellidos" : " Zambrana",
+		"razonSocial" : "Antonieta Zambrana",
+		"direccion" : "Calle Junin esq. Heroinas",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "2-13-1",
+		"nombres" : "Alvarez",
+		"apellidos" : "",
+		"razonSocial" : "Alvarez",
+		"direccion" : "Calle Junin casi Santivañes",
+		"nit" : "81341503"
+	},
+	{
+		"codigoCliente" : "2-29-2",
+		"nombres" : "Cristina",
+		"apellidos" : "",
+		"razonSocial" : "Cristina",
+		"direccion" : "Av. Ayacucho casi Calama",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "2-35-1",
+		"nombres" : "Cecilia",
+		"apellidos" : "Galindo",
+		"razonSocial" : "Cecilia Galindo",
+		"direccion" : "Calle Calama",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "2-28-2",
+		"nombres" : "Justiniano",
+		"apellidos" : "",
+		"razonSocial" : "Gladis Boza",
+		"direccion" : "Calle Calama",
+		"nit" : "824844013"
+	},
+	{
+		"codigoCliente" : "1-36-1",
+		"nombres" : "Villarruel",
+		"apellidos" : "",
+		"razonSocial" : "",
+		"direccion" : "Av. Heroinas casi Hamiraya",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "2-05-1",
+		"nombres" : "Silvia ",
+		"apellidos" : "Martinez",
+		"razonSocial" : "Silvia Martinez",
+		"direccion" : "Plaza Corazonistas",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-01-1",
+		"nombres" : "Yolanda ",
+		"apellidos" : "Gonzales",
+		"razonSocial" : "Yolanda Gonzales",
+		"direccion" : "Calle Francisco Anaya esq. Oscar Alfaro",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-2-1",
+		"nombres" : "Josefina ",
+		"apellidos" : "Montaño",
+		"razonSocial" : "Josefina Montaño",
+		"direccion" : "Calle Julio de la Vega esq. Benjamin Guzman",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-3-1",
+		"nombres" : "Carmen ",
+		"apellidos" : "Mejia",
+		"razonSocial" : "Carmen Mejia",
+		"direccion" : "Calle Francisco Anaya y Alamos ",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-4-1",
+		"nombres" : "Maria Elena ",
+		"apellidos" : "Troncoso",
+		"razonSocial" : "Maria Elena Troncoso",
+		"direccion" : "Calle Alamos ",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-4-2",
+		"nombres" : "Tito",
+		"apellidos" : "Vera",
+		"razonSocial" : "Tito Vera",
+		"direccion" : "Calle Francisco Anaya parada 203",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-5-1",
+		"nombres" : "Elizabeth",
+		"apellidos" : "Castellon",
+		"razonSocial" : "Elizabeth Castellon",
+		"direccion" : "Calle Matenda tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-5-1",
+		"nombres" : "Elizabeth",
+		"apellidos" : "Castellon",
+		"razonSocial" : "Elizabeth Castellon",
+		"direccion" : "Calle Matenda tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-07-2",
+		"nombres" : "Eugenia",
+		"apellidos" : "Larico",
+		"razonSocial" : "Eugenia Larico",
+		"direccion" : "Calle Matenda ",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "21-01-4",
+		"nombres" : "Isabel ",
+		"apellidos" : " Lazaro",
+		"razonSocial" : "Isabel Lazaro",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-02-4",
+		"nombres" : "Lourdes",
+		"apellidos" : "Guzman",
+		"razonSocial" : "Lourdes Guzman",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-02-2",
+		"nombres" : "Mari ",
+		"apellidos" : "Carrillo",
+		"razonSocial" : "Mari Carrillo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-11-2",
+		"nombres" : "Laura",
+		"apellidos" : " Cruz",
+		"razonSocial" : "Laura Cruz",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "34-1-1",
+		"nombres" : "Flora",
+		"apellidos" : " Zambrana",
+		"razonSocial" : "Flora Zambrana",
+		"direccion" : "Terminal",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "34-1-12",
+		"nombres" : "Trans Crucero",
+		"apellidos" : "",
+		"razonSocial" : "Trans Crucero",
+		"direccion" : "Terminal",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "34-1-7",
+		"nombres" : "Ely",
+		"apellidos" : "Arias",
+		"razonSocial" : "Ely Arias",
+		"direccion" : "Terminal",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-1-1",
+		"nombres" : "Angelica",
+		"apellidos" : "Guzman",
+		"razonSocial" : "Angelica Guzman",
+		"direccion" : "Zona Cherno",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-2-2",
+		"nombres" : "Adriana",
+		"apellidos" : "Lafuente",
+		"razonSocial" : "Victor Mamani",
+		"direccion" : "Zona cherno",
+		"nit" : "3808501"
+	},
+	{
+		"codigoCliente" : "36-3-1",
+		"nombres" : "Ortencia",
+		"apellidos" : "Quiroz",
+		"razonSocial" : "Ortencia Quiroz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-6-1",
+		"nombres" : "Lidia ",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Lidia Rodriguez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-9-1",
+		"nombres" : "Susana",
+		"apellidos" : "Baspineiro",
+		"razonSocial" : "Susana Baspineiro",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-14-1",
+		"nombres" : "Alinda",
+		"apellidos" : "Vasquez",
+		"razonSocial" : "Alinda Vasquez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-16-1",
+		"nombres" : "Bertha",
+		"apellidos" : "Bascope",
+		"razonSocial" : "Bertha Bascope",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-17-1",
+		"nombres" : "Mireya",
+		"apellidos" : " Antezana",
+		"razonSocial" : "Mireya Antezana",
+		"direccion" : "",
+		"nit" : "5223572"
+	},
+	{
+		"codigoCliente" : "36-18-1",
+		"nombres" : "Mariela",
+		"apellidos" : "Blanco",
+		"razonSocial" : "Mariela Blanco",
+		"direccion" : "(Carniceria Avaroa)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "36-18-2",
+		"nombres" : "Hector ",
+		"apellidos" : "Montaño",
+		"razonSocial" : "Hector Montaño",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "36-15-2",
+		"nombres" : "Sandra",
+		"apellidos" : "Quiroz",
+		"razonSocial" : "Sandra Quiroz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "jhonny",
+		"nombres" : "jhonny",
+		"apellidos" : "",
+		"razonSocial" : "jhonny",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Magda ",
+		"apellidos" : "Arauz",
+		"razonSocial" : "Magda Arauz",
+		"direccion" : "Av. Republica Lado Pension",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Doña Anita",
+		"apellidos" : "",
+		"razonSocial" : "Doña Anita",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75-37-1",
+		"nombres" : "Ortencia ",
+		"apellidos" : "Vallejos",
+		"razonSocial" : "Ortencia Vallejos",
+		"direccion" : "Av. Republica",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "75-61-1",
+		"nombres" : "Lucy",
+		"apellidos" : "Torrico",
+		"razonSocial" : "Lucy Torrico",
+		"direccion" : "Av. Republica",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75-64-1",
+		"nombres" : "Pedro",
+		"apellidos" : "Casero",
+		"razonSocial" : "Pedro Casero",
+		"direccion" : "Av. Republica",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75-64-2",
+		"nombres" : "Jhovana",
+		"apellidos" : "Illanes",
+		"razonSocial" : "Jhovana Illanes",
+		"direccion" : "Av. Republica Farmacia",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75-64-3",
+		"nombres" : "Luis ",
+		"apellidos" : "Valdivia ",
+		"razonSocial" : "Luis Valdivia ",
+		"direccion" : "Av. Republica (Lado taller electrico)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "75-64-4",
+		"nombres" : "Maribel",
+		"apellidos" : "Suarez",
+		"razonSocial" : "Maribel Suarez",
+		"direccion" : "Av. Republica",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "75-64-5",
+		"nombres" : "Beatriz",
+		"apellidos" : "Valdivia",
+		"razonSocial" : "Beatriz Valdivia",
+		"direccion" : "Av. Republica (lado tienda maria pension)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "75-10-1",
+		"nombres" : "Monica",
+		"apellidos" : "Baldelomar",
+		"razonSocial" : "Monica Baldelomar",
+		"direccion" : "Av. Republica",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75-11-1",
+		"nombres" : "Tienda Maria",
+		"apellidos" : "",
+		"razonSocial" : "Tienda Maria",
+		"direccion" : "Av. Republica (Tienda las gradas pared Coca Cola)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "75-12-1",
+		"nombres" : "Norma",
+		"apellidos" : "Espejos",
+		"razonSocial" : "Norma Espejos",
+		"direccion" : "Av. Republica (agencia de pepsi)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "6-02-1",
+		"nombres" : "Aida",
+		"apellidos" : " Suarez",
+		"razonSocial" : "Aida Suarez",
+		"direccion" : "Av. Panamericana casi Cabrera",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "6-09-2",
+		"nombres" : "Marina",
+		"apellidos" : "Vargas",
+		"razonSocial" : "Carmen Condo",
+		"direccion" : "Av. Panamericana casi 6 de Agosto",
+		"nit" : "8690206"
+	},
+	{
+		"codigoCliente" : "7-15-2",
+		"nombres" : "Beatriz ",
+		"apellidos" : "Maidana",
+		"razonSocial" : "Beatriz Maidana",
+		"direccion" : "Calle Manuel Laredo",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-28-1",
+		"nombres" : "Reque",
+		"apellidos" : "",
+		"razonSocial" : "Reque",
+		"direccion" : "Calle Molina",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-36-4",
+		"nombres" : "Jesus",
+		"apellidos" : "Grageda",
+		"razonSocial" : "Jesus Grageda",
+		"direccion" : "Calle Chapare",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-40-1",
+		"nombres" : "Farmacia Juan de la Cruz",
+		"apellidos" : "",
+		"razonSocial" : "Ruben de Celiz",
+		"direccion" : "Av. Panamericana",
+		"nit" : "4500367019"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Adriana",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Adriana",
+		"direccion" : "Av Blanco Galindo esq. W. Ballivian",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "1-66-1",
+		"nombres" : "Carolina",
+		"apellidos" : "Calvi",
+		"razonSocial" : "Carolina Calvi",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-6-6",
+		"nombres" : "Rosmery",
+		"apellidos" : " Castellon",
+		"razonSocial" : "Rosmery Castellon",
+		"direccion" : "Mercado Central",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-15-3",
+		"nombres" : "Leoncia ",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Leoncia Mamani",
+		"direccion" : "Plaza de papas Libreria",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-15-2",
+		"nombres" : "Concepcion ",
+		"apellidos" : "Uiracocha",
+		"razonSocial" : "Concepcion Uiracocha",
+		"direccion" : "Mercado Plaza de papas ",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-1-1",
+		"nombres" : "Albina ",
+		"apellidos" : "Soto",
+		"razonSocial" : "Albina Soto",
+		"direccion" : "Calle Litoral kiosco azul tigo",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-2-1",
+		"nombres" : "Mercedes",
+		"apellidos" : "Guzman",
+		"razonSocial" : "Mercedes Guzman",
+		"direccion" : "Calle Litoral tienda plantitas rojas",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-3-1",
+		"nombres" : "Patricia",
+		"apellidos" : "Garcia",
+		"razonSocial" : "Patricia Garcia",
+		"direccion" : "Callle Litoral tienda rejas azules ",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-4-1",
+		"nombres" : "Leonarda",
+		"apellidos" : "Pinto",
+		"razonSocial" : "Leonarda Pinto",
+		"direccion" : "Calle 21 de septiembre tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-5-1",
+		"nombres" : "Paulina ",
+		"apellidos" : "Soto",
+		"razonSocial" : "Paulina Soto",
+		"direccion" : "Calle 21 de septiembre tienda casa amarilla  ",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-8-1",
+		"nombres" : "Mirian",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Mirian Mamani",
+		"direccion" : "Av. Pairumeni ( simon patiño Pasaje Bolivar tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-8-2",
+		"nombres" : "Virginia",
+		"apellidos" : "Cachaca",
+		"razonSocial" : "Virginia Cachaca",
+		"direccion" : "Pasaje Bolivar (Libreria)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-9-1",
+		"nombres" : "Nelly ",
+		"apellidos" : "Quiroga",
+		"razonSocial" : "Nelly Quiroga",
+		"direccion" : "Av. Pairumani tienda color rojo coca cola",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-9-2",
+		"nombres" : "Rosa",
+		"apellidos" : "Rivas",
+		"razonSocial" : "Rosa Rivas",
+		"direccion" : "Av. Pairumani ( Libreria )",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-9-3",
+		"nombres" : "Cresencia",
+		"apellidos" : "Vallejos",
+		"razonSocial" : "Cresencia Vallejos",
+		"direccion" : "Av. Pairumani esq circumvalacion tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-10-1",
+		"nombres" : "Ana ",
+		"apellidos" : "Jimenez",
+		"razonSocial" : "Ana Jimenez",
+		"direccion" : "Calle M. Sepita y Av. Pairumani tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-09-1",
+		"nombres" : "Vilma",
+		"apellidos" : "Suarez",
+		"razonSocial" : "Vilma Suarez",
+		"direccion" : "Av. Siglo XX",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-23-1",
+		"nombres" : "Nely",
+		"apellidos" : "Poma",
+		"razonSocial" : "Nely Poma",
+		"direccion" : "Calle Totos",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-50-1",
+		"nombres" : "Fernando",
+		"apellidos" : "Trujillo",
+		"razonSocial" : "Fernando Trujillo",
+		"direccion" : "Av. Guayacan",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Abra",
+		"nombres" : "Celestina ",
+		"apellidos" : "Mostacedo",
+		"razonSocial" : "Celestina Mostacedo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "Abra",
+		"nombres" : "Sandra",
+		"apellidos" : "Zanbrana",
+		"razonSocial" : "Sandra Zanbrana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-26-6",
+		"nombres" : "janneth",
+		"apellidos" : "Apaza",
+		"razonSocial" : "janneth Apaza",
+		"direccion" : "Frente Hospital Univalle",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "35",
+		"nombres" : "Julio Cesar",
+		"apellidos" : "",
+		"razonSocial" : "Julio Cesar",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "29-05-1",
+		"nombres" : "Benigna",
+		"apellidos" : "Nogales",
+		"razonSocial" : "Benigna Nogales",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-14-1",
+		"nombres" : "Fidelia",
+		"apellidos" : "",
+		"razonSocial" : "Fidelia",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-41-1",
+		"nombres" : "Carmen",
+		"apellidos" : "Revollo",
+		"razonSocial" : "Carmen Revollo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-08-1",
+		"nombres" : "Esther",
+		"apellidos" : "Olmos",
+		"razonSocial" : "Esther Olmos",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "28-63-1",
+		"nombres" : "Esther",
+		"apellidos" : "Espinoza",
+		"razonSocial" : "Esther Espinoza",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "28-03-3",
+		"nombres" : "Nemecia",
+		"apellidos" : "Torrico",
+		"razonSocial" : "Nemecia Torrico",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-12-1",
+		"nombres" : "Noemy",
+		"apellidos" : " Lopez",
+		"razonSocial" : "Noemy Lopez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-71-1",
+		"nombres" : "Silvia",
+		"apellidos" : "Aviles",
+		"razonSocial" : "Silvia Aviles",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-19-1",
+		"nombres" : "Soraida",
+		"apellidos" : "Almaraz",
+		"razonSocial" : "Soraida Almaraz",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "62-3-1",
+		"nombres" : "Silvia",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Silvia Mamani",
+		"direccion" : "Av. Pairumani casi Circunvalacion Libreria",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-4-1",
+		"nombres" : "Arleth ",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Arleth Rodriguez",
+		"direccion" : "Av. Pairumani tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-4-2",
+		"nombres" : "Elizabeth",
+		"apellidos" : "Achacollo",
+		"razonSocial" : "Elizabeth Achacollo",
+		"direccion" : "Av. Pairumani tienda porton plomo",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-5-1",
+		"nombres" : "Elena ",
+		"apellidos" : "Coca",
+		"razonSocial" : "Elena Coca",
+		"direccion" : "Calle Brasil casi Calle 1 (Panaderia)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-6-1",
+		"nombres" : "Elia",
+		"apellidos" : "Quispe",
+		"razonSocial" : "Elia Quispe",
+		"direccion" : "Calle Uruguay (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-6-1",
+		"nombres" : "Elia",
+		"apellidos" : "Quispe",
+		"razonSocial" : "Elia Quispe",
+		"direccion" : "Calle Uruguay (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-7-1",
+		"nombres" : "Nicolasa",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Nicolasa Mamani",
+		"direccion" : "Calle La Paz (Circunvalacio) tienda # 720",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-8-1",
+		"nombres" : "Benita",
+		"apellidos" : "Ferrufino",
+		"razonSocial" : "Benita Ferrufino",
+		"direccion" : "Calle Sucre Tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-9-1",
+		"nombres" : "Silvia ",
+		"apellidos" : " Calizaya",
+		"razonSocial" : "Silvia Calizaya",
+		"direccion" : "Calle Circunvalacio tienda ",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-10-1",
+		"nombres" : "Maria Luisa ",
+		"apellidos" : "Crispin",
+		"razonSocial" : "Maria Luisa Crispin",
+		"direccion" : "Calle 1 de Mayo tienda # 1042",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-11-1",
+		"nombres" : "Claudina",
+		"apellidos" : "Torres",
+		"razonSocial" : "Claudina Torres",
+		"direccion" : "Calle Cochabamba tienda #2029",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-1-1",
+		"nombres" : "Ramiro",
+		"apellidos" : "Patzi",
+		"razonSocial" : "Ramiro Patzi",
+		"direccion" : "Calle Sucre tienda ",
+		"nit" : "3101897"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Farmacia Mi Reina",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Mi Reina",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Silvia",
+		"apellidos" : "Urey",
+		"razonSocial" : "Silvia Urey",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Libreria",
+		"apellidos" : "Moreira",
+		"razonSocial" : "Libreria Moreira",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Felicidad",
+		"apellidos" : "Choque",
+		"razonSocial" : "Felicidad Choque",
+		"direccion" : "Frente cancha santa rosa",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Sandra",
+		"apellidos" : " Otalora",
+		"razonSocial" : "Sandra Otalora",
+		"direccion" : "Av. 16 de julio (1 cuadra antes de Cementerio)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Bertha",
+		"apellidos" : "Ojeda",
+		"razonSocial" : "Bertha Ojeda",
+		"direccion" : "(frente cancha lado pension)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Marlene",
+		"apellidos" : "Rojas",
+		"razonSocial" : "Marlene Rojas",
+		"direccion" : "(La recta de Farmacop)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Celestina",
+		"apellidos" : "Gimenez",
+		"razonSocial" : "Celestina Gimenez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Celestina",
+		"apellidos" : "Gimenez",
+		"razonSocial" : "Celestina Gimenez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-03-2",
+		"nombres" : "ADEPLEC",
+		"apellidos" : "",
+		"razonSocial" : "ADEPLEC",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-13-2",
+		"nombres" : "Deysi ",
+		"apellidos" : "Velasco",
+		"razonSocial" : "Deysi Velasco",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-29-2",
+		"nombres" : "Adela ",
+		"apellidos" : "Condori",
+		"razonSocial" : "Adela Condori",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-12-1",
+		"nombres" : "Florencia ",
+		"apellidos" : "Adriazola",
+		"razonSocial" : "Florencia Adriazola",
+		"direccion" : "Calle 2 (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-13-1",
+		"nombres" : "Noemi ",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Noemi Rodriguez",
+		"direccion" : "Calle 2 tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-12-2",
+		"nombres" : "Savina ",
+		"apellidos" : "Crespo",
+		"razonSocial" : "Savina Crespo",
+		"direccion" : "Av. Pairumani tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-12-3",
+		"nombres" : "Nancy",
+		"apellidos" : "Chirilla",
+		"razonSocial" : "Nancy Chirilla",
+		"direccion" : "Calle 3 tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-12-4",
+		"nombres" : "Rosemary",
+		"apellidos" : "Barrionuevo",
+		"razonSocial" : "Rosemary Barrionuevo",
+		"direccion" : "Calle 3 tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Marbella",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Marbella",
+		"direccion" : "Callle Pacheco esq. Cochabamba",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Sol",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Sol",
+		"direccion" : "Av. Suarez Miranda",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Noelia",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Noelia",
+		"direccion" : "Av. Suarez Miranda frente hospital",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "19-48-1",
+		"nombres" : "Famacia Portales",
+		"apellidos" : "",
+		"razonSocial" : "Famacia Portales",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "32-4-3",
+		"nombres" : "Victor ",
+		"apellidos" : "Rocha",
+		"razonSocial" : "Victor Rocha",
+		"direccion" : "Calle Pacheco(frente salteñas tiky)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "32-4-4",
+		"nombres" : "Edelvira",
+		"apellidos" : "Chura",
+		"razonSocial" : "Edelvira Chura",
+		"direccion" : "Calle Pacheco",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-20-1",
+		"nombres" : "Saul ",
+		"apellidos" : "Rojas",
+		"razonSocial" : "Saul Rojas",
+		"direccion" : "Calle 14 de Septiembre",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-28-3",
+		"nombres" : "Rosas",
+		"apellidos" : "",
+		"razonSocial" : "Rosas",
+		"direccion" : "Calle 14 de Septiembre",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-21-4",
+		"nombres" : "Gladis ",
+		"apellidos" : "Martines",
+		"razonSocial" : "Gladis Martines",
+		"direccion" : "Calle Ricardo Soruco",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-25-2",
+		"nombres" : "Osvaldo Fuentes",
+		"apellidos" : "",
+		"razonSocial" : "Osvaldo Fuentes",
+		"direccion" : "Calle Ricardo Soruco",
+		"nit" : "2902935"
+	},
+	{
+		"codigoCliente" : "32-15-2",
+		"nombres" : "Lucy ",
+		"apellidos" : "Quispe",
+		"razonSocial" : "Lucy Quispe",
+		"direccion" : "Calle Junin",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "32-2-2",
+		"nombres" : "Paola",
+		"apellidos" : "Guzman",
+		"razonSocial" : "Paola Guzman",
+		"direccion" : "Calle Ayacucho",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-15-4",
+		"nombres" : "Martha",
+		"apellidos" : "Escalera",
+		"razonSocial" : "Martha Escalera",
+		"direccion" : "Calle Ayacucho",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-19-1",
+		"nombres" : "Olga",
+		"apellidos" : "Soliz",
+		"razonSocial" : "Olga Soliz",
+		"direccion" : "Av. Gral. Camacho",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-45-1",
+		"nombres" : "Odaliz ",
+		"apellidos" : "",
+		"razonSocial" : "Odaliz ",
+		"direccion" : "Pasaje Atacama",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-7-1",
+		"nombres" : "Filomena",
+		"apellidos" : "Apaza",
+		"razonSocial" : "Filomena Apaza",
+		"direccion" : "Calle Entre Rios tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-8-1",
+		"nombres" : "Lurdez ",
+		"apellidos" : "Almanza",
+		"razonSocial" : "Lurdez Almanza",
+		"direccion" : " Calle entre rios",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-9-1",
+		"nombres" : "Mirna ",
+		"apellidos" : "Martinez",
+		"razonSocial" : "Mirna Martinez",
+		"direccion" : "Camino a morochata (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-10-1",
+		"nombres" : "Lidia",
+		"apellidos" : "Paredes",
+		"razonSocial" : "Lidia Paredes",
+		"direccion" : "Camino a Morochata (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-11-4",
+		"nombres" : "Justina",
+		"apellidos" : " Flores",
+		"razonSocial" : "Justina Flores",
+		"direccion" : "Camino Morochata",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "wilfredo",
+		"nombres" : "Wilfredo",
+		"apellidos" : "Inca",
+		"razonSocial" : "Wilfredo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Ortencia",
+		"apellidos" : "",
+		"razonSocial" : "Ortencia",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Silvia ",
+		"apellidos" : "Zarate",
+		"razonSocial" : "Silvia Zarate",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Aurora",
+		"apellidos" : "Montaño",
+		"razonSocial" : "Aurora Montaño",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Andres ",
+		"apellidos" : "Quispe Vallejos",
+		"razonSocial" : "Andres Quispe Vallejos",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Felicidad",
+		"apellidos" : "Maydana",
+		"razonSocial" : "Felicidad Maydana",
+		"direccion" : "Frente FANACIM",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Susana ",
+		"apellidos" : "Betancurd",
+		"razonSocial" : "Susana Betancurd",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Benigna ",
+		"apellidos" : "Rodrigues",
+		"razonSocial" : "Benigna Rodrigues",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Americo",
+		"apellidos" : "Ortega",
+		"razonSocial" : "Americo Ortega",
+		"direccion" : "primer puente",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Martha",
+		"apellidos" : "Gerrato",
+		"razonSocial" : "Martha Gerrato",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Delia",
+		"apellidos" : "Regina",
+		"razonSocial" : "Delia Regina",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Luisa",
+		"apellidos" : "Rojas",
+		"razonSocial" : "Luisa Rojas",
+		"direccion" : "(Lado Alquiler Vajillas)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Serafina",
+		"apellidos" : "",
+		"razonSocial" : "Serafina",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Tienda Punateña",
+		"apellidos" : "",
+		"razonSocial" : "Tienda Punateña",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Sulma",
+		"apellidos" : "Espinoza",
+		"razonSocial" : "Sulma Espinoza",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Cristina",
+		"apellidos" : "Arias",
+		"razonSocial" : "Cristina Arias",
+		"direccion" : "(Frente Tienda YPFB N° 279)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Hector",
+		"apellidos" : "Villarroel",
+		"razonSocial" : "Hector Villarroel",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Nora",
+		"apellidos" : "Ferrufino",
+		"razonSocial" : "Nora Ferrufino",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Maria",
+		"apellidos" : "Triveño",
+		"razonSocial" : "Maria Triveño",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Julieta ",
+		"apellidos" : "Acieta",
+		"razonSocial" : "Julieta Acieta",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "53",
+		"nombres" : "ShIrley",
+		"apellidos" : "Paredes",
+		"razonSocial" : "ShIrley Paredes",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "53",
+		"nombres" : "Barbara ",
+		"apellidos" : "Condori",
+		"razonSocial" : "Barbara Condori",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "53",
+		"nombres" : "Farmacia Efrain",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Efrain",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "53",
+		"nombres" : "Gladis",
+		"apellidos" : "Calle",
+		"razonSocial" : "Gladis Calle",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "53",
+		"nombres" : "Baldina",
+		"apellidos" : "",
+		"razonSocial" : "Baldina",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-14-1",
+		"nombres" : "Gertrudis",
+		"apellidos" : "Mamani Rios",
+		"razonSocial" : "Gertrudis Mamani Rios",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-37-1",
+		"nombres" : "Marlene",
+		"apellidos" : "Perez",
+		"razonSocial" : "Marlene Perez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "20-29-3",
+		"nombres" : "Eva",
+		"apellidos" : "Rios",
+		"razonSocial" : "Eva Rios",
+		"direccion" : "Calle Vnezuela (Viedma)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Nora",
+		"apellidos" : "Aguilar",
+		"razonSocial" : "Nora Aguilar",
+		"direccion" : "(Pared Coca Cola) Pilar de Madera",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Bacilia ",
+		"apellidos" : "Guzman",
+		"razonSocial" : "Bacilia Guzman",
+		"direccion" : "(reja negra con vidrio)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Tienda Dora",
+		"apellidos" : "",
+		"razonSocial" : "Tienda Dora",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Marcelino",
+		"apellidos" : "Pillco",
+		"razonSocial" : "Marcelino Pillco",
+		"direccion" : "(frente minero)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "64-1-1",
+		"nombres" : "Rosemary",
+		"apellidos" : "Peredo",
+		"razonSocial" : "Rosemary Peredo",
+		"direccion" : "Calle Rosas esq. Albina Patiño",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-2-1",
+		"nombres" : "Gladys",
+		"apellidos" : "Vega",
+		"razonSocial" : "Gladys Vega",
+		"direccion" : "Calle Rosas esq. rieles (caseta azul tigo)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-2-2",
+		"nombres" : "Flora",
+		"apellidos" : "Padilla",
+		"razonSocial" : "Flora Padilla",
+		"direccion" : "Calle frente rieles (caseta color celeste)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-11-1",
+		"nombres" : "Felicidad",
+		"apellidos" : "Rivas",
+		"razonSocial" : "Felicidad Rivas",
+		"direccion" : "Av. Miguel Mercado esq. Rosas",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-10-1",
+		"nombres" : "Rosa ",
+		"apellidos" : "Alave",
+		"razonSocial" : "Rosa Alave",
+		"direccion" : "Av. Miguel Mercado ",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-11-2",
+		"nombres" : "Lurdes",
+		"apellidos" : "Avendaño",
+		"razonSocial" : "Lurdes Avendaño",
+		"direccion" : "Av. Miguel Mercado (frente iglesia antigua)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-8-1",
+		"nombres" : "Laura",
+		"apellidos" : "Aquino",
+		"razonSocial" : "Laura Aquino",
+		"direccion" : "Kiosco rojo  (lado colegio)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-7-1",
+		"nombres" : "Teresa",
+		"apellidos" : "Escalera",
+		"razonSocial" : "Teresa Escalera",
+		"direccion" : "Av. Simon y Patiño (agencia de cerveza)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-7-2",
+		"nombres" : "Lucy",
+		"apellidos" : "Villafan",
+		"razonSocial" : "Lucy Villafan",
+		"direccion" : "Calle Domingo Zambrana (libreria)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-6-1",
+		"nombres" : "Jimena",
+		"apellidos" : "Valenzuela",
+		"razonSocial" : "Jimena Valenzuela",
+		"direccion" : "Av. Simon y Patiño (mercado lado proteccion familia)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-8-2",
+		"nombres" : "Maria Eugenia",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Maria Eugenia Mamani",
+		"direccion" : "Colegio Martin Cardenas (portera)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-3-1",
+		"nombres" : "Farmacia Iris",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Iris",
+		"direccion" : "Av. Albina Patiño (farmacia frente al Banco Union)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "60-8-1",
+		"nombres" : "Beatriz",
+		"apellidos" : "Heredia",
+		"razonSocial" : "Beatriz Heredia",
+		"direccion" : "Calle Adrian Pierola (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-12-1",
+		"nombres" : "Mercedes",
+		"apellidos" : "Relus",
+		"razonSocial" : "Mercedes Relus",
+		"direccion" : "Calle julio de la Vega (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-10-1",
+		"nombres" : "Lucy",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Lucy Rodriguez",
+		"direccion" : "Calle Alamos (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-5-3",
+		"nombres" : "Elva",
+		"apellidos" : "Dias",
+		"razonSocial" : "Elva Dias",
+		"direccion" : "Calle Villa Aurora (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-3-2",
+		"nombres" : "Beatris",
+		"apellidos" : "Castellon",
+		"razonSocial" : "Beatris Castellon",
+		"direccion" : "Calle Calle Villa Aurora (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-5-2",
+		"nombres" : "Justina",
+		"apellidos" : "Luna",
+		"razonSocial" : "Justina Luna",
+		"direccion" : "Calle Villa Aurora (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-7-1",
+		"nombres" : "Maria Luz",
+		"apellidos" : "Galarza",
+		"razonSocial" : "Maria Luz Galarza",
+		"direccion" : "Calle Lorocalle (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-6-1",
+		"nombres" : "Rosa ",
+		"apellidos" : "Villanueva",
+		"razonSocial" : "Rosa Villanueva",
+		"direccion" : "Calle Lorocalle (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-6-2",
+		"nombres" : "Elizabeth",
+		"apellidos" : "Arteaga",
+		"razonSocial" : "Elizabeth Arteaga",
+		"direccion" : "Calle Lorocalle (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-9-1",
+		"nombres" : "Luisa ",
+		"apellidos" : "Muriel",
+		"razonSocial" : "Luisa Muriel",
+		"direccion" : "Calle lorocalle (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-7-3",
+		"nombres" : "Rosmery",
+		"apellidos" : "Nuñez ",
+		"razonSocial" : "Rosmery Nuñez ",
+		"direccion" : "Calle Lorocalle (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Gladiz",
+		"apellidos" : " Claure",
+		"razonSocial" : "Gladiz Claure",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Jheny",
+		"apellidos" : "Martinez",
+		"razonSocial" : "Jheny Martinez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Rina",
+		"apellidos" : "",
+		"razonSocial" : "Rina",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Fredy",
+		"apellidos" : "Vasquez",
+		"razonSocial" : "Fredy Vasquez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Maria Elena 56",
+		"apellidos" : "",
+		"razonSocial" : "Maria Elena 56",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Patricia",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Patricia Rodriguez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Demetrio",
+		"apellidos" : "Rojas",
+		"razonSocial" : "Demetrio Rojas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Marizol",
+		"apellidos" : "Ampuero",
+		"razonSocial" : "Marizol Ampuero",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Justina",
+		"apellidos" : "Escobar",
+		"razonSocial" : "Justina Escobar",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Natalia",
+		"apellidos" : "Soria",
+		"razonSocial" : "Natalia Soria",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Viviana",
+		"apellidos" : "Calle",
+		"razonSocial" : "Viviana Calle",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Victoria ",
+		"apellidos" : "Claure",
+		"razonSocial" : "Victoria Claure",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Enriqueta ",
+		"apellidos" : "Cadima",
+		"razonSocial" : "Enriqueta Cadima",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Margarita",
+		"apellidos" : "Soliz",
+		"razonSocial" : "Margarita Soliz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-08-3",
+		"nombres" : "Elena",
+		"apellidos" : "Jimenez",
+		"razonSocial" : "Elena Jimenez",
+		"direccion" : "Av. Panamericana",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "7-8-2",
+		"nombres" : "Farmacia Virgen de Loreto",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Virgen de Loreto",
+		"direccion" : "Av. Panamericana frente iglesia",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "7-11-2",
+		"nombres" : "Farmacia del Doctor Ahorro",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia del Doctor Ahorro",
+		"direccion" : "Av. Panamericana (Frente iglesia)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "6",
+		"nombres" : "Bertha",
+		"apellidos" : "Alvares",
+		"razonSocial" : "Bertha Alvares",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32",
+		"nombres" : "jimena",
+		"apellidos" : "",
+		"razonSocial" : "Jimena ",
+		"direccion" : "Molino el gallo",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-90-1",
+		"nombres" : "Ines",
+		"apellidos" : "Mercado",
+		"razonSocial" : "Ines Mercado",
+		"direccion" : "Av. Guayacan",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-71-1",
+		"nombres" : "Elsa",
+		"apellidos" : "Rojas",
+		"razonSocial" : "Elsa Rojas",
+		"direccion" : "Calle Cipay",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "16-03-1",
+		"nombres" : "Cintia",
+		"apellidos" : "Vidal Herbas",
+		"razonSocial" : "Cintia Vidal Herbas",
+		"direccion" : "Av. Siglo XX",
+		"nit" : "3130106019"
+	},
+	{
+		"codigoCliente" : "61-12-1",
+		"nombres" : "Maria",
+		"apellidos" : "Garcia",
+		"razonSocial" : "Maria Garcia",
+		"direccion" : "Av. Albina Patiño esq. Litoral",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-11-1",
+		"nombres" : "Nancy",
+		"apellidos" : "Limachi",
+		"razonSocial" : "Nancy Limachi",
+		"direccion" : "Av. Albina Patiño",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "61-13-1",
+		"nombres" : "Vicenta",
+		"apellidos" : "Zambrana",
+		"razonSocial" : "Vicenta Zambrana",
+		"direccion" : "Calle Litoral ",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-14-1",
+		"nombres" : "Valeria",
+		"apellidos" : "Poma",
+		"razonSocial" : "Valeria Poma",
+		"direccion" : "tienda color blanco",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-2-2",
+		"nombres" : "Judith",
+		"apellidos" : "Ovando",
+		"razonSocial" : "Judith Ovando",
+		"direccion" : "Calle Litoral (lado consultori mi salud)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-15-1",
+		"nombres" : "Jose",
+		"apellidos" : "Pinto",
+		"razonSocial" : "Jose Pinto",
+		"direccion" : "Calle 21 de septiembre (tienda coca cola)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-8-3",
+		"nombres" : "Farmacia Saravia",
+		"apellidos" : "",
+		"razonSocial" : "Patricia Lourdes Pinto Saravia",
+		"direccion" : "Av. Albina Patiño (Farmacia)",
+		"nit" : "5222131019"
+	},
+	{
+		"codigoCliente" : "61-8-4",
+		"nombres" : "Maribel",
+		"apellidos" : "Soliz",
+		"razonSocial" : "Maribel Soliz",
+		"direccion" : "Pasaje Bolivar (tienda letrero viva)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-16-1",
+		"nombres" : "Silvia",
+		"apellidos" : "Echenique",
+		"razonSocial" : "Silvia Echenique",
+		"direccion" : "Av. Circunvalacion (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-16-2",
+		"nombres" : "Tomasa",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Tomasa Rodriguez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-12-2",
+		"nombres" : "Tania",
+		"apellidos" : "Ortega",
+		"razonSocial" : "Tania Ortega",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-5-1",
+		"nombres" : "Guzman",
+		"apellidos" : "",
+		"razonSocial" : "Guzman",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-23-2",
+		"nombres" : "Cesar",
+		"apellidos" : "Orellana",
+		"razonSocial" : "Cesar Orellana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "33-059-3",
+		"nombres" : "Virginia",
+		"apellidos" : "Mercado",
+		"razonSocial" : "Virginia Mercado",
+		"direccion" : "Av. Cap. Ustariz",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "33-70-4",
+		"nombres" : "Esperanza",
+		"apellidos" : "Jimenez",
+		"razonSocial" : "Esperanza Jimenez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "33-71-4",
+		"nombres" : "Miguel",
+		"apellidos" : "Quispe",
+		"razonSocial" : "Miguel Quispe",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "33-71-1",
+		"nombres" : "Gonzalo",
+		"apellidos" : "Ontiveros",
+		"razonSocial" : "Gonzalo Ontiveros",
+		"direccion" : "Av. Gral. Bilbao (frente almacen Unilever)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "33-75-1",
+		"nombres" : "Martha",
+		"apellidos" : "Pardo",
+		"razonSocial" : "Martha Pardo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "33-64-2",
+		"nombres" : "Cecilia",
+		"apellidos" : "Ramos",
+		"razonSocial" : "Cecilia Ramos",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "34",
+		"nombres" : "Farmacia San Cristobal",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia San Cristobal",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "oficina",
+		"nombres" : "Ely",
+		"apellidos" : "Coca",
+		"razonSocial" : "Ely Coca",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-36-5",
+		"nombres" : "Amalia",
+		"apellidos" : "Cruz",
+		"razonSocial" : "Amalia Cruz",
+		"direccion" : "Villa mexico",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "oficina",
+		"nombres" : "Harol",
+		"apellidos" : "Aguilar",
+		"razonSocial" : "Harol Aguilar",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-24-2",
+		"nombres" : "Olimpia ",
+		"apellidos" : "",
+		"razonSocial" : "Olimpia ",
+		"direccion" : "Calle Constantino Morales (pollos kindon)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-02-2",
+		"nombres" : "Albina",
+		"apellidos" : "Gonzalez",
+		"razonSocial" : "Albina Gonzalez",
+		"direccion" : "Calle Waldo Ballivian",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-12-2",
+		"nombres" : "Ricardo",
+		"apellidos" : "Nuñez",
+		"razonSocial" : "Ricardo Nuñez",
+		"direccion" : "Calle Carmela Serruto esq. Santa Cruz",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Mirian",
+		"apellidos" : "Valda",
+		"razonSocial" : "Mirian Valda",
+		"direccion" : "C/Canarrancho",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Juana",
+		"apellidos" : "Velasco",
+		"razonSocial" : "Juana Velasco",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Carreño",
+		"apellidos" : "",
+		"razonSocial" : "Carreño",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Maria Beatriz",
+		"apellidos" : " Aguila",
+		"razonSocial" : "Maria Beatriz Aguila",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "oficina",
+		"nombres" : "Leticia",
+		"apellidos" : "Choque",
+		"razonSocial" : "Leticia Choque",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "29-04-2",
+		"nombres" : "Eleuteria",
+		"apellidos" : "Yucra",
+		"razonSocial" : "Eleuteria Yucra",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "29-08-2",
+		"nombres" : "Claudia",
+		"apellidos" : "Ledezma",
+		"razonSocial" : "Claudia Ledezma",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "29-05-3",
+		"nombres" : "Gladis",
+		"apellidos" : "Trillo",
+		"razonSocial" : "Gladis Trillo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "64-",
+		"nombres" : "Teresa",
+		"apellidos" : "Villarroel",
+		"razonSocial" : "Teresa Villarroel",
+		"direccion" : "Av. Miguel Mercado (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-13-2",
+		"nombres" : "Aide",
+		"apellidos" : "Perez",
+		"razonSocial" : "Ramiro Bergara",
+		"direccion" : "Av. Pairumani (Lado puerta ENTEL)",
+		"nit" : "5245497"
+	},
+	{
+		"codigoCliente" : "62-14-1",
+		"nombres" : "Malena",
+		"apellidos" : "Calvo",
+		"razonSocial" : "Malena Calvo",
+		"direccion" : "Calle Rosa Norte (tienda)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "62-15-1",
+		"nombres" : "Leonor",
+		"apellidos" : "Zubieta",
+		"razonSocial" : "Leonor Zubieta",
+		"direccion" : "Calle Rosas Norte (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "",
+		"nombres" : "Farmacia Cideres",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Cideres",
+		"direccion" : "Av. Suares Miranda Frente a la Iglesia",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Marciel",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Marciel",
+		"direccion" : "Av. Blanco Galindo frente al Max Fernandez",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "32-12-4",
+		"nombres" : "Farmacia La Botika",
+		"apellidos" : "",
+		"razonSocial" : "Dimelza Contreras - Farmacia la Botika",
+		"direccion" : "Calle Pacheco frente al mercado",
+		"nit" : "7905190018"
+	},
+	{
+		"codigoCliente" : "19-38-1",
+		"nombres" : "Maria Tereza ",
+		"apellidos" : "Aguilar",
+		"razonSocial" : "Maria Tereza Aguilar",
+		"direccion" : "Av. Aniceto Padilla",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "18",
+		"nombres" : "Soria",
+		"apellidos" : "Giovani",
+		"razonSocial" : "Soria Giovani",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "23-08-1",
+		"nombres" : "Mari ",
+		"apellidos" : "Jacobo",
+		"razonSocial" : "Ramos",
+		"direccion" : "Av. Antawara",
+		"nit" : "980112"
+	},
+	{
+		"codigoCliente" : "23",
+		"nombres" : "Nelson",
+		"apellidos" : "Diaz",
+		"razonSocial" : "Nelson Diaz",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "32-13-2",
+		"nombres" : "Alex",
+		"apellidos" : "Morales",
+		"razonSocial" : "Alex Morales",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-18-1",
+		"nombres" : "Alicia",
+		"apellidos" : "Ferrufino",
+		"razonSocial" : "Alicia Ferrufino",
+		"direccion" : "Calle Junin y General Camacho (toldo coca cola esquina)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "63-2-1",
+		"nombres" : "Nilsa",
+		"apellidos" : "Jaramillo",
+		"razonSocial" : "Nilsa Jaramillo",
+		"direccion" : "Calle Entre Rios (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-8-2",
+		"nombres" : "Sara",
+		"apellidos" : "Alandia",
+		"razonSocial" : "Sara Alandia",
+		"direccion" : "Calle Entre Rios (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-8-3",
+		"nombres" : "Marcelina",
+		"apellidos" : "Mayra",
+		"razonSocial" : "Marcelina Mayra",
+		"direccion" : "Calle Entre Rios (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-8-3",
+		"nombres" : "Marcelina",
+		"apellidos" : "Mayra",
+		"razonSocial" : "Marcelina Mayra",
+		"direccion" : "Calle Entre Rios (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-14-1",
+		"nombres" : "Roxana",
+		"apellidos" : "Choque",
+		"razonSocial" : "Roxana Choque",
+		"direccion" : "Calle 8 de septiembre (entre rios norte tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-14-2",
+		"nombres" : "Martina",
+		"apellidos" : "Montaño",
+		"razonSocial" : "Martina Montaño",
+		"direccion" : "Calle 8 de septiembre (entre rios norte tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-13-1",
+		"nombres" : "Ana",
+		"apellidos" : "Mayta",
+		"razonSocial" : "Ana Mayta",
+		"direccion" : "Entre Rios norte",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-10-2",
+		"nombres" : "Sonia",
+		"apellidos" : "Ticona",
+		"razonSocial" : "Sonia Ticona",
+		"direccion" : "Calle camino a Morochata (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-10-3",
+		"nombres" : "Jhenifer",
+		"apellidos" : "HInojosa",
+		"razonSocial" : "Jhenifer HInojosa",
+		"direccion" : "Calle camino  a Morochata (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-15-1",
+		"nombres" : "Edson",
+		"apellidos" : "Coca",
+		"razonSocial" : "Edson Coca",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-19-3",
+		"nombres" : "Mirian de Soliz",
+		"apellidos" : "",
+		"razonSocial" : "Mirian de Soliz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-26-1",
+		"nombres" : "Luciano ",
+		"apellidos" : "Quinteros",
+		"razonSocial" : "Luciano Quinteros",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-14-2",
+		"nombres" : "Elizabet ",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Elizabet Mamani",
+		"direccion" : "calle ayacucho frente u d heroinas",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "32-14-1",
+		"nombres" : "Gregoria",
+		"apellidos" : "Rojas",
+		"razonSocial" : "Gregoria Rojas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "32-14-3",
+		"nombres" : "Elsa",
+		"apellidos" : "Paniagua",
+		"razonSocial" : "Elsa Paniagua",
+		"direccion" : "calle ayacucho frente u d  heroinas",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Felicia",
+		"apellidos" : "Jaillita",
+		"razonSocial" : "Felicia Jaillita",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Ana Maria ",
+		"apellidos" : "Tejerina",
+		"razonSocial" : "Ana Maria Tejerina",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Eva",
+		"apellidos" : "Butista ",
+		"razonSocial" : "Eva Butista ",
+		"direccion" : "Super Eco",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Mamani",
+		"apellidos" : "",
+		"razonSocial" : "Mamani",
+		"direccion" : "Tienda pared Oriental",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Vilma",
+		"apellidos" : "Choque",
+		"razonSocial" : "Vilma Choque",
+		"direccion" : "tienda tras centro de salud",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Teodora",
+		"apellidos" : "Cruz",
+		"razonSocial" : "Castellon",
+		"direccion" : "Tienda frente parque norte",
+		"nit" : "3737604"
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Brigida",
+		"apellidos" : "Equilea",
+		"razonSocial" : "Brigida Equilea",
+		"direccion" : "frente al parque oeste",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Trifonia",
+		"apellidos" : "Escobar",
+		"razonSocial" : "Trifonia Escobar",
+		"direccion" : "Tienda entre (Cochabamba y Beni)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Juan",
+		"apellidos" : "Valeriana",
+		"razonSocial" : "Juan Valeriana",
+		"direccion" : "Calvario camino a verenguela",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Doña Justa",
+		"apellidos" : "Berenguela",
+		"razonSocial" : "Doña Justa Berenguela",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Fabiola",
+		"apellidos" : "Uyuni",
+		"razonSocial" : "Fabiola Uyuni",
+		"direccion" : "Entre Illimani y La Paz",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Miguel ",
+		"apellidos" : "Guzman",
+		"razonSocial" : "Miguel Guzman",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "30-19-1",
+		"nombres" : "Loscano",
+		"apellidos" : "",
+		"razonSocial" : "Loscano",
+		"direccion" : "Av. Papa Paulo esq Belzu",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "230-05-1",
+		"nombres" : "Natividad",
+		"apellidos" : "Morales",
+		"razonSocial" : "Natividad Morales",
+		"direccion" : "Calle Capriles",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "230-13-1",
+		"nombres" : "Nelida",
+		"apellidos" : "Lopez",
+		"razonSocial" : "Nelida Lopez",
+		"direccion" : "Calle Jose pol y  Castel(esq.)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-25-1",
+		"nombres" : "Almacen Lipez",
+		"apellidos" : "",
+		"razonSocial" : "Almacen Lipez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-3-7",
+		"nombres" : "Natalia",
+		"apellidos" : "Pacheco",
+		"razonSocial" : "Natalia Pacheco",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-34-2",
+		"nombres" : "Margarita",
+		"apellidos" : "Arce",
+		"razonSocial" : "Margarita Arce",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "64-13-1",
+		"nombres" : "Elizabet",
+		"apellidos" : "Sanchez",
+		"razonSocial" : "Elizabet Sanchez",
+		"direccion" : "Calle Rosas (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-14-1",
+		"nombres" : "Arminda",
+		"apellidos" : "Maldonado",
+		"razonSocial" : "Arminda Maldonado",
+		"direccion" : "Calle Domingo Zambrana (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-10-2",
+		"nombres" : "Benita",
+		"apellidos" : "Pava",
+		"razonSocial" : "Benita Pava",
+		"direccion" : "Calle Domingo Zambrana (tienda rejas negras)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-15-1",
+		"nombres" : "Matiaza",
+		"apellidos" : "Merlo",
+		"razonSocial" : "Matiaza Merlo",
+		"direccion" : "Calle Jose Llanos (tienda color amarillo)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-20-1",
+		"nombres" : "Aurora",
+		"apellidos" : "Valdiviezo",
+		"razonSocial" : "Aurora Valdiviezo",
+		"direccion" : "Av. Miguel Mercado cruce rieles kiosco azul tigo",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "64-8-3",
+		"nombres" : "Maria Roberta",
+		"apellidos" : "Agreda",
+		"razonSocial" : "Maria Roberta Agreda",
+		"direccion" : "Entrada al colegio",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "2-35-2",
+		"nombres" : "Libreria Kinder Heidi",
+		"apellidos" : "",
+		"razonSocial" : "Libreria Kinder Heidi",
+		"direccion" : "Calle Calama (libreria)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Teodora",
+		"apellidos" : "Gonzales",
+		"razonSocial" : "Teodora",
+		"direccion" : "(lado candelaria)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Vacilia",
+		"apellidos" : "Guzman",
+		"razonSocial" : "Vacilia Guzman",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Teodora Gonzales",
+		"apellidos" : "",
+		"razonSocial" : "Teodora Gonzales",
+		"direccion" : "Tienda Doña Teo",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "21-13-1",
+		"nombres" : "Maribel",
+		"apellidos" : "Ramirez",
+		"razonSocial" : "Maribel Ramirez",
+		"direccion" : "Av. Ecologica",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "21-14-1",
+		"nombres" : "Jorge",
+		"apellidos" : "Villarroel",
+		"razonSocial" : "Jorge Villarroel",
+		"direccion" : "",
+		"nit" : "777433"
+	},
+	{
+		"codigoCliente" : "21-16-1",
+		"nombres" : "Brenda",
+		"apellidos" : "Salvatierra",
+		"razonSocial" : "Brenda Salvatierra",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "60-12-2",
+		"nombres" : "Jesusa",
+		"apellidos" : "Nogales",
+		"razonSocial" : "Jesusa Nogales",
+		"direccion" : "Calle Oscar Alfaro",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-14-1",
+		"nombres" : "Maribel",
+		"apellidos" : "Ledezma",
+		"razonSocial" : "Maribel Ledezma",
+		"direccion" : "Calle Julio de la Vega",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-5-4",
+		"nombres" : "Jorge",
+		"apellidos" : "Castellon",
+		"razonSocial" : "Jorge Castellon",
+		"direccion" : "Calle Matenda (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-3-2",
+		"nombres" : "Florinda",
+		"apellidos" : "Rios",
+		"razonSocial" : "Florinda Rios",
+		"direccion" : "Entrada a cota",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-22-1",
+		"nombres" : "German",
+		"apellidos" : "Argote",
+		"razonSocial" : "German Argote",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-23-1",
+		"nombres" : "Paolo",
+		"apellidos" : "Orellana",
+		"razonSocial" : "Paolo Orellana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-25-1",
+		"nombres" : "Alex",
+		"apellidos" : "Humahala",
+		"razonSocial" : "Alex Humahala",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "34-5-1",
+		"nombres" : "Katy",
+		"apellidos" : "Sandoval",
+		"razonSocial" : "Katy Sandoval",
+		"direccion" : "terminal",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "34-5-2",
+		"nombres" : "Gaby",
+		"apellidos" : "Escalera",
+		"razonSocial" : "Gaby Escalera",
+		"direccion" : "terminal",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "34-5-3",
+		"nombres" : "Alberto",
+		"apellidos" : "Melgar",
+		"razonSocial" : "Alberto Melgar",
+		"direccion" : "terminal",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "34",
+		"nombres" : "Deysi ",
+		"apellidos" : "Salsuri",
+		"razonSocial" : "Deysi Salsuri",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-04-2",
+		"nombres" : "Gina",
+		"apellidos" : "Torrico",
+		"razonSocial" : "Gina Torrico",
+		"direccion" : "Av. Panamericana (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "6-28-3",
+		"nombres" : "Celia",
+		"apellidos" : "Nuñez",
+		"razonSocial" : "Celia Nuñez",
+		"direccion" : "Av. Panamericana (licoreria)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "7-11-1",
+		"nombres" : "Ronal",
+		"apellidos" : "Zenteno",
+		"razonSocial" : "Ronal Zenteno",
+		"direccion" : "Calle Manuel Loredo",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-28-2",
+		"nombres" : "Pedro",
+		"apellidos" : "Arandia",
+		"razonSocial" : "Pedro Arandia",
+		"direccion" : "Calle Jr Molina ",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "7-36-7",
+		"nombres" : "Melania",
+		"apellidos" : "Herrera",
+		"razonSocial" : "Melania Herrera",
+		"direccion" : "Santa Barbara",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "21-10-1",
+		"nombres" : "Pozo",
+		"apellidos" : "",
+		"razonSocial" : "Pozo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Surumi",
+		"apellidos" : "",
+		"razonSocial" : "Surumi",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Maria",
+		"apellidos" : "Espinoza",
+		"razonSocial" : "Maria Espinoza",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Maribel",
+		"apellidos" : "Ligia",
+		"razonSocial" : "Maribel Ligia",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Teresa",
+		"apellidos" : "Torrico",
+		"razonSocial" : "Teresa Torrico",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Teresa",
+		"apellidos" : "Torrico",
+		"razonSocial" : "Teresa Torrico",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Tienda Flora",
+		"apellidos" : "",
+		"razonSocial" : "Tienda Flora",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "65",
+		"nombres" : "Oscar",
+		"apellidos" : " Rojas",
+		"razonSocial" : "Oscar Rojas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Maura",
+		"apellidos" : "Silvestre",
+		"razonSocial" : "Maura Silvestre",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Miguelina Guia",
+		"apellidos" : "",
+		"razonSocial" : "Miguelina Guia",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Marlene Guia",
+		"apellidos" : "",
+		"razonSocial" : "Marlene Guia",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Nora Guia",
+		"apellidos" : "",
+		"razonSocial" : "Nora Guia",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Juliana Condor",
+		"apellidos" : "",
+		"razonSocial" : "Juliana Condor",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Sabina Choque",
+		"apellidos" : "",
+		"razonSocial" : "Sabina Choque",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Maria Calderon",
+		"apellidos" : "",
+		"razonSocial" : "Calderon",
+		"direccion" : "",
+		"nit" : "5742746"
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Teodora Vargas",
+		"apellidos" : "",
+		"razonSocial" : "Teodora Vargas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Noemi Zapata",
+		"apellidos" : "",
+		"razonSocial" : "Noemi Zapata",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Delfin Arnez",
+		"apellidos" : "",
+		"razonSocial" : "Delfin Arnez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Katy Merino",
+		"apellidos" : "",
+		"razonSocial" : "Katy Merino",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Aide Mamani",
+		"apellidos" : "",
+		"razonSocial" : "Aide Mamani",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Gregoria Quispe",
+		"apellidos" : "",
+		"razonSocial" : "Gregoria Quispe",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Salome Galindo",
+		"apellidos" : "",
+		"razonSocial" : "Salome Galindo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Rosa Moreno",
+		"apellidos" : "",
+		"razonSocial" : "Rosa Moreno",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Carmen Foronda",
+		"apellidos" : "",
+		"razonSocial" : "Carmen Foronda",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Sulma Rodriguez",
+		"apellidos" : "",
+		"razonSocial" : "Sulma Rodriguez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Tienda Coca Cola (abuelita)",
+		"apellidos" : "",
+		"razonSocial" : "Tienda Coca Cola (abuelita)",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Iredia Alvarez",
+		"apellidos" : "",
+		"razonSocial" : "Iredia Alvarez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Juana Coca",
+		"apellidos" : "",
+		"razonSocial" : "Juana Coca",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Lilian Rojas",
+		"apellidos" : "",
+		"razonSocial" : "Lilian Rojas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Reina Flores",
+		"apellidos" : "",
+		"razonSocial" : "Reina Flores",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Fidelina Taborga",
+		"apellidos" : "",
+		"razonSocial" : "Fidelina Taborga",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Felicidad Gutierrez",
+		"apellidos" : "",
+		"razonSocial" : "Felicidad Gutierrez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Damiana Chanbi",
+		"apellidos" : "",
+		"razonSocial" : "Damiana Chanbi",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Maria Balderrama",
+		"apellidos" : "",
+		"razonSocial" : "Maria Balderrama",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Marlene Garcia",
+		"apellidos" : "",
+		"razonSocial" : "Marlene Garcia",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Teodora Monrroy",
+		"apellidos" : "",
+		"razonSocial" : "Teodora Monrroy",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Margarita Acuña",
+		"apellidos" : "",
+		"razonSocial" : "Margarita Acuña",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Marianela Lizter",
+		"apellidos" : "",
+		"razonSocial" : "Marianela Lizter",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Ema Borda",
+		"apellidos" : "",
+		"razonSocial" : "Ema Borda",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Monica Teran",
+		"apellidos" : "",
+		"razonSocial" : "Monica Teran",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Hilda Vargas",
+		"apellidos" : "",
+		"razonSocial" : "Hilda Vargas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "66",
+		"nombres" : "Teolinda Torrez",
+		"apellidos" : "",
+		"razonSocial" : "Teolinda Torrez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "jhonny",
+		"nombres" : "Hervas",
+		"apellidos" : "",
+		"razonSocial" : "Hervas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "jhonny",
+		"nombres" : "Sahunero",
+		"apellidos" : "",
+		"razonSocial" : "Sahunero",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "jhonny",
+		"nombres" : "Marcela Soria",
+		"apellidos" : "",
+		"razonSocial" : "Marcela Soria",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-1-1",
+		"nombres" : "Gladis",
+		"apellidos" : "Pinto",
+		"razonSocial" : "Gladis Pinto",
+		"direccion" : "Calle 21 de Diciembre",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "16-87-1",
+		"nombres" : "Florencia",
+		"apellidos" : "Huata",
+		"razonSocial" : "Florencia Huata",
+		"direccion" : "Av. Siglo XX",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "Abra",
+		"nombres" : "Sandra",
+		"apellidos" : "Zambrana",
+		"razonSocial" : "Sandra Zambrana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-15-6",
+		"nombres" : "Maria Elena",
+		"apellidos" : "Aguilar",
+		"razonSocial" : "Maria Elena Aguilar",
+		"direccion" : "Mercado de papas",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-15-4",
+		"nombres" : "Celia",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Celia Mamani",
+		"direccion" : "Mercado de papas",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-14-4",
+		"nombres" : "Fanny",
+		"apellidos" : "Condori",
+		"razonSocial" : "Fanny Condori",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "38",
+		"nombres" : "Eugenia",
+		"apellidos" : "Ortiz",
+		"razonSocial" : "Eugenia Ortiz",
+		"direccion" : "Colcapirua (pencion)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "38",
+		"nombres" : "Farmacia Vendito Jesus",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Vendito Jesus",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "38-1-5",
+		"nombres" : "Jose",
+		"apellidos" : "Laura",
+		"razonSocial" : "Jose Laura",
+		"direccion" : "Colcapirua lado Ferreteria",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "38-2-1",
+		"nombres" : "Pencion Doña Cleme",
+		"apellidos" : "",
+		"razonSocial" : "Pencion Doña Cleme",
+		"direccion" : "Colcapirua (pencion)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "38-2-2",
+		"nombres" : "Paola",
+		"apellidos" : "Onofre",
+		"razonSocial" : "Paola Onofre",
+		"direccion" : "Colcapirua (lado Vidrieria)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "38",
+		"nombres" : "Teresa",
+		"apellidos" : "Castillo",
+		"razonSocial" : "Teresa Castillo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-16-1",
+		"nombres" : "Tania",
+		"apellidos" : "Inochea",
+		"razonSocial" : "Tania Inochea",
+		"direccion" : "Calle litoral (Chulla) tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-17-1",
+		"nombres" : "Benedicta ",
+		"apellidos" : "Viñaya",
+		"razonSocial" : "Benedicta Viñaya",
+		"direccion" : "Calle Litoral (Chulla) tienda",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-8-5",
+		"nombres" : "Benita",
+		"apellidos" : "Diaz",
+		"razonSocial" : "Benita Diaz",
+		"direccion" : "Pasaje Bolivar (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-10-2",
+		"nombres" : "Farmacia B-J PHARMA",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia B-J PHARMA",
+		"direccion" : "Av. Pairumani Farmacia",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "102",
+		"nombres" : "Beatriz",
+		"apellidos" : "",
+		"razonSocial" : "Beatriz",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "jhonny",
+		"nombres" : "Hervai",
+		"apellidos" : "",
+		"razonSocial" : "Hervai",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "28-18-1",
+		"nombres" : "Maclovia ",
+		"apellidos" : "Diaz",
+		"razonSocial" : "Maclovia Diaz",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "35-1-0",
+		"nombres" : "Maria",
+		"apellidos" : "Cruz",
+		"razonSocial" : "Maria Cruz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-1-7",
+		"nombres" : "Martha",
+		"apellidos" : "Contreras",
+		"razonSocial" : "Martha Contreras",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-1-6",
+		"nombres" : "Norma",
+		"apellidos" : "Quispe",
+		"razonSocial" : "Norma Quispe",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Romelia",
+		"apellidos" : "Terceros",
+		"razonSocial" : "Romelia Terceros",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "54",
+		"nombres" : "Felicidad ",
+		"apellidos" : "Rocha",
+		"razonSocial" : "Felicidad Rocha",
+		"direccion" : "(Frente cancha de futbol)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "jhonny",
+		"nombres" : "Gimena",
+		"apellidos" : "",
+		"razonSocial" : "Gimena",
+		"direccion" : "Gallo",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Julieta",
+		"apellidos" : "Coca",
+		"razonSocial" : "Julieta Coca",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "22",
+		"nombres" : "Rosmery",
+		"apellidos" : "Huanca",
+		"razonSocial" : "Rosmery Huanca",
+		"direccion" : "Parada 112",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "64",
+		"nombres" : "Benjo",
+		"apellidos" : "",
+		"razonSocial" : "Benjo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64",
+		"nombres" : "Elvira ",
+		"apellidos" : "Geronimo",
+		"razonSocial" : "Elvira Geronimo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "74",
+		"nombres" : "Senovia",
+		"apellidos" : "Ortiz",
+		"razonSocial" : "Senovia Ortiz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-16-1",
+		"nombres" : "Betty",
+		"apellidos" : "Morales",
+		"razonSocial" : "Betty Morales ",
+		"direccion" : "Calle 1 (tienda ALG)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-17-1",
+		"nombres" : "Aldo",
+		"apellidos" : "Laura",
+		"razonSocial" : "Aldo Laura",
+		"direccion" : "Calle Venezuela (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-18-1",
+		"nombres" : "Rosmery",
+		"apellidos" : "Sivestre",
+		"razonSocial" : "Rosmery Sivestre",
+		"direccion" : "Calle Peru (tienda rejas plomas)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-17-2",
+		"nombres" : "Remigia",
+		"apellidos" : "Crespo",
+		"razonSocial" : "Remigia Crespo",
+		"direccion" : "Calle Peru (tienda puerta roja)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-9-2",
+		"nombres" : "Emilse",
+		"apellidos" : "Coñaca",
+		"razonSocial" : "Emilse Coñaca",
+		"direccion" : "Av. Circunvalacion ",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62-10-2",
+		"nombres" : "Jimena",
+		"apellidos" : "Peredo",
+		"razonSocial" : "Jimena Peredo",
+		"direccion" : "Casi calle Rosas (tienda y agencia Peredo)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-2-1",
+		"nombres" : "Ana Paola",
+		"apellidos" : "Veizaga",
+		"razonSocial" : "Ana Paola Veizaga",
+		"direccion" : "Calle Tarija (tienda color tigo)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "62-15-2",
+		"nombres" : "Wendi ",
+		"apellidos" : "Castro",
+		"razonSocial" : "Wendi Castro",
+		"direccion" : "Calle 14 de septiembre (tienda color plomo)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "jhonny",
+		"nombres" : "Ana",
+		"apellidos" : "",
+		"razonSocial" : "Ana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "Farm",
+		"nombres" : "Farmacia Ayala",
+		"apellidos" : "",
+		"razonSocial" : "Farmacia Ayala",
+		"direccion" : "Plaza Bolivar acera oeste",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "19-50-1",
+		"nombres" : "Julia",
+		"apellidos" : "Castro",
+		"razonSocial" : "Julia Castro",
+		"direccion" : "Estadium Caseta 1",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-1-1",
+		"nombres" : "Roberto",
+		"apellidos" : "Balderrama",
+		"razonSocial" : "Roberto Balderrama",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-1-2",
+		"nombres" : "Lucia",
+		"apellidos" : "Cruz",
+		"razonSocial" : "Lucia Cruz",
+		"direccion" : "(Segundo puesto lado Adela)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-1-3",
+		"nombres" : "Adela",
+		"apellidos" : "Arias",
+		"razonSocial" : "Adela Arias",
+		"direccion" : "(Primer puesto parada Trufi)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-1-4",
+		"nombres" : "Luna",
+		"apellidos" : "",
+		"razonSocial" : "Luna",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-1-5",
+		"nombres" : "Fernanda",
+		"apellidos" : "",
+		"razonSocial" : "Fernanda",
+		"direccion" : "alojamieno MEL",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-1-6",
+		"nombres" : "Don Ricardo",
+		"apellidos" : "",
+		"razonSocial" : "Don Ricardo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "39-2-1",
+		"nombres" : "Renan",
+		"apellidos" : "Mamani",
+		"razonSocial" : "Renan Mamani",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-2",
+		"nombres" : "Sandra",
+		"apellidos" : "Flores",
+		"razonSocial" : "Sandra Flores",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-3",
+		"nombres" : "Toribio",
+		"apellidos" : "Pico",
+		"razonSocial" : "Toribio Pico",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-3A",
+		"nombres" : "Elisa",
+		"apellidos" : "Rios",
+		"razonSocial" : "Elisa Rios ",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-7",
+		"nombres" : "Maria",
+		"apellidos" : "Relusi",
+		"razonSocial" : "Maria Relusi",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-8",
+		"nombres" : "Luz Leydy",
+		"apellidos" : "Corrales",
+		"razonSocial" : "Luz Leydy Corrales",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-9",
+		"nombres" : "Sipriana ",
+		"apellidos" : "",
+		"razonSocial" : "Sipriana ",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-10",
+		"nombres" : "Margarita",
+		"apellidos" : "Alvares",
+		"razonSocial" : "Margarita Alvares",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-11",
+		"nombres" : "Paulina",
+		"apellidos" : "Gutierrez",
+		"razonSocial" : "Paulina Gutierrez",
+		"direccion" : "(Lado Tienda Dionicia Uriel)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "39-2-12",
+		"nombres" : "Maura",
+		"apellidos" : "Geronimo",
+		"razonSocial" : "Maura Geronimo",
+		"direccion" : "(Conservadora de vidrio)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-13",
+		"nombres" : "Maria",
+		"apellidos" : "Escalera",
+		"razonSocial" : "Maria Escalera",
+		"direccion" : "(Su tia de Carlos)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-14",
+		"nombres" : "Victoria",
+		"apellidos" : "Rosales",
+		"razonSocial" : "Victoria Rosales",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-13-1",
+		"nombres" : "Laura",
+		"apellidos" : "Paredes",
+		"razonSocial" : "Laura Paredes",
+		"direccion" : "Camino a Machaymarca (tienda naranja rejas cafes",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-11-2",
+		"nombres" : "Erik",
+		"apellidos" : "Alarcon",
+		"razonSocial" : "Erik Alarcon",
+		"direccion" : "Camino A Machaymarca (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-11-1",
+		"nombres" : "Modesta",
+		"apellidos" : "Sola",
+		"razonSocial" : "Modesta Sola",
+		"direccion" : "Camino a Machaymarca",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-16-1",
+		"nombres" : "Betty",
+		"apellidos" : "Choque",
+		"razonSocial" : "Betty Choque ",
+		"direccion" : "Camino Machacmarca",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "63-9-2",
+		"nombres" : "Nora",
+		"apellidos" : "Lopez",
+		"razonSocial" : "Nora Lopez",
+		"direccion" : "Camino a Morochata (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-19",
+		"nombres" : "Laura",
+		"apellidos" : "Perez",
+		"razonSocial" : "Laura Perez",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "39-2-4",
+		"nombres" : "Aurora",
+		"apellidos" : "Vergara",
+		"razonSocial" : "Aurora Vergara",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-5",
+		"nombres" : "Benedicta",
+		"apellidos" : "Aguilar",
+		"razonSocial" : "Benedicta Aguilar",
+		"direccion" : "(Mesa naranja afuera)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "39-2-6",
+		"nombres" : "Mariana",
+		"apellidos" : "Ajaillo",
+		"razonSocial" : "Mariana Ajaillo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-15",
+		"nombres" : "Elsa",
+		"apellidos" : "Garcia",
+		"razonSocial" : "Elsa Garcia",
+		"direccion" : "(Toldo Agencia de pollos)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-16",
+		"nombres" : "Jimena",
+		"apellidos" : "Chungara",
+		"razonSocial" : "Jimena Chungara",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "39-2-17",
+		"nombres" : "Edith",
+		"apellidos" : "Gomez",
+		"razonSocial" : "Edith Gomez",
+		"direccion" : "(Pared pintado tropico)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "39-2-18",
+		"nombres" : "Victoria ",
+		"apellidos" : "Zambrana",
+		"razonSocial" : "Victoria Zambrana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "oficina",
+		"nombres" : "Wilfredo Inca",
+		"apellidos" : "",
+		"razonSocial" : "Wilfredo Inca",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35",
+		"nombres" : "Maria",
+		"apellidos" : "",
+		"razonSocial" : "Maria",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "20-23-1",
+		"nombres" : "Soria",
+		"apellidos" : "",
+		"razonSocial" : "Soria",
+		"direccion" : "Calle Paccieri",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "1-31-1",
+		"nombres" : "Ruth ",
+		"apellidos" : "",
+		"razonSocial" : "Ruth ",
+		"direccion" : "Calle Hamiraya (proveedora Ñekito)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "1-04-2",
+		"nombres" : "Gabriela",
+		"apellidos" : "Elias",
+		"razonSocial" : "Gabriela Elias",
+		"direccion" : "Calle Junin",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "1-04-1",
+		"nombres" : "Lidia",
+		"apellidos" : "Romero",
+		"razonSocial" : "Lidia Romero",
+		"direccion" : "Calle Junin",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "64-17-1",
+		"nombres" : "Flores",
+		"apellidos" : "",
+		"razonSocial" : "Flores",
+		"direccion" : "Calle Cochabamba (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-21-1",
+		"nombres" : "Carola",
+		"apellidos" : "Flores",
+		"razonSocial" : "Carola Flores",
+		"direccion" : "Av. Miguel Mercado (libreria)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31",
+		"nombres" : "Lusmila",
+		"apellidos" : "Mareño ",
+		"razonSocial" : "Lusmila Mareño ",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-17-3",
+		"nombres" : "Don German",
+		"apellidos" : "Villarroel",
+		"razonSocial" : "Don German Villarroel",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31",
+		"nombres" : "Elizabeth",
+		"apellidos" : "Quispe",
+		"razonSocial" : "Elizabeth Quispe",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Sabina",
+		"apellidos" : "Diaz",
+		"razonSocial" : "Sabina Diaz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Zulma",
+		"apellidos" : "Pardo",
+		"razonSocial" : "Pardo",
+		"direccion" : "",
+		"nit" : "3575027010"
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Andres",
+		"apellidos" : "Quispe",
+		"razonSocial" : "Andres Quispe",
+		"direccion" : "",
+		"nit" : "7998434"
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Eusebia",
+		"apellidos" : "Perez",
+		"razonSocial" : "Eusebia Perez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Adriana",
+		"apellidos" : "Rios",
+		"razonSocial" : "Adriana Rios",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "21-18-1",
+		"nombres" : "Noelia",
+		"apellidos" : "Hidalgo",
+		"razonSocial" : "Noelia Hidalgo",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "7-14-2",
+		"nombres" : "Gabriel",
+		"apellidos" : "Olgin",
+		"razonSocial" : "Gabriel Olgin",
+		"direccion" : "Calle JR Molina (Almacen)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "60-13-1",
+		"nombres" : "Felicidad",
+		"apellidos" : "Tapia",
+		"razonSocial" : "Felicidad Tapia",
+		"direccion" : "Calle Adrian Pierola (tienda punto viva)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36",
+		"nombres" : "Don Bernardino",
+		"apellidos" : "",
+		"razonSocial" : "Don Bernardino",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "15-3-2",
+		"nombres" : "Farmactiva",
+		"apellidos" : "",
+		"razonSocial" : "Farmactiva",
+		"direccion" : "Plaza principal acera norte  ",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Noemi ",
+		"apellidos" : "Espejo",
+		"razonSocial" : "Noemi Espejo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Juan",
+		"apellidos" : "Vargas",
+		"razonSocial" : "Juan Vargas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Juan",
+		"apellidos" : "Vargas",
+		"razonSocial" : "Juan Vargas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Ruth",
+		"apellidos" : "Pinedo",
+		"razonSocial" : "Ruth Pinedo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Ana",
+		"apellidos" : "Quiroga",
+		"razonSocial" : "Ana Quiroga",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Melina",
+		"apellidos" : "Chavez",
+		"razonSocial" : "Melina Chavez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Vanesa",
+		"apellidos" : "Quiroz",
+		"razonSocial" : "Vanesa Quiroz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Jose",
+		"apellidos" : "Nina",
+		"razonSocial" : "Jose Nina",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35",
+		"nombres" : "Andrecito",
+		"apellidos" : "",
+		"razonSocial" : "Andrecito",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4",
+		"nombres" : "Albina",
+		"apellidos" : "Gonsalez",
+		"razonSocial" : "Albina Gonsalez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61",
+		"nombres" : "Juana",
+		"apellidos" : "Calle",
+		"razonSocial" : "Juana Calle",
+		"direccion" : "Calle 3",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35-15-1",
+		"nombres" : "Carla ",
+		"apellidos" : "",
+		"razonSocial" : "Carla ",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-02-9",
+		"nombres" : "Marcelina",
+		"apellidos" : "Choque",
+		"razonSocial" : "Marcelina Choque",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61",
+		"nombres" : "Ana",
+		"apellidos" : "Crespo",
+		"razonSocial" : "Ana Crespo",
+		"direccion" : "Av. Pairumani",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "61",
+		"nombres" : "Laura",
+		"apellidos" : "Delfina",
+		"razonSocial" : "Laura Delfina",
+		"direccion" : "Av. Pairumani",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-29-2",
+		"nombres" : "Juana",
+		"apellidos" : " Graz",
+		"razonSocial" : "Juana Graz",
+		"direccion" : "Av. Simon y Patiño (tienda lado Farmacia Gefrifarma)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "62",
+		"nombres" : "Juana",
+		"apellidos" : "Gomez",
+		"razonSocial" : "Juana Gomez",
+		"direccion" : "Calle La Paz (tienda amarillo # 724)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62",
+		"nombres" : "Laura",
+		"apellidos" : "Calvo",
+		"razonSocial" : "Laura Calvo",
+		"direccion" : "Calle 14 de septiembre (tienda plomo)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62",
+		"nombres" : "Paty",
+		"apellidos" : "Villca",
+		"razonSocial" : " Villca",
+		"direccion" : "Tienda entre calle Rosas y 14 de septiembre",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "62",
+		"nombres" : "Laura",
+		"apellidos" : "Garcia",
+		"razonSocial" : "Laura Garcia",
+		"direccion" : "Calle 14 de septiembre (tienda color plomo)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "21-14-1",
+		"nombres" : "Ruth",
+		"apellidos" : "Patzi",
+		"razonSocial" : "Ruth Patzi",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "38",
+		"nombres" : "Carla",
+		"apellidos" : "",
+		"razonSocial" : "Carla",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "38-3-1",
+		"nombres" : "Proveedora Neshira",
+		"apellidos" : "",
+		"razonSocial" : "Proveedora Neshira",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "38-3-1",
+		"nombres" : "Laura",
+		"apellidos" : "Gutierrez",
+		"razonSocial" : "Laura Gutierrez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "38-2-4",
+		"nombres" : "Lidia ",
+		"apellidos" : "",
+		"razonSocial" : "Lidia ",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "57",
+		"nombres" : "Roxana",
+		"apellidos" : "",
+		"razonSocial" : "Roxana",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "38",
+		"nombres" : "Lucha ",
+		"apellidos" : "",
+		"razonSocial" : "Lucha ",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-21-1",
+		"nombres" : "Martha",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Martha Rodriguez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-25-1",
+		"nombres" : "Jheny",
+		"apellidos" : "Hervas",
+		"razonSocial" : "Jheny Hervas",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-8-2",
+		"nombres" : "Ivan",
+		"apellidos" : "Peña",
+		"razonSocial" : "Ivan Peña",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-7-2",
+		"nombres" : "Napoleon",
+		"apellidos" : "Campos",
+		"razonSocial" : "Napoleon Campos",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36-25-7",
+		"nombres" : "Jhaquelin",
+		"apellidos" : "Arias",
+		"razonSocial" : "Jhaquelin Arias",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Adalid",
+		"apellidos" : "Quillen",
+		"razonSocial" : "Adalid Quillen",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Maria Luisa",
+		"apellidos" : "Torrico",
+		"razonSocial" : "Maria Luisa Torrico",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Maria",
+		"apellidos" : "Valeriano",
+		"razonSocial" : "Maria Valeriano",
+		"direccion" : "Av. Republica(taller electrico)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Pedro",
+		"apellidos" : "Sarmiento",
+		"razonSocial" : "Pedro Sarmiento",
+		"direccion" : "(Antes del 1er gomero)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Tienda Monica",
+		"apellidos" : "",
+		"razonSocial" : "Tienda Monica",
+		"direccion" : "(Tienda Abarrotes Rotonda)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "75",
+		"nombres" : "Valdivia",
+		"apellidos" : "",
+		"razonSocial" : "Valdivia",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "53",
+		"nombres" : "Sonia",
+		"apellidos" : "Canaviri",
+		"razonSocial" : "Sonia Canaviri",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "jhonny",
+		"nombres" : "Marco",
+		"apellidos" : "Delgadillo",
+		"razonSocial" : "Marco Delgadillo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-21-1",
+		"nombres" : "Rosmery",
+		"apellidos" : "Mercado",
+		"razonSocial" : "Rosmery Mercado",
+		"direccion" : "Calle Rufino Benavides",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-31-2",
+		"nombres" : "Ines ",
+		"apellidos" : "Perez",
+		"razonSocial" : "Ines Perez",
+		"direccion" : "Calle Rafael Pavon",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "4-03-3",
+		"nombres" : "Giovana",
+		"apellidos" : "Triveño",
+		"razonSocial" : "Giovana Triveño",
+		"direccion" : "Av. Albina Patiño pasando Santa Cruz",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "35",
+		"nombres" : "Damaris Santa",
+		"apellidos" : "Santa Cruz",
+		"razonSocial" : "Damaris Santa Cruz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Lidia",
+		"apellidos" : "Canaviri",
+		"razonSocial" : "Lidia Canaviri",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Paola",
+		"apellidos" : "Lucuy",
+		"razonSocial" : "Paola Lucuy",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "56",
+		"nombres" : "Vanesa",
+		"apellidos" : "Ruiz",
+		"razonSocial" : "Vanesa Ruiz",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-21-2",
+		"nombres" : "Elvira",
+		"apellidos" : "Geronimo",
+		"razonSocial" : "Elvira Geronimo",
+		"direccion" : "Cercado (tienda)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "64-22-1",
+		"nombres" : "Ernestina",
+		"apellidos" : "Chaparro",
+		"razonSocial" : "Ernestina Chaparro",
+		"direccion" : "Cercado (tienda color plomo)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "61-8-6",
+		"nombres" : "Carla",
+		"apellidos" : "Garcia",
+		"razonSocial" : "Carla Garcia",
+		"direccion" : "Pasaje Bolivar (tienda frente al coliseo)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "19-42-4",
+		"nombres" : "Veronica",
+		"apellidos" : "Camacho",
+		"razonSocial" : "Veronica Camacho",
+		"direccion" : "Av. Gualberto Villarruel",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "121",
+		"nombres" : "Clinica Maria de los Angeles  SRL",
+		"apellidos" : "",
+		"razonSocial" : "Clinica Maria de los Angeles  SRL",
+		"direccion" : "Av. Papa Paulo",
+		"nit" : "286960022"
+	},
+	{
+		"codigoCliente" : "21-18-1",
+		"nombres" : "Soledad",
+		"apellidos" : "Coca",
+		"razonSocial" : "Soledad Coca",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-8-2",
+		"nombres" : "Betty",
+		"apellidos" : "Coca",
+		"razonSocial" : "Betty Coca",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Mercedes",
+		"apellidos" : "Salazar",
+		"razonSocial" : "Mercedes Salazar",
+		"direccion" : "",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Emilia",
+		"apellidos" : "Coca",
+		"razonSocial" : "Emilia Coca",
+		"direccion" : "Calvario puente 2",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "31-8-2",
+		"nombres" : "Jacinta",
+		"apellidos" : "Escobar",
+		"razonSocial" : "Jacinta Escobar",
+		"direccion" : "Parada 207",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31",
+		"nombres" : "Ustaris",
+		"apellidos" : "",
+		"razonSocial" : "Ustaris",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "59",
+		"nombres" : "Fredy",
+		"apellidos" : "Garcia",
+		"razonSocial" : "Fredy Garcia",
+		"direccion" : "Calvario",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36",
+		"nombres" : "Lidia",
+		"apellidos" : "Amparo",
+		"razonSocial" : "Lidia Amparo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "36",
+		"nombres" : "Vivian",
+		"apellidos" : "Castro",
+		"razonSocial" : "Vivian Castro",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "31-02-2",
+		"nombres" : "Torrez",
+		"apellidos" : "",
+		"razonSocial" : "Torrez",
+		"direccion" : "",
+		"nit" : "3578761"
+	},
+	{
+		"codigoCliente" : "16-07-1",
+		"nombres" : "Tereza",
+		"apellidos" : "Zelada",
+		"razonSocial" : "Tereza Zelada",
+		"direccion" : "Calle Simon Patiño",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "35-3-2",
+		"nombres" : "Ricardo",
+		"apellidos" : "",
+		"razonSocial" : "Ricardo",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "34",
+		"nombres" : "Jhovana",
+		"apellidos" : "Arias",
+		"razonSocial" : "Jhovana Arias",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "28-00-2",
+		"nombres" : "Paola",
+		"apellidos" : "Villca",
+		"razonSocial" : "Paola Villca",
+		"direccion" : "Cantina (ESBAPOL)",
+		"nit" : "null"
+	},
+	{
+		"codigoCliente" : "28-00-1",
+		"nombres" : "Sandra",
+		"apellidos" : "Camacho",
+		"razonSocial" : "Sandra Camacho",
+		"direccion" : "Cantina (ESBAPOL)",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "17-00-1",
+		"nombres" : "Marcela",
+		"apellidos" : "Rodriguez",
+		"razonSocial" : "Marcela Rodriguez",
+		"direccion" : "",
+		"nit" : null
+	},
+	{
+		"codigoCliente" : "2-26-6",
+		"nombres" : "Marco",
+		"apellidos" : " Garcia",
+		"razonSocial" : "Marco Garcia",
+		"direccion" : "Mercado Osorio",
+		"nit" : "3744463015"
+	},
+	{
+		"codigoCliente" : "2-26-7",
+		"nombres" : "Angelica",
+		"apellidos" : "Chumacero",
+		"razonSocial" : "Angelica Chumacero",
+		"direccion" : "Mercado Osorio",
+		"nit" : null
+	}
+]

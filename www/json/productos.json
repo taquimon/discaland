@@ -1,0 +1,3266 @@
+[
+	{
+		"codigoExterno" : "6160034",
+		"descripcion" : "Shampoo BRISTOL Floral 2x5L",
+		"stock" : 2,
+		"precioUnitario" : 40
+	},
+	{
+		"codigoExterno" : "6090101",
+		"descripcion" : "Futuro Maquina Toque Suavecito 6x1.8L",
+		"stock" : 4,
+		"precioUnitario" : 35
+	},
+	{
+		"codigoExterno" : "6250058",
+		"descripcion" : "Sanitizador LIZ KIDS Chicle 6x1L",
+		"stock" : 6,
+		"precioUnitario" : 28
+	},
+	{
+		"codigoExterno" : "6180094",
+		"descripcion" : "Jabon Liq LIZ Frescura Citrica 12x1L",
+		"stock" : 9,
+		"precioUnitario" : 14.5
+	},
+	{
+		"codigoExterno" : "30221911",
+		"descripcion" : "PAÑAL HUG RECIEN NACIDO 10x20 ",
+		"stock" : 199,
+		"precioUnitario" : 20
+	},
+	{
+		"codigoExterno" : "6060036",
+		"descripcion" : "Aromatic Discos Activos Flores 12x36g",
+		"stock" : 8,
+		"precioUnitario" : 17.5
+	},
+	{
+		"codigoExterno" : "30222311",
+		"descripcion" : "PH SCOTT EXTRA VERDE 10X2 ",
+		"stock" : -781,
+		"precioUnitario" : 38
+	},
+	{
+		"codigoExterno" : "30220728",
+		"descripcion" : "PH SCOTT GOLD  10x2 ",
+		"stock" : -219,
+		"precioUnitario" : 54
+	},
+	{
+		"codigoExterno" : "30220825",
+		"descripcion" : "TOA HUM HUG VERDE FRESH 24X48 suelto",
+		"stock" : -1575,
+		"precioUnitario" : 10.8
+	},
+	{
+		"codigoExterno" : "30222787",
+		"descripcion" : "PAÑAL PLENITUD CLASSIC VERDE GRANDE 3x20 ",
+		"stock" : -87,
+		"precioUnitario" : 90
+	},
+	{
+		"codigoExterno" : "30222786",
+		"descripcion" : "PAÑAL PLENITUD CLASSIC VERDE MEDIANO 3x20 ",
+		"stock" : -84,
+		"precioUnitario" : 85
+	},
+	{
+		"codigoExterno" : "30221146",
+		"descripcion" : "PAÑAL PLENITUD NEUTRAZONE GRANDE 3x20",
+		"stock" : -42,
+		"precioUnitario" : 125
+	},
+	{
+		"codigoExterno" : "30217441",
+		"descripcion" : "PAÑAL PLENITUD NEUTRAZONE MEDIANO 3X20",
+		"stock" : -20,
+		"precioUnitario" : 125
+	},
+	{
+		"codigoExterno" : "30205033",
+		"descripcion" : "PLENITUD PRACTIPAÑAL 24x10 ",
+		"stock" : -450,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "30217727",
+		"descripcion" : "TOA DE COCINA CAL ABSORB SIM IMP 8X3X54HJ",
+		"stock" : -486,
+		"precioUnitario" : 22
+	},
+	{
+		"codigoExterno" : "00001",
+		"descripcion" : "PH PERLITA NARANJA 2X10",
+		"stock" : -3129,
+		"precioUnitario" : 30
+	},
+	{
+		"codigoExterno" : "000123",
+		"descripcion" : "PH PERLITA VERDE 2X10",
+		"stock" : -356,
+		"precioUnitario" : 40
+	},
+	{
+		"codigoExterno" : "6180127 ",
+		"descripcion" : "Jabon Liq LIZ Espuma Antiba Frutos 12x250mL",
+		"stock" : 12,
+		"precioUnitario" : 11.5
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "PH PERLITA NARANJA 3X8",
+		"stock" : 8,
+		"precioUnitario" : 8.1
+	},
+	{
+		"codigoExterno" : "30223135",
+		"descripcion" : "PAÑAL HUG ACTIVESEC G 2X58 *",
+		"stock" : -1810,
+		"precioUnitario" : 92
+	},
+	{
+		"codigoExterno" : "30223110",
+		"descripcion" : "PAÑAL HUG ACTIVESEC M 2X64 *",
+		"stock" : -624,
+		"precioUnitario" : 92
+	},
+	{
+		"codigoExterno" : "30223137",
+		"descripcion" : "PAÑAL HUG ACTIVESEC XG 2X48 *",
+		"stock" : -934,
+		"precioUnitario" : 92
+	},
+	{
+		"codigoExterno" : "30197508",
+		"descripcion" : "PAÑAL HUG ACTIVESEC XXG 2X44 *",
+		"stock" : -524,
+		"precioUnitario" : 92
+	},
+	{
+		"codigoExterno" : "30214959",
+		"descripcion" : "KOTEX NORMAL QUINQUE  48X10",
+		"stock" : 51,
+		"precioUnitario" : 6
+	},
+	{
+		"codigoExterno" : "30222791",
+		"descripcion" : "TOA HUM ACTIVE FRESH COMBO 24X48",
+		"stock" : -406,
+		"precioUnitario" : 27
+	},
+	{
+		"codigoExterno" : "30220797",
+		"descripcion" : "TOA HUM  REC NACIDO 24X48",
+		"stock" : -636,
+		"precioUnitario" : 18.5
+	},
+	{
+		"codigoExterno" : "30211741",
+		"descripcion" : "TOA HUM ONE&DONE Suelto 24X48",
+		"stock" : -752,
+		"precioUnitario" : 16.4
+	},
+	{
+		"codigoExterno" : "30216590",
+		"descripcion" : "KOTEX EVOLUTION DUAL NOCTURNA 12x8",
+		"stock" : -1734,
+		"precioUnitario" : 11.5
+	},
+	{
+		"codigoExterno" : "30212948",
+		"descripcion" : "KOTEX EVOLUTION UF DUAL CAJA 12X8",
+		"stock" : -1765,
+		"precioUnitario" : 6.8
+	},
+	{
+		"codigoExterno" : "30216033",
+		"descripcion" : "KOTEX U/F DISCRETA ROSADA 48x10 V2",
+		"stock" : -564,
+		"precioUnitario" : 6.2
+	},
+	{
+		"codigoExterno" : "30214866",
+		"descripcion" : "KOTEX TEENS C/A STARS QUIN 24X10",
+		"stock" : -285,
+		"precioUnitario" : 6
+	},
+	{
+		"codigoExterno" : "30214589",
+		"descripcion" : "KOTEX DIARIAS QUIN 12X120 PH",
+		"stock" : -59,
+		"precioUnitario" : 37
+	},
+	{
+		"codigoExterno" : "30214618",
+		"descripcion" : "KOTEX DIARIAS QUIN 24X15 PH",
+		"stock" : -881,
+		"precioUnitario" : 5.2
+	},
+	{
+		"codigoExterno" : "30162090",
+		"descripcion" : "SERVILLETAS SCOTT 24X50",
+		"stock" : -283,
+		"precioUnitario" : 38
+	},
+	{
+		"codigoExterno" : "30222306",
+		"descripcion" : "PH SCOTT EXTRA 10X2 NARANJA ",
+		"stock" : -1648,
+		"precioUnitario" : 32
+	},
+	{
+		"codigoExterno" : "30213466",
+		"descripcion" : "PAÑAL HUGGIES PEQUEÑO 4x42",
+		"stock" : 13,
+		"precioUnitario" : 55
+	},
+	{
+		"codigoExterno" : "30221880",
+		"descripcion" : "PAÑAL HUGGIES PEQUEÑO 8x30 ",
+		"stock" : -300,
+		"precioUnitario" : 41
+	},
+	{
+		"codigoExterno" : "30221911",
+		"descripcion" : "PAÑAL HUGGIES PEQUEÑO 6x50",
+		"stock" : -95,
+		"precioUnitario" : 63
+	},
+	{
+		"codigoExterno" : "000125",
+		"descripcion" : "PH PERLITA GOLD MALETA 4X12 50M",
+		"stock" : -40,
+		"precioUnitario" : 55
+	},
+	{
+		"codigoExterno" : "0002154",
+		"descripcion" : "TOA DURAMAX MEGA 1X12",
+		"stock" : -120,
+		"precioUnitario" : 27.5
+	},
+	{
+		"codigoExterno" : "0001258",
+		"descripcion" : "TOA DURAMAX SIMPLE 1X24",
+		"stock" : -311,
+		"precioUnitario" : 14
+	},
+	{
+		"codigoExterno" : "00001264",
+		"descripcion" : "PH PERLITA VERDE MALETA 4X12",
+		"stock" : 138,
+		"precioUnitario" : 20.5
+	},
+	{
+		"codigoExterno" : "30214962\t               ",
+		"descripcion" : "PH SCOTT GOLD MALETA 50 metros",
+		"stock" : -25,
+		"precioUnitario" : 59
+	},
+	{
+		"codigoExterno" : "30213281",
+		"descripcion" : "KLEENEX POCKET AROMAMIL 36X4X10",
+		"stock" : -510,
+		"precioUnitario" : 5
+	},
+	{
+		"codigoExterno" : "30212946",
+		"descripcion" : "TOALLA DE COCINA MULTIUSO 24X1",
+		"stock" : -662,
+		"precioUnitario" : 7
+	},
+	{
+		"codigoExterno" : "30216271",
+		"descripcion" : "KOTEX NOCTURNA TELA   12X8",
+		"stock" : -129,
+		"precioUnitario" : 10
+	},
+	{
+		"codigoExterno" : "1015",
+		"descripcion" : "PH PERLITA ECOMEGA   1X12",
+		"stock" : -678,
+		"precioUnitario" : 24
+	},
+	{
+		"codigoExterno" : "1016",
+		"descripcion" : "PH PERLITA MEGARROLLO  1X12",
+		"stock" : -16,
+		"precioUnitario" : 27
+	},
+	{
+		"codigoExterno" : "16010018",
+		"descripcion" : "Lava Vajilla Limon Brillo 12x600mL",
+		"stock" : 1573,
+		"precioUnitario" : 8.5
+	},
+	{
+		"codigoExterno" : "16010049",
+		"descripcion" : "Lava Vajilla Limon Brillo 12x1050ml ",
+		"stock" : 1186,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "16010038",
+		"descripcion" : "Lava Vajilla BIDON Verde BDN 2X5Lts",
+		"stock" : 109,
+		"precioUnitario" : 56.5
+	},
+	{
+		"codigoExterno" : "16020056",
+		"descripcion" : "Maximus Antigrasa Orig 12x890ml",
+		"stock" : 236,
+		"precioUnitario" : 17
+	},
+	{
+		"codigoExterno" : "30223135",
+		"descripcion" : "PAÑAL HUG NARANJA XG - XXG   2X46",
+		"stock" : -8,
+		"precioUnitario" : 97.5
+	},
+	{
+		"codigoExterno" : "30223135",
+		"descripcion" : "PAÑAL HUG NARANJA G  2X46",
+		"stock" : -23,
+		"precioUnitario" : 97.5
+	},
+	{
+		"codigoExterno" : "30216425",
+		"descripcion" : "KLEENEX CUBO 1X32X60 HOJAS",
+		"stock" : -17,
+		"precioUnitario" : 13
+	},
+	{
+		"codigoExterno" : "30216391",
+		"descripcion" : "KLEENEX JUNIOR 1X36X50  HOJAS",
+		"stock" : -54,
+		"precioUnitario" : 9
+	},
+	{
+		"codigoExterno" : "30216279",
+		"descripcion" : "KLEENEX ORIG SUPER  1X36X80 HOJAS",
+		"stock" : -34,
+		"precioUnitario" : 15
+	},
+	{
+		"codigoExterno" : "6210013",
+		"descripcion" : "EMULSION CORPORAL 12X600ML",
+		"stock" : 106,
+		"precioUnitario" : 11.5
+	},
+	{
+		"codigoExterno" : "6020090",
+		"descripcion" : "Maximus Antigrasa Rec 12x850mL",
+		"stock" : 137,
+		"precioUnitario" : 13.8
+	},
+	{
+		"codigoExterno" : "6020095",
+		"descripcion" : "Maximus Limpia Vidrio Orig 12x900mL",
+		"stock" : 74,
+		"precioUnitario" : 12.5
+	},
+	{
+		"codigoExterno" : "6020096",
+		"descripcion" : "Maximus Limpia Vidrio Rec 12x900mL",
+		"stock" : 44,
+		"precioUnitario" : 10.5
+	},
+	{
+		"codigoExterno" : "6020022",
+		"descripcion" : "Maximus Antisarro 12x550mL",
+		"stock" : 111,
+		"precioUnitario" : 15
+	},
+	{
+		"codigoExterno" : "6220087",
+		"descripcion" : "LIZ Shampoo Anticaspa 12x900mL",
+		"stock" : 73,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6220096",
+		"descripcion" : "LIZ Shampoo Bebe 12x950mL",
+		"stock" : 50,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6220093",
+		"descripcion" : "LIZ Shampoo Extracto de Palta 12x950mL",
+		"stock" : 47,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6080006",
+		"descripcion" : "Clorito Desinf Blanqueador 12x1L",
+		"stock" : 359,
+		"precioUnitario" : 8.41
+	},
+	{
+		"codigoExterno" : "6080021",
+		"descripcion" : "Clorito Desinf Blanqueador 5L",
+		"stock" : 44,
+		"precioUnitario" : 37.6
+	},
+	{
+		"codigoExterno" : "6070157",
+		"descripcion" : "Aromatic Lavanda 2X5L",
+		"stock" : 16,
+		"precioUnitario" : 40.8
+	},
+	{
+		"codigoExterno" : "6070158",
+		"descripcion" : "Aromatic Flores 2X5L",
+		"stock" : 4,
+		"precioUnitario" : 40.8
+	},
+	{
+		"codigoExterno" : "6070156",
+		"descripcion" : "Aromatic Marina 2X5L",
+		"stock" : 2,
+		"precioUnitario" : 40.8
+	},
+	{
+		"codigoExterno" : "6060031 ",
+		"descripcion" : "Pastillas Aromatic Tanque 48x50g",
+		"stock" : 0,
+		"precioUnitario" : 8.5
+	},
+	{
+		"codigoExterno" : "6060014",
+		"descripcion" : "Pastillas Aromatic Inodoro Mix 24x40g",
+		"stock" : 761,
+		"precioUnitario" : 3.6
+	},
+	{
+		"codigoExterno" : "6020065",
+		"descripcion" : "Maximus Antigrasa 5 Litros",
+		"stock" : 17,
+		"precioUnitario" : 63
+	},
+	{
+		"codigoExterno" : "6010102",
+		"descripcion" : "Lava Vajilla Limon Brillo 6x2L",
+		"stock" : 156,
+		"precioUnitario" : 23
+	},
+	{
+		"codigoExterno" : "6090074",
+		"descripcion" : "Futuro Maquina Ropa Color 2x3,8 L",
+		"stock" : 5,
+		"precioUnitario" : 65.5
+	},
+	{
+		"codigoExterno" : "6090071",
+		"descripcion" : "Futuro Maquina L/Completo 2x3,8 L",
+		"stock" : 6,
+		"precioUnitario" : 62
+	},
+	{
+		"codigoExterno" : "6010089 ",
+		"descripcion" : "Lava Vajilla EP Colageno Plus 12x1050mL",
+		"stock" : 11,
+		"precioUnitario" : 15.6
+	},
+	{
+		"codigoExterno" : "6010090 ",
+		"descripcion" : "Lava Vajilla EP AloeVera Plus 12x1050mL",
+		"stock" : 15,
+		"precioUnitario" : 15.6
+	},
+	{
+		"codigoExterno" : "6010094 ",
+		"descripcion" : "Lava Vajilla Manzana Brillo 12x1050mL",
+		"stock" : 42,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "6010093 ",
+		"descripcion" : "Lava Vajilla Narj/Pom Brillo 12x1050mL",
+		"stock" : 30,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "6010098",
+		"descripcion" : "Lava Vajilla Manzana Brillo 12x600mL",
+		"stock" : 20,
+		"precioUnitario" : 8.5
+	},
+	{
+		"codigoExterno" : "6010097",
+		"descripcion" : "Lava Vajilla Narj/Pom Brillo 12x600mL",
+		"stock" : 23,
+		"precioUnitario" : 8.5
+	},
+	{
+		"codigoExterno" : "6010099",
+		"descripcion" : "Lava Vajilla Lima Limon Brillo 12x600mL",
+		"stock" : 39,
+		"precioUnitario" : 8.5
+	},
+	{
+		"codigoExterno" : "6030062",
+		"descripcion" : "Suavecito Brisa Celestial 12x900mL",
+		"stock" : 53,
+		"precioUnitario" : 13
+	},
+	{
+		"codigoExterno" : "6030063",
+		"descripcion" : "Suavecito Suenos de Bebe 12x900mL",
+		"stock" : 23,
+		"precioUnitario" : 13
+	},
+	{
+		"codigoExterno" : "6030064",
+		"descripcion" : "Suavecito Pasion Frutal 12x900mL",
+		"stock" : 48,
+		"precioUnitario" : 13
+	},
+	{
+		"codigoExterno" : "6030084",
+		"descripcion" : "Suavecito Sensaciones 12x900mL",
+		"stock" : 52,
+		"precioUnitario" : 13
+	},
+	{
+		"codigoExterno" : "6030115",
+		"descripcion" : "Suavecito Brisa Celestial 6x1.8L",
+		"stock" : 34,
+		"precioUnitario" : 24.5
+	},
+	{
+		"codigoExterno" : "6030116",
+		"descripcion" : "Suavecito Suenos de Bebe 6x1.8L",
+		"stock" : 26,
+		"precioUnitario" : 24.5
+	},
+	{
+		"codigoExterno" : "6030117",
+		"descripcion" : "Suavecito Pasion Frutal 6x1.8L",
+		"stock" : 10,
+		"precioUnitario" : 24.5
+	},
+	{
+		"codigoExterno" : "6030119",
+		"descripcion" : "Suavecito Sensaciones 6x1.8L",
+		"stock" : 25,
+		"precioUnitario" : 24.5
+	},
+	{
+		"codigoExterno" : "6030102",
+		"descripcion" : "Suavecito Brisa Celestial 3x3,8 L",
+		"stock" : 10,
+		"precioUnitario" : 44.5
+	},
+	{
+		"codigoExterno" : "6030103",
+		"descripcion" : "Suavecito Suenos de Bebe 3x3,8 L",
+		"stock" : 12,
+		"precioUnitario" : 44.5
+	},
+	{
+		"codigoExterno" : "6030104",
+		"descripcion" : "Suavecito Pasion Frutal 3x3,8 L",
+		"stock" : 11,
+		"precioUnitario" : 44.5
+	},
+	{
+		"codigoExterno" : "6030106",
+		"descripcion" : "Suavecito Sensaciones 3x3,8 L",
+		"stock" : 6,
+		"precioUnitario" : 44.5
+	},
+	{
+		"codigoExterno" : "30223474",
+		"descripcion" : "SERVILLETAS SCOTT INSTITUCIONAL 4x600un",
+		"stock" : -22,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6120012",
+		"descripcion" : "Jabon pack de Lavar Limon 10x5x180g",
+		"stock" : 27,
+		"precioUnitario" : 11
+	},
+	{
+		"codigoExterno" : "6070135 ",
+		"descripcion" : "Pastillas Aromatic Tripack Inod Mix 3x8x40g",
+		"stock" : 49,
+		"precioUnitario" : 10
+	},
+	{
+		"codigoExterno" : "6250067",
+		"descripcion" : "Sanitizador Liz KIDS Manzana 24x30mL",
+		"stock" : 0,
+		"precioUnitario" : 5.2
+	},
+	{
+		"codigoExterno" : "6200007",
+		"descripcion" : "LIZ Quita Esmalte 12x120mL",
+		"stock" : 150,
+		"precioUnitario" : 6.3
+	},
+	{
+		"codigoExterno" : "6070148",
+		"descripcion" : "Aromatic Lavanda 6x1800mL",
+		"stock" : 47,
+		"precioUnitario" : 15.8
+	},
+	{
+		"codigoExterno" : "6070149",
+		"descripcion" : "Aromatic Flores 6x1800mL",
+		"stock" : 65,
+		"precioUnitario" : 15.8
+	},
+	{
+		"codigoExterno" : "0001254",
+		"descripcion" : "KOTEX PROMO 12+1",
+		"stock" : 0,
+		"precioUnitario" : 0
+	},
+	{
+		"codigoExterno" : "6020093",
+		"descripcion" : "Maximus Baños Orig 12x850mL",
+		"stock" : 15,
+		"precioUnitario" : 17
+	},
+	{
+		"codigoExterno" : "6220088",
+		"descripcion" : "LIZ Shampoo Ceramidas y Jalea Real 12x950mL",
+		"stock" : 34,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6220089",
+		"descripcion" : "LIZ Shampoo Aloe Vera 12x950mL",
+		"stock" : 54,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6220090",
+		"descripcion" : "LIZ Shampoo Manzanilla 12x950mL",
+		"stock" : 50,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6220091",
+		"descripcion" : "LIZ Shampoo Proteina de Trigo 12x950mL",
+		"stock" : 27,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6220111",
+		"descripcion" : "LIZ Shampoo Aceite de Cusi 12x950mL",
+		"stock" : 52,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6310003",
+		"descripcion" : "Bolsas Basureras 50 L (60x75)x10 Pqt",
+		"stock" : 48,
+		"precioUnitario" : 7
+	},
+	{
+		"codigoExterno" : "6310004",
+		"descripcion" : "Bolsas Basureras 75L (65x95)x10 Pqt",
+		"stock" : 24,
+		"precioUnitario" : 10.5
+	},
+	{
+		"codigoExterno" : "6310005",
+		"descripcion" : "Bolsas Basureras 140L (80x120)x10 Pqt",
+		"stock" : 14,
+		"precioUnitario" : 16
+	},
+	{
+		"codigoExterno" : "6070133",
+		"descripcion" : "Aromatic Repelente 12x900mL",
+		"stock" : 10,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6180086 ",
+		"descripcion" : "Jabon Liq Liz  Tentacion Cremosa 12x360mL",
+		"stock" : 31,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "6180089 ",
+		"descripcion" : "Jabon Liq Liz Lavanda Relajante 12x360mL",
+		"stock" : 35,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "6180083 ",
+		"descripcion" : "Jabon Liq LIZ Antiba Suav Algodon 12x360mL",
+		"stock" : 19,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "6180085 ",
+		"descripcion" : "Jabon Liq LIZ Aromaterapia Floral 12x360mL",
+		"stock" : 24,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "6190048",
+		"descripcion" : "Sanitizador LIZ  Neutro 12x360mL",
+		"stock" : 35,
+		"precioUnitario" : 14.7
+	},
+	{
+		"codigoExterno" : "6190049",
+		"descripcion" : "Sanitizador LIZ Kiwi Sandia 12x360mL",
+		"stock" : 34,
+		"precioUnitario" : 14.7
+	},
+	{
+		"codigoExterno" : "6190051",
+		"descripcion" : "Sanitizador LIZ Marina 12x360mL",
+		"stock" : 14,
+		"precioUnitario" : 14.7
+	},
+	{
+		"codigoExterno" : "6190054",
+		"descripcion" : "Sanitizador LIZ Lavanda 12x360mL",
+		"stock" : 42,
+		"precioUnitario" : 14.7
+	},
+	{
+		"codigoExterno" : "6270044",
+		"descripcion" : "Pañal SUAVECITO 4x48 M",
+		"stock" : 0,
+		"precioUnitario" : 54.5
+	},
+	{
+		"codigoExterno" : "6020094",
+		"descripcion" : "Maximus Baños Rec 12x850mL",
+		"stock" : 13,
+		"precioUnitario" : 13.8
+	},
+	{
+		"codigoExterno" : "6070147",
+		"descripcion" : "Aromatic Marina 6x1800mL",
+		"stock" : 23,
+		"precioUnitario" : 15.8
+	},
+	{
+		"codigoExterno" : "6070146",
+		"descripcion" : "Aromatic Pino 6x1800mL",
+		"stock" : 14,
+		"precioUnitario" : 15.8
+	},
+	{
+		"codigoExterno" : "6070119",
+		"descripcion" : "Aromatic Flores Cremoso 6x1800mL",
+		"stock" : 24,
+		"precioUnitario" : 15.8
+	},
+	{
+		"codigoExterno" : "6070118",
+		"descripcion" : "Aromatic Lavanda Cremoso 6x1800mL",
+		"stock" : 18,
+		"precioUnitario" : 15.8
+	},
+	{
+		"codigoExterno" : "6070139",
+		"descripcion" : "Aromatic Pino 12x900mL",
+		"stock" : 44,
+		"precioUnitario" : 8.8
+	},
+	{
+		"codigoExterno" : "6070140",
+		"descripcion" : "Aromatic Marina 12x900mL",
+		"stock" : 44,
+		"precioUnitario" : 8.8
+	},
+	{
+		"codigoExterno" : "6070145",
+		"descripcion" : "Aromatic Lavanda 12x900mL",
+		"stock" : 85,
+		"precioUnitario" : 8.8
+	},
+	{
+		"codigoExterno" : "6070141",
+		"descripcion" : "Aromatic Flores 12x900mL",
+		"stock" : 92,
+		"precioUnitario" : 8.8
+	},
+	{
+		"codigoExterno" : "6300053",
+		"descripcion" : "Poder Activo Remocion Floral 60x150g",
+		"stock" : 10,
+		"precioUnitario" : 2.5
+	},
+	{
+		"codigoExterno" : "6300054",
+		"descripcion" : "Poder Activo Remocion Limon 60x150g",
+		"stock" : -1,
+		"precioUnitario" : 2.5
+	},
+	{
+		"codigoExterno" : "6300055",
+		"descripcion" : "Poder Activo Remocion Sensaciones 60x150g",
+		"stock" : -10,
+		"precioUnitario" : 2.5
+	},
+	{
+		"codigoExterno" : "6300014",
+		"descripcion" : "Poder Activo Maquina 15x800g",
+		"stock" : -3,
+		"precioUnitario" : 16.4
+	},
+	{
+		"codigoExterno" : "6300019",
+		"descripcion" : "Poder Activo Efect Blanqueador 15x800g",
+		"stock" : 0,
+		"precioUnitario" : 15.2
+	},
+	{
+		"codigoExterno" : "6300033",
+		"descripcion" : "Poder Activo Toque de Suavecito 15x800g",
+		"stock" : -1,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "6300039",
+		"descripcion" : "Poder Activo Remocion Floral 15x850g",
+		"stock" : 49,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "6300040",
+		"descripcion" : "Poder Activo Remocion Limon 15x850g",
+		"stock" : 61,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "6300041",
+		"descripcion" : "Poder Activo Remocion Sensacion 15x850g",
+		"stock" : 56,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "6300031",
+		"descripcion" : "Poder Activo Maquina 6x2kg",
+		"stock" : 3,
+		"precioUnitario" : 41.2
+	},
+	{
+		"codigoExterno" : "6300032",
+		"descripcion" : "Poder Activo Efect Blanqueador 6x2Kg",
+		"stock" : 3,
+		"precioUnitario" : 37
+	},
+	{
+		"codigoExterno" : "6300034",
+		"descripcion" : "Poder Activo Toque de Suavecito 6x2Kg",
+		"stock" : 4,
+		"precioUnitario" : 35.5
+	},
+	{
+		"codigoExterno" : "6300043",
+		"descripcion" : "Poder Activo Remocion Limon 6x2,1Kg",
+		"stock" : -76,
+		"precioUnitario" : 35.5
+	},
+	{
+		"codigoExterno" : "6300044",
+		"descripcion" : "Poder Activo Remocion Sensaciones 6x2,1Kg",
+		"stock" : -116,
+		"precioUnitario" : 35.5
+	},
+	{
+		"codigoExterno" : "6300016",
+		"descripcion" : "Poder Activo Maquina 3x4Kg",
+		"stock" : 0,
+		"precioUnitario" : 73
+	},
+	{
+		"codigoExterno" : "6300021",
+		"descripcion" : "Poder Activo Efect Blanqueador 3x4Kg",
+		"stock" : 0,
+		"precioUnitario" : 64.3
+	},
+	{
+		"codigoExterno" : "6300035",
+		"descripcion" : "Poder Activo Toque de Suavecito 3x4Kg",
+		"stock" : 7,
+		"precioUnitario" : 64.3
+	},
+	{
+		"codigoExterno" : "6300045",
+		"descripcion" : "Poder Activo Remocion Floral 3x4,2Kg",
+		"stock" : -48,
+		"precioUnitario" : 64.3
+	},
+	{
+		"codigoExterno" : "6300046",
+		"descripcion" : "Poder Activo Remocion Limon 3x4,2Kg",
+		"stock" : -11,
+		"precioUnitario" : 64.3
+	},
+	{
+		"codigoExterno" : "6300047",
+		"descripcion" : "Poder Activo Remocion Sensaciones 3x4,2Kg",
+		"stock" : -27,
+		"precioUnitario" : 64.3
+	},
+	{
+		"codigoExterno" : "6120020",
+		"descripcion" : "Jabon Limp Tot Mix 50x220g",
+		"stock" : 165,
+		"precioUnitario" : 2.64
+	},
+	{
+		"codigoExterno" : "6330004",
+		"descripcion" : "Aromatic Aer Momentos Felices 12x300mL",
+		"stock" : 40,
+		"precioUnitario" : 10
+	},
+	{
+		"codigoExterno" : "6330005",
+		"descripcion" : "Aromatic Aer Lavanda 12x300mL",
+		"stock" : 32,
+		"precioUnitario" : 10
+	},
+	{
+		"codigoExterno" : "6330008",
+		"descripcion" : "Aromatic Aer Bouquet de Rosas 12x300mL",
+		"stock" : 9,
+		"precioUnitario" : 10
+	},
+	{
+		"codigoExterno" : "6050018",
+		"descripcion" : "Brillante Lustramuebles Flores Orig 12x850mL",
+		"stock" : 99,
+		"precioUnitario" : 19.8
+	},
+	{
+		"codigoExterno" : "6050019",
+		"descripcion" : "Brillante Lustramuebles Rec 6x850mL",
+		"stock" : 16,
+		"precioUnitario" : 16
+	},
+	{
+		"codigoExterno" : "6040054",
+		"descripcion" : "Brillante Cera al Agua Neutra SR 5L",
+		"stock" : 2,
+		"precioUnitario" : 76.7
+	},
+	{
+		"codigoExterno" : "6040059",
+		"descripcion" : "Brillante Cera Amarilla 24x400mL",
+		"stock" : 104,
+		"precioUnitario" : 11.4
+	},
+	{
+		"codigoExterno" : "6190062",
+		"descripcion" : "Sanitizador Liz Neutro 12x60mL",
+		"stock" : 0,
+		"precioUnitario" : 7.8
+	},
+	{
+		"codigoExterno" : "6190063",
+		"descripcion" : "Sanitizador Pina Orquideas 12x60mL",
+		"stock" : 0,
+		"precioUnitario" : 7.8
+	},
+	{
+		"codigoExterno" : "6190061",
+		"descripcion" : "Sanitizador Pina Orquideas 24x30mL",
+		"stock" : 0,
+		"precioUnitario" : 5.2
+	},
+	{
+		"codigoExterno" : "6190060",
+		"descripcion" : "Sanitizador Sandia Melon 24x30mL",
+		"stock" : 0,
+		"precioUnitario" : 5.2
+	},
+	{
+		"codigoExterno" : "6190053",
+		"descripcion" : "Sanitizador Pina Orquideas 12x360mL",
+		"stock" : 0,
+		"precioUnitario" : 14.7
+	},
+	{
+		"codigoExterno" : "6090073",
+		"descripcion" : "Futuro Maquina Ropa Bebe 2x3,8 L",
+		"stock" : 7,
+		"precioUnitario" : 62
+	},
+	{
+		"codigoExterno" : "6090072",
+		"descripcion" : "Futuro Maquina Ropa Blanca 2x3,8 L",
+		"stock" : 3,
+		"precioUnitario" : 65.5
+	},
+	{
+		"codigoExterno" : "6040051",
+		"descripcion" : "Brillante Cera al Agua Roja SR 12x1L",
+		"stock" : 24,
+		"precioUnitario" : 18
+	},
+	{
+		"codigoExterno" : "6040050",
+		"descripcion" : "Brillante Cera al Agua Neutra SR 12x1L",
+		"stock" : 25,
+		"precioUnitario" : 18
+	},
+	{
+		"codigoExterno" : "6010104",
+		"descripcion" : "Lava Vajilla Limon Brillo 24x200mL",
+		"stock" : 787,
+		"precioUnitario" : 4
+	},
+	{
+		"codigoExterno" : "6080025 ",
+		"descripcion" : "Clorito Desinf Blanqueador 36x250mL",
+		"stock" : 401,
+		"precioUnitario" : 2.6
+	},
+	{
+		"codigoExterno" : "6070120",
+		"descripcion" : "Aromatic Cedron Cremoso 6x1800mL",
+		"stock" : 16,
+		"precioUnitario" : 15.8
+	},
+	{
+		"codigoExterno" : "6020082",
+		"descripcion" : "Maximus Limpia Vidrios 5L",
+		"stock" : 1,
+		"precioUnitario" : 51
+	},
+	{
+		"codigoExterno" : "6090082",
+		"descripcion" : "Futuro Maquina L/Completo 6x 1.8L",
+		"stock" : 5,
+		"precioUnitario" : 33
+	},
+	{
+		"codigoExterno" : "6090084",
+		"descripcion" : "Futuro Maquina Ropa Bebe 6x1.8L",
+		"stock" : 5,
+		"precioUnitario" : 33
+	},
+	{
+		"codigoExterno" : "6090083",
+		"descripcion" : "Futuro Maquina Ropa Blanca 6x1.8L",
+		"stock" : 3,
+		"precioUnitario" : 35
+	},
+	{
+		"codigoExterno" : "6090085",
+		"descripcion" : "Futuro Maquina Ropa Color 6x1.8L",
+		"stock" : 5,
+		"precioUnitario" : 35
+	},
+	{
+		"codigoExterno" : "6070109",
+		"descripcion" : "Aromatic Cedron Lechoso 2X5L",
+		"stock" : 9,
+		"precioUnitario" : 40.8
+	},
+	{
+		"codigoExterno" : "00010",
+		"descripcion" : "SERVILLETA PERLITA 6x500",
+		"stock" : -1593,
+		"precioUnitario" : 10.5
+	},
+	{
+		"codigoExterno" : "SG-49470",
+		"descripcion" : "NOS NAT INV CLASICA TAG 24X10",
+		"stock" : 946,
+		"precioUnitario" : 6.5
+	},
+	{
+		"codigoExterno" : "SC-42405",
+		"descripcion" : "NOS INVISIBLE RAPIGEL 24X10",
+		"stock" : 294,
+		"precioUnitario" : 7.3
+	},
+	{
+		"codigoExterno" : "SC-49450",
+		"descripcion" : "NOS NORMAL ALAS TELA GEL 24X10",
+		"stock" : 545,
+		"precioUnitario" : 6.3
+	},
+	{
+		"codigoExterno" : "SC-40295",
+		"descripcion" : "NOS BUENAS NOCHES 18X10",
+		"stock" : 150,
+		"precioUnitario" : 13
+	},
+	{
+		"codigoExterno" : "SC-41928",
+		"descripcion" : "NOS BUENAS NOCHES INV RAPIGEL 12X10",
+		"stock" : 27,
+		"precioUnitario" : 13
+	},
+	{
+		"codigoExterno" : "6070112",
+		"descripcion" : "Aromatic Cedron Cremoso 12x900mL",
+		"stock" : 33,
+		"precioUnitario" : 8.8
+	},
+	{
+		"codigoExterno" : "6070154",
+		"descripcion" : "Aromatic Pino 2X5L",
+		"stock" : 6,
+		"precioUnitario" : 40.8
+	},
+	{
+		"codigoExterno" : "6070108",
+		"descripcion" : "Aromatic Flores Lechoso 2X5L",
+		"stock" : 9,
+		"precioUnitario" : 40.8
+	},
+	{
+		"codigoExterno" : "6070107",
+		"descripcion" : "Aromatic Lavanda Lechoso 2X5L",
+		"stock" : 5,
+		"precioUnitario" : 40.8
+	},
+	{
+		"codigoExterno" : "6070110",
+		"descripcion" : "Aromatic Lavanda Cremoso 12x900mL",
+		"stock" : 25,
+		"precioUnitario" : 8.8
+	},
+	{
+		"codigoExterno" : "6070111",
+		"descripcion" : "Aromatic Flores Cremoso 12x900mL",
+		"stock" : 24,
+		"precioUnitario" : 8.8
+	},
+	{
+		"codigoExterno" : "6330001",
+		"descripcion" : "Aromatic Aer Anti Tabaco 12x300mL",
+		"stock" : 0,
+		"precioUnitario" : 10
+	},
+	{
+		"codigoExterno" : "30211741",
+		"descripcion" : "PAÑAL HUGGIES NIÑO G 54X4",
+		"stock" : 0,
+		"precioUnitario" : 107
+	},
+	{
+		"codigoExterno" : "6020085",
+		"descripcion" : "Maximus Antisarro 5 Litros",
+		"stock" : 3,
+		"precioUnitario" : 96
+	},
+	{
+		"codigoExterno" : "6090014",
+		"descripcion" : "Futuro Maquina L/Completo 12x900mL",
+		"stock" : 13,
+		"precioUnitario" : 18.5
+	},
+	{
+		"codigoExterno" : "6300042",
+		"descripcion" : "Poder Activo Remocion Floral 6x2,1Kg",
+		"stock" : -85,
+		"precioUnitario" : 35.5
+	},
+	{
+		"codigoExterno" : "0000125",
+		"descripcion" : "PH PERLITA HOJA SIMPLE 2x10",
+		"stock" : 232,
+		"precioUnitario" : 20
+	},
+	{
+		"codigoExterno" : "6190062",
+		"descripcion" : "Sanitizador Liz Neutro 12x60mL",
+		"stock" : 0,
+		"precioUnitario" : 7.8
+	},
+	{
+		"codigoExterno" : "6250068",
+		"descripcion" : "Sanitizador LIZ KIDS Chicle 12x60mL",
+		"stock" : 0,
+		"precioUnitario" : 7.8
+	},
+	{
+		"codigoExterno" : "6250069",
+		"descripcion" : "Sanitizador LIZ KIDS Manzana 12x60mL",
+		"stock" : 0,
+		"precioUnitario" : 7.8
+	},
+	{
+		"codigoExterno" : "SC-44468",
+		"descripcion" : "NOS DIARIAS MULTIESTILO 24X15",
+		"stock" : 298,
+		"precioUnitario" : 4.7
+	},
+	{
+		"codigoExterno" : "SC-46617",
+		"descripcion" : "NOS DIARIAS DESODORANTE 36X15",
+		"stock" : 288,
+		"precioUnitario" : 4.7
+	},
+	{
+		"codigoExterno" : "6010091 ",
+		"descripcion" : "Lava Vajilla EP Avena Plus 12x1050mL",
+		"stock" : 14,
+		"precioUnitario" : 15.6
+	},
+	{
+		"codigoExterno" : "6270009",
+		"descripcion" : "Pañal Suavecito Plus 4x40 XG",
+		"stock" : 0,
+		"precioUnitario" : 83.8
+	},
+	{
+		"codigoExterno" : "30220833",
+		"descripcion" : "TOA HUM HUG ACTFRSH DIS FTOP ZAS 12X96",
+		"stock" : -749,
+		"precioUnitario" : 15
+	},
+	{
+		"codigoExterno" : "30218068",
+		"descripcion" : "TOA HUM HUG ACTFRSH REF DIS ZAS 6X160",
+		"stock" : -49,
+		"precioUnitario" : 23.4
+	},
+	{
+		"codigoExterno" : "6180084 ",
+		"descripcion" : "Jabon Liq Antiba Seducc Floral 12x360mL",
+		"stock" : 22,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "6180088 ",
+		"descripcion" : "Jabon Liq Sensacion Frutal 12x360mL",
+		"stock" : 25,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "6250053 ",
+		"descripcion" : "EMULSION CORPORAL KIDS 12x600mL",
+		"stock" : 76,
+		"precioUnitario" : 11.5
+	},
+	{
+		"codigoExterno" : "6180097 ",
+		"descripcion" : "Jabon Liq Antiba Suavidad Algodon 5L",
+		"stock" : 2,
+		"precioUnitario" : 56
+	},
+	{
+		"codigoExterno" : "6010117",
+		"descripcion" : "Lava Vajilla Jirafa 12x1150mL",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "6080022",
+		"descripcion" : "Clorito Desinf Blanqueador 6x2L",
+		"stock" : 42,
+		"precioUnitario" : 15.9
+	},
+	{
+		"codigoExterno" : "6010073 ",
+		"descripcion" : "Lava Vajilla EP Antibacterial 12x1050mL",
+		"stock" : 18,
+		"precioUnitario" : 15.6
+	},
+	{
+		"codigoExterno" : "6260013",
+		"descripcion" : "ROMANCE Leche de Pepinos 24x250mL",
+		"stock" : 0,
+		"precioUnitario" : 5
+	},
+	{
+		"codigoExterno" : "013697",
+		"descripcion" : "Aromatic Momentos Serenidad 1x1800ml",
+		"stock" : 14,
+		"precioUnitario" : 15.8
+	},
+	{
+		"codigoExterno" : "6070177",
+		"descripcion" : "Aromatic Momentos de Serenidad 12x900mL",
+		"stock" : 25,
+		"precioUnitario" : 8.8
+	},
+	{
+		"codigoExterno" : "30221933",
+		"descripcion" : "PAÑAL HUG NATURAL CARE GD 2X46 NIÑO",
+		"stock" : -5,
+		"precioUnitario" : 115
+	},
+	{
+		"codigoExterno" : "6220098",
+		"descripcion" : "LIZ Acond Aloe Vera 12x950mL",
+		"stock" : 15,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6100004",
+		"descripcion" : "Oxipoder Quitamanchas 12x600mL",
+		"stock" : 0,
+		"precioUnitario" : 17
+	},
+	{
+		"codigoExterno" : "6100008 ",
+		"descripcion" : "Oxipoder Blanco Activo 12x600mL",
+		"stock" : 0,
+		"precioUnitario" : 17
+	},
+	{
+		"codigoExterno" : "6220099",
+		"descripcion" : "LIZ Acond Manzanilla 12x950mL",
+		"stock" : 5,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6220097",
+		"descripcion" : "LIZ Acond Ceramidas y Jalea Real 12x950mL",
+		"stock" : 11,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6220100",
+		"descripcion" : "LIZ Acond Proteina de Trigo 12x950mL",
+		"stock" : 2,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6220102",
+		"descripcion" : "LIZ Acond Extracto de Palta 12x950mL",
+		"stock" : 17,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6220113",
+		"descripcion" : "LIZ Acond Aceite de Cusi 12x950mL",
+		"stock" : 12,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6180090",
+		"descripcion" : "Jabon Liq Antiba Suav Algodon 12x1L",
+		"stock" : 30,
+		"precioUnitario" : 14.5
+	},
+	{
+		"codigoExterno" : "6180092",
+		"descripcion" : "Jabon Liq Aromaterapia Floral 12x1L",
+		"stock" : 2,
+		"precioUnitario" : 14.5
+	},
+	{
+		"codigoExterno" : "6180096",
+		"descripcion" : "Jabon Liq Lavanda Relajante 12x1L",
+		"stock" : 15,
+		"precioUnitario" : 14.5
+	},
+	{
+		"codigoExterno" : "00000002",
+		"descripcion" : "KLEENEX SUAVECITO 36X6X1X10",
+		"stock" : 0,
+		"precioUnitario" : 5
+	},
+	{
+		"codigoExterno" : "6120011",
+		"descripcion" : "Jabon pack de Lavar Floral 10x5x180g",
+		"stock" : 35,
+		"precioUnitario" : 11
+	},
+	{
+		"codigoExterno" : "6270006",
+		"descripcion" : "Pañal Suavecito Plus 4x40 P",
+		"stock" : 0,
+		"precioUnitario" : 54
+	},
+	{
+		"codigoExterno" : "6080026",
+		"descripcion" : "Clorito Desinf Blanqueador 24x500mL",
+		"stock" : 66,
+		"precioUnitario" : 4.8
+	},
+	{
+		"codigoExterno" : "1",
+		"descripcion" : "Papel Servilleta regalo",
+		"stock" : -57,
+		"precioUnitario" : 0
+	},
+	{
+		"codigoExterno" : "6010071 ",
+		"descripcion" : "Lava Vajilla Lima Limon 12x1050mL",
+		"stock" : 48,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "6330007",
+		"descripcion" : "Aromatic Aer Pino 12x300mL",
+		"stock" : 12,
+		"precioUnitario" : 10
+	},
+	{
+		"codigoExterno" : "6330006",
+		"descripcion" : "Aromatic Aer Marina 12x300mL",
+		"stock" : 30,
+		"precioUnitario" : 10
+	},
+	{
+		"codigoExterno" : "6040075",
+		"descripcion" : "Brillante Cera Amarilla 5 Lts",
+		"stock" : 1,
+		"precioUnitario" : 95
+	},
+	{
+		"codigoExterno" : "6010045",
+		"descripcion" : "Lava Vajilla EP Eco Green 12x1100mL",
+		"stock" : 4,
+		"precioUnitario" : 15.6
+	},
+	{
+		"codigoExterno" : "6040065",
+		"descripcion" : "Brillante Cera Liquida Pino 12x1L",
+		"stock" : 0,
+		"precioUnitario" : 29.5
+	},
+	{
+		"codigoExterno" : "6070174",
+		"descripcion" : "Aromatic Bebe 12x900mL",
+		"stock" : 0,
+		"precioUnitario" : 8.8
+	},
+	{
+		"codigoExterno" : "30221933",
+		"descripcion" : "PAÑAL HUG NATURAL CARE GD 2X46 NIÑA",
+		"stock" : -3,
+		"precioUnitario" : 115
+	},
+	{
+		"codigoExterno" : "141",
+		"descripcion" : "Sedal sachet caspa 16x6x50ml",
+		"stock" : -434,
+		"precioUnitario" : 12
+	},
+	{
+		"codigoExterno" : "140",
+		"descripcion" : "Sedal sachet Duo 16x6x50ml",
+		"stock" : -75,
+		"precioUnitario" : 12
+	},
+	{
+		"codigoExterno" : "136",
+		"descripcion" : "Sedal sachet trigo 16x6x50ml",
+		"stock" : -86,
+		"precioUnitario" : 12
+	},
+	{
+		"codigoExterno" : "613",
+		"descripcion" : "Sedal sachet Risos 16x6x50ml",
+		"stock" : -55,
+		"precioUnitario" : 12
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Surf Rojo 72x150g",
+		"stock" : -10,
+		"precioUnitario" : 1.8
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Surf Lila 72x150g",
+		"stock" : -4,
+		"precioUnitario" : 1.8
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Surf Verde 72x150g",
+		"stock" : 0,
+		"precioUnitario" : 1.8
+	},
+	{
+		"codigoExterno" : "48",
+		"descripcion" : "JABONCILLO LUX mix 72x125g",
+		"stock" : -4,
+		"precioUnitario" : 3.75
+	},
+	{
+		"codigoExterno" : "6040066",
+		"descripcion" : "Brillante Cera Liquida Amarilla 12x1L",
+		"stock" : 24,
+		"precioUnitario" : 29.5
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Surf Azul 72x150g",
+		"stock" : -184,
+		"precioUnitario" : 1.8
+	},
+	{
+		"codigoExterno" : "230",
+		"descripcion" : "Sedal sachet Rosado 16x6x50ml",
+		"stock" : -192,
+		"precioUnitario" : 12
+	},
+	{
+		"codigoExterno" : "6250055",
+		"descripcion" : "Sanitizador LIZ KIDS Chicle 24x30mL",
+		"stock" : 0,
+		"precioUnitario" : 5.2
+	},
+	{
+		"codigoExterno" : "011117",
+		"descripcion" : "Shampoo Biosilk 48X6X60 MIX",
+		"stock" : -288,
+		"precioUnitario" : 48
+	},
+	{
+		"codigoExterno" : "138",
+		"descripcion" : "Sedal sachet liso perfecto 16x6x50ml",
+		"stock" : -74,
+		"precioUnitario" : 12
+	},
+	{
+		"codigoExterno" : "2269",
+		"descripcion" : "Crema Classic",
+		"stock" : 0,
+		"precioUnitario" : 12.5
+	},
+	{
+		"codigoExterno" : "6100005 ",
+		"descripcion" : "OLA Oxipoder Quitamanchas 12x1L",
+		"stock" : 3,
+		"precioUnitario" : 23
+	},
+	{
+		"codigoExterno" : "6020083",
+		"descripcion" : "Maximus Antigrasa Orig 12x500mL",
+		"stock" : 9,
+		"precioUnitario" : 11.5
+	},
+	{
+		"codigoExterno" : "6220116",
+		"descripcion" : "LIZ Shampoo Aceites Naturales 12x950mL",
+		"stock" : 45,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "\t00011",
+		"descripcion" : "SERVILLETA PERLITA 24x50",
+		"stock" : -120,
+		"precioUnitario" : 31
+	},
+	{
+		"codigoExterno" : "1622",
+		"descripcion" : "Sedal sachet Restauracion 16x6x50ml",
+		"stock" : -8,
+		"precioUnitario" : 12
+	},
+	{
+		"codigoExterno" : "6030135",
+		"descripcion" : "Suavecito Brisa Celestial PEAD 5L",
+		"stock" : 9,
+		"precioUnitario" : 50
+	},
+	{
+		"codigoExterno" : "30222526",
+		"descripcion" : "PH SCOTT RINDEM 4X12 NAR -G",
+		"stock" : 0,
+		"precioUnitario" : 17.5
+	},
+	{
+		"codigoExterno" : "6300057",
+		"descripcion" : "OLA Poder Activo Remocion Limon 1x15Kg",
+		"stock" : -22,
+		"precioUnitario" : 210
+	},
+	{
+		"codigoExterno" : "6330003",
+		"descripcion" : "Aromatic Aer Frescura Citrica 12x300mL",
+		"stock" : 22,
+		"precioUnitario" : 10
+	},
+	{
+		"codigoExterno" : "6330002",
+		"descripcion" : "Aromatic Aer Manzana Verde 12x300mL",
+		"stock" : 34,
+		"precioUnitario" : 10
+	},
+	{
+		"codigoExterno" : "6070179",
+		"descripcion" : "Aromatic Momentos de Serenidad 2X5L",
+		"stock" : 6,
+		"precioUnitario" : 40.8
+	},
+	{
+		"codigoExterno" : "6300036",
+		"descripcion" : "Poder Activo Maquina Expert 15x800g",
+		"stock" : -20,
+		"precioUnitario" : 18
+	},
+	{
+		"codigoExterno" : "6300037",
+		"descripcion" : "Poder Activo Maquina Expert 6x2Kg",
+		"stock" : -6,
+		"precioUnitario" : 42.8
+	},
+	{
+		"codigoExterno" : "213237A",
+		"descripcion" : "Crema Dental COLGATE Triple Accion 72x180 grs",
+		"stock" : 44,
+		"precioUnitario" : 7
+	},
+	{
+		"codigoExterno" : "19651",
+		"descripcion" : "Detergente PATITO",
+		"stock" : -11186,
+		"precioUnitario" : 1.72
+	},
+	{
+		"codigoExterno" : "142",
+		"descripcion" : "Sedal sachet Crecimiento 16x6x50ml",
+		"stock" : -22,
+		"precioUnitario" : 12
+	},
+	{
+		"codigoExterno" : "6180110 ",
+		"descripcion" : "Jabon Liq LIZ Cocina 12x360mL",
+		"stock" : 18,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "6010105",
+		"descripcion" : "OLA Lava Vajilla Ultra 12x500mL",
+		"stock" : 13,
+		"precioUnitario" : 16
+	},
+	{
+		"codigoExterno" : "6010103",
+		"descripcion" : "OLA Lava Vajilla Baby 12x500mL",
+		"stock" : 11,
+		"precioUnitario" : 16
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Detergente PATITO 800g",
+		"stock" : 0,
+		"precioUnitario" : 8.5
+	},
+	{
+		"codigoExterno" : "6180093",
+		"descripcion" : "Jabon Liq LIZ Tentacion Cremosa 12x1L",
+		"stock" : 10,
+		"precioUnitario" : 14.5
+	},
+	{
+		"codigoExterno" : "30221938",
+		"descripcion" : "PAÑAL HUG NATURAL CARE XXG 4X40 NIÑA",
+		"stock" : 0,
+		"precioUnitario" : 115
+	},
+	{
+		"codigoExterno" : "19652",
+		"descripcion" : "Detergente PATITO ROSADO",
+		"stock" : -1547,
+		"precioUnitario" : 1.72
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Detergente PATITO ROSADO 800g",
+		"stock" : 0,
+		"precioUnitario" : 8.5
+	},
+	{
+		"codigoExterno" : "6160023",
+		"descripcion" : "Shampoo BRISTOL Herbal 5L",
+		"stock" : 1,
+		"precioUnitario" : 32
+	},
+	{
+		"codigoExterno" : "6160024",
+		"descripcion" : "Shampoo BRISTOL Manzanilla 5L",
+		"stock" : 0,
+		"precioUnitario" : 32
+	},
+	{
+		"codigoExterno" : "6160025",
+		"descripcion" : "BRISTOL Crema Enjuague Amarilla 5L",
+		"stock" : 0,
+		"precioUnitario" : 32
+	},
+	{
+		"codigoExterno" : "320186",
+		"descripcion" : "SCHICK ULTRABARBA DOBLE HOJA 1X12",
+		"stock" : -8,
+		"precioUnitario" : 24
+	},
+	{
+		"codigoExterno" : "30221923",
+		"descripcion" : "PAÑAL HUG NATURAL CARE MED 4X60 NIÑA",
+		"stock" : -6,
+		"precioUnitario" : 115
+	},
+	{
+		"codigoExterno" : "30221924",
+		"descripcion" : "PAÑAL HUG NATURAL CARE MED 4X60 NIÑO",
+		"stock" : -3,
+		"precioUnitario" : 115
+	},
+	{
+		"codigoExterno" : "30221909",
+		"descripcion" : "PAÑAL HUG NATURAL CARE XG 4X44 NIÑA",
+		"stock" : 0,
+		"precioUnitario" : 115
+	},
+	{
+		"codigoExterno" : "30221926",
+		"descripcion" : "PAÑAL HUG NATURAL CARE XG 4X44 NIÑO",
+		"stock" : 0,
+		"precioUnitario" : 115
+	},
+	{
+		"codigoExterno" : "30221928",
+		"descripcion" : "PAÑAL HUG NATURAL CARE XXG 4X40 NIÑO",
+		"stock" : 0,
+		"precioUnitario" : 115
+	},
+	{
+		"codigoExterno" : "6090066",
+		"descripcion" : "Futuro Maquina L/Completo 2x5L",
+		"stock" : 3,
+		"precioUnitario" : 72
+	},
+	{
+		"codigoExterno" : "435706",
+		"descripcion" : "Jabon Intimo NOS NATURAL 150ml/cc",
+		"stock" : -49,
+		"precioUnitario" : 26.5
+	},
+	{
+		"codigoExterno" : "100012",
+		"descripcion" : "Duraznos Almibar ACONCAGUA 820g 1x24",
+		"stock" : -303,
+		"precioUnitario" : 14
+	},
+	{
+		"codigoExterno" : "100104",
+		"descripcion" : "Frutillas Almibar 590g 1x24",
+		"stock" : -156,
+		"precioUnitario" : 15
+	},
+	{
+		"codigoExterno" : "800409",
+		"descripcion" : "MARASCHINO CEREZAS ALMIBAR 1.2Kg 1X24",
+		"stock" : -84,
+		"precioUnitario" : 44
+	},
+	{
+		"codigoExterno" : "6030099",
+		"descripcion" : "Suavecito Suenos de Bebe 2x5L",
+		"stock" : 1,
+		"precioUnitario" : 50
+	},
+	{
+		"codigoExterno" : "30221276",
+		"descripcion" : "TOA VERDE BW HUG ACTFRSH 24X16",
+		"stock" : -2,
+		"precioUnitario" : 4.5
+	},
+	{
+		"codigoExterno" : "000018",
+		"descripcion" : "BETUN SANTIAGO 12x100ml",
+		"stock" : 0,
+		"precioUnitario" : 4.5
+	},
+	{
+		"codigoExterno" : "6030100",
+		"descripcion" : "Suavecito Pasion Frutal 1x5L",
+		"stock" : 5,
+		"precioUnitario" : 50
+	},
+	{
+		"codigoExterno" : "6190059 ",
+		"descripcion" : "Sanitizador LIZ  Neutro 5L",
+		"stock" : 2,
+		"precioUnitario" : 119
+	},
+	{
+		"codigoExterno" : "30216525",
+		"descripcion" : "PROTECTOR DE CAMA  PLENITUD 6X10",
+		"stock" : 0,
+		"precioUnitario" : 54
+	},
+	{
+		"codigoExterno" : "30221554",
+		"descripcion" : "TOA ADU PLE PLENIT ULTRA 20X8",
+		"stock" : 0,
+		"precioUnitario" : 15
+	},
+	{
+		"codigoExterno" : "007417",
+		"descripcion" : "Cera en crema ARCHER 500ML",
+		"stock" : -4,
+		"precioUnitario" : 11.5
+	},
+	{
+		"codigoExterno" : "6180095",
+		"descripcion" : "Jabon Liq LIZ Sensacion Frutal 12x1L",
+		"stock" : 1,
+		"precioUnitario" : 14.5
+	},
+	{
+		"codigoExterno" : "SC-43500",
+		"descripcion" : "NOS TAMPON DIG REGULAR 12X10",
+		"stock" : 0,
+		"precioUnitario" : 15
+	},
+	{
+		"codigoExterno" : "SC-43596",
+		"descripcion" : "NOS TAMPON DIG MINI 12X10",
+		"stock" : -23,
+		"precioUnitario" : 15
+	},
+	{
+		"codigoExterno" : "SC-43504",
+		"descripcion" : "NOS TAMPON DIG SUPER 12X10",
+		"stock" : -28,
+		"precioUnitario" : 15
+	},
+	{
+		"codigoExterno" : "6340006 ",
+		"descripcion" : "JABONCILLO LIZ mix 72x125g",
+		"stock" : 6,
+		"precioUnitario" : 3.5
+	},
+	{
+		"codigoExterno" : "6270041",
+		"descripcion" : "SUAVECITO Panales 4x44 XXG",
+		"stock" : -4,
+		"precioUnitario" : 0
+	},
+	{
+		"codigoExterno" : "6250070",
+		"descripcion" : "LIZ Shampoo KIDS Linterna Naranja 12x700mL",
+		"stock" : 16,
+		"precioUnitario" : 20.5
+	},
+	{
+		"codigoExterno" : "6250071",
+		"descripcion" : "LIZ Shampoo KIDS Super Sandia 12x700mL",
+		"stock" : 11,
+		"precioUnitario" : 20.5
+	},
+	{
+		"codigoExterno" : "6250072",
+		"descripcion" : "LIZ Shampoo KIDS Fresa Maravilla 12x700mL",
+		"stock" : 6,
+		"precioUnitario" : 20.5
+	},
+	{
+		"codigoExterno" : "6250073",
+		"descripcion" : "LIZ Shampoo KIDS Bati Mora 12x700mL",
+		"stock" : 8,
+		"precioUnitario" : 20.5
+	},
+	{
+		"codigoExterno" : "6310001",
+		"descripcion" : "Bolsas Basureras 25L (56x50)x10 Pqt",
+		"stock" : 14,
+		"precioUnitario" : 4.8
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Detergente Klim 10x1kg",
+		"stock" : -10,
+		"precioUnitario" : 22
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Detergente Klim 60x200g",
+		"stock" : 0,
+		"precioUnitario" : 4
+	},
+	{
+		"codigoExterno" : "401007",
+		"descripcion" : "Duraznos Almibar El Vergel 820g 1x24",
+		"stock" : -42,
+		"precioUnitario" : 11
+	},
+	{
+		"codigoExterno" : "6310002",
+		"descripcion" : "Bolsas Basureras 35L (60x63)x10 Pqt",
+		"stock" : 20,
+		"precioUnitario" : 5.3
+	},
+	{
+		"codigoExterno" : "009326",
+		"descripcion" : "Shampoo Ballerina Mix 48x60ml",
+		"stock" : 0,
+		"precioUnitario" : 52
+	},
+	{
+		"codigoExterno" : "100001",
+		"descripcion" : "Sanitizador Liz MIx 24x30mL",
+		"stock" : 0,
+		"precioUnitario" : 5.2
+	},
+	{
+		"codigoExterno" : "100002",
+		"descripcion" : "Sanitizador Liz Mix12x60mL",
+		"stock" : 24,
+		"precioUnitario" : 7.8
+	},
+	{
+		"codigoExterno" : "6020084",
+		"descripcion" : "Maximus Limpia Vidrio Orig 12x500mL",
+		"stock" : 8,
+		"precioUnitario" : 8.8
+	},
+	{
+		"codigoExterno" : "6060015 ",
+		"descripcion" : "Pastillas Aromatic Inodoro Flores 24x40g",
+		"stock" : 0,
+		"precioUnitario" : 3.6
+	},
+	{
+		"codigoExterno" : "6030101",
+		"descripcion" : "Suavecito Energia Naranja 1x5L",
+		"stock" : 0,
+		"precioUnitario" : 43
+	},
+	{
+		"codigoExterno" : "6270059",
+		"descripcion" : "TOA HUM SUAVECITO AZUL 12x50 pqt",
+		"stock" : 6,
+		"precioUnitario" : 8.5
+	},
+	{
+		"codigoExterno" : "6270060",
+		"descripcion" : "TOA HUM SUAVECITO AZUL 12x100 pqt",
+		"stock" : 38,
+		"precioUnitario" : 14
+	},
+	{
+		"codigoExterno" : "6220118",
+		"descripcion" : "LIZ Acond Aceites Naturales 12x950mL",
+		"stock" : 0,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6280057",
+		"descripcion" : "YACOBS Mermelada Durazno Yacon 6x380g",
+		"stock" : 0,
+		"precioUnitario" : 20
+	},
+	{
+		"codigoExterno" : "6270062",
+		"descripcion" : "TOA HUM SUAVECITO PLUS VERDE 12x100 pqt",
+		"stock" : 6,
+		"precioUnitario" : 17.5
+	},
+	{
+		"codigoExterno" : "6270061",
+		"descripcion" : "TOA HUM SUAVECITO PLUS VERDE 12x50pqt",
+		"stock" : 59,
+		"precioUnitario" : 14
+	},
+	{
+		"codigoExterno" : "6190058",
+		"descripcion" : "Sanitizador LIZ Lavanda 6x1L",
+		"stock" : 0,
+		"precioUnitario" : 28.6
+	},
+	{
+		"codigoExterno" : "6190074",
+		"descripcion" : "Sanitizador LIZ Neutro 6x1L",
+		"stock" : 5,
+		"precioUnitario" : 28.6
+	},
+	{
+		"codigoExterno" : "6190076",
+		"descripcion" : "Sanitizador LIZ Sandia Melon 6x1L",
+		"stock" : 0,
+		"precioUnitario" : 28.6
+	},
+	{
+		"codigoExterno" : "6180117 ",
+		"descripcion" : "Jabon Liq Antiba Seduccion Floral 2x5L",
+		"stock" : 5,
+		"precioUnitario" : 56
+	},
+	{
+		"codigoExterno" : "6280035",
+		"descripcion" : "YACOBS Aceite de Oliva Clasico 12x250mL",
+		"stock" : 12,
+		"precioUnitario" : 19.5
+	},
+	{
+		"codigoExterno" : "6280037",
+		"descripcion" : "YACOBS Aceite de Oliva Premium 12x250mL",
+		"stock" : 12,
+		"precioUnitario" : 26.5
+	},
+	{
+		"codigoExterno" : "6190072",
+		"descripcion" : "Sanitizador LIZ Brisas de Verano 12x360mL",
+		"stock" : 18,
+		"precioUnitario" : 14.7
+	},
+	{
+		"codigoExterno" : "30222776",
+		"descripcion" : "PAÑ ADUL PLENITUD CLASSIC M 10x8",
+		"stock" : 0,
+		"precioUnitario" : 32.4
+	},
+	{
+		"codigoExterno" : "30222736",
+		"descripcion" : "PAÑ ADUL PLENITUD CLASSIC G 10x8",
+		"stock" : -1,
+		"precioUnitario" : 36
+	},
+	{
+		"codigoExterno" : "6030093",
+		"descripcion" : "Suavecito OLA Mix 24x90mL",
+		"stock" : 87,
+		"precioUnitario" : 2
+	},
+	{
+		"codigoExterno" : "6190069",
+		"descripcion" : "Sanitizador LIZ Sandia Melon 12x360mL",
+		"stock" : 24,
+		"precioUnitario" : 14.7
+	},
+	{
+		"codigoExterno" : "6250081 ",
+		"descripcion" : "Jabon Liq LIZ KIDS  Bati Mora 12x360mL",
+		"stock" : 13,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "6250080 ",
+		"descripcion" : "Jabon Liq LIZ KIDS Super Sandia 12x360mL",
+		"stock" : 14,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "6300056",
+		"descripcion" : "OLA Poder Activo Remocion Floral 1x15Kg",
+		"stock" : -12,
+		"precioUnitario" : 210
+	},
+	{
+		"codigoExterno" : "804746",
+		"descripcion" : "KOTEX DIARIA QUIN 12X 150 PH",
+		"stock" : -6,
+		"precioUnitario" : 36
+	},
+	{
+		"codigoExterno" : "6180087 ",
+		"descripcion" : "Jabon Liq Frescura Citrica 12x360mL",
+		"stock" : 19,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "6180050 ",
+		"descripcion" : "Jabon Liq LIZ Energizante 6x1L",
+		"stock" : 1,
+		"precioUnitario" : 14.5
+	},
+	{
+		"codigoExterno" : "6180091",
+		"descripcion" : "Jabon Liq Antiba Seduccion Floral 12x1L",
+		"stock" : 8,
+		"precioUnitario" : 14.5
+	},
+	{
+		"codigoExterno" : "213461B",
+		"descripcion" : "Crema Dental COLGATE NEUTRAZUCAR 72x180grs",
+		"stock" : 0,
+		"precioUnitario" : 13
+	},
+	{
+		"codigoExterno" : "204424B",
+		"descripcion" : "Crema Dental COLGATE TOTAL 12 Prof Whintening 48x100gr",
+		"stock" : 0,
+		"precioUnitario" : 19
+	},
+	{
+		"codigoExterno" : "21782A",
+		"descripcion" : "Crema Dental COLGATE Gel Smiles Barbie 12x75gr",
+		"stock" : 0,
+		"precioUnitario" : 12
+	},
+	{
+		"codigoExterno" : "201781A",
+		"descripcion" : "Crema Dental COLGATE Gel Smiles Minions 12x75gr",
+		"stock" : 0,
+		"precioUnitario" : 12
+	},
+	{
+		"codigoExterno" : "213237A",
+		"descripcion" : "COLGATE Triple Accion 72x180 grs (descuento)",
+		"stock" : 0,
+		"precioUnitario" : 0
+	},
+	{
+		"codigoExterno" : "6040061",
+		"descripcion" : "Brillante Cera Roja 24x400mL",
+		"stock" : 27,
+		"precioUnitario" : 12.2
+	},
+	{
+		"codigoExterno" : "6340006 ",
+		"descripcion" : "Liz Jab Tocador MIX 72x125g",
+		"stock" : -6,
+		"precioUnitario" : 3.5
+	},
+	{
+		"codigoExterno" : "6070134",
+		"descripcion" : "Aromatic Repelente 6x1800mL",
+		"stock" : 16,
+		"precioUnitario" : 22
+	},
+	{
+		"codigoExterno" : "6120016",
+		"descripcion" : "Jabon Limp Tot Bebe y Delicada 50x220g",
+		"stock" : 0,
+		"precioUnitario" : 2.64
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Regalo",
+		"stock" : -38,
+		"precioUnitario" : 0
+	},
+	{
+		"codigoExterno" : "6010121",
+		"descripcion" : "Lava Vajilla Lima Limon 2x5L",
+		"stock" : 1,
+		"precioUnitario" : 56.5
+	},
+	{
+		"codigoExterno" : "46807",
+		"descripcion" : "TOA HUM RN MAX PROT 18X50 UNI",
+		"stock" : 0,
+		"precioUnitario" : 16.5
+	},
+	{
+		"codigoExterno" : "150256",
+		"descripcion" : "Servilleta perlita naranja 6X500",
+		"stock" : -9,
+		"precioUnitario" : 8.7
+	},
+	{
+		"codigoExterno" : "6130017",
+		"descripcion" : "ECO FRESH Lavanda 2x5L",
+		"stock" : 2,
+		"precioUnitario" : 61.5
+	},
+	{
+		"codigoExterno" : "6020116",
+		"descripcion" : "Maximus Limpia Vidrios 6x2L",
+		"stock" : 5,
+		"precioUnitario" : 22.3
+	},
+	{
+		"codigoExterno" : "6080023",
+		"descripcion" : "Clorito Desinf Blanqueador Floral 12x1L",
+		"stock" : 9,
+		"precioUnitario" : 9.3
+	},
+	{
+		"codigoExterno" : "6180118 ",
+		"descripcion" : "Jabon Liq Tentacion Cremosa 2x5L",
+		"stock" : 7,
+		"precioUnitario" : 56
+	},
+	{
+		"codigoExterno" : "6050014",
+		"descripcion" : "Brillante Limpiador Acond Cuero 6x500mL",
+		"stock" : 3,
+		"precioUnitario" : 34.7
+	},
+	{
+		"codigoExterno" : "6190075",
+		"descripcion" : "Sanitizador LIZ Kiwi Sandia 6x1L",
+		"stock" : 4,
+		"precioUnitario" : 28.6
+	},
+	{
+		"codigoExterno" : "6150022",
+		"descripcion" : "OLA Trapo de Piso Gris Tradicional x12",
+		"stock" : -17,
+		"precioUnitario" : 8
+	},
+	{
+		"codigoExterno" : "6330011",
+		"descripcion" : "Aromatic aer Bebe 12x300 mL",
+		"stock" : 1,
+		"precioUnitario" : 10
+	},
+	{
+		"codigoExterno" : "6230010",
+		"descripcion" : "Gel Fijador LIZ Efecto Humedo 12x250mL",
+		"stock" : 2,
+		"precioUnitario" : 8.3
+	},
+	{
+		"codigoExterno" : "6230011",
+		"descripcion" : "Gel Fijador LIZ  Fijacion Fuerte 12x250mL",
+		"stock" : -35,
+		"precioUnitario" : 8.3
+	},
+	{
+		"codigoExterno" : "6230012",
+		"descripcion" : "Gel Fijador LIZ Extra Fuerte 12x250mL",
+		"stock" : -17,
+		"precioUnitario" : 8.3
+	},
+	{
+		"codigoExterno" : "6230013",
+		"descripcion" : "Gel Fijador LIZ Efecto Humedo 6x500mL",
+		"stock" : 1,
+		"precioUnitario" : 15.7
+	},
+	{
+		"codigoExterno" : "6230014",
+		"descripcion" : "Gel Fijador LIZ Fijacion Fuerte 6x500mL",
+		"stock" : 8,
+		"precioUnitario" : 15.7
+	},
+	{
+		"codigoExterno" : "6230015",
+		"descripcion" : "Gel Fijador LIZ  Extra Fuerte 6x500mL",
+		"stock" : 13,
+		"precioUnitario" : 15.7
+	},
+	{
+		"codigoExterno" : "30222304",
+		"descripcion" : "SCOTT VERDE MALETA 4X12",
+		"stock" : -10,
+		"precioUnitario" : 23
+	},
+	{
+		"codigoExterno" : "30222853",
+		"descripcion" : "PH SCOTT JUNIOR 10X2 NUEVO ",
+		"stock" : -757,
+		"precioUnitario" : 24
+	},
+	{
+		"codigoExterno" : "6070175",
+		"descripcion" : "Aromatic Bebe 6x1800mL",
+		"stock" : 0,
+		"precioUnitario" : 15.8
+	},
+	{
+		"codigoExterno" : "6190073",
+		"descripcion" : "Sanitizador LIZ Rocio del Bosque 12x360mL",
+		"stock" : 20,
+		"precioUnitario" : 14.7
+	},
+	{
+		"codigoExterno" : "6250085",
+		"descripcion" : "Sanitizador LIZ KIDS Super Sandia 12x360mL",
+		"stock" : 8,
+		"precioUnitario" : 14.7
+	},
+	{
+		"codigoExterno" : "6250086",
+		"descripcion" : "Sanitizador LIZ KIDS  Lin Naranja 12x360mL",
+		"stock" : 29,
+		"precioUnitario" : 14.7
+	},
+	{
+		"codigoExterno" : "30218692",
+		"descripcion" : "ROPA INT PLENITUD ACT PLUS P/M 4X8",
+		"stock" : 0,
+		"precioUnitario" : 35
+	},
+	{
+		"codigoExterno" : "30218701",
+		"descripcion" : "ROPA INT PLENITUD ACT PLUS G/XG 4X8",
+		"stock" : 0,
+		"precioUnitario" : 35
+	},
+	{
+		"codigoExterno" : "30224104",
+		"descripcion" : "TOA HUM HUG CLASSIC 12X80",
+		"stock" : -538,
+		"precioUnitario" : 8
+	},
+	{
+		"codigoExterno" : "6070188",
+		"descripcion" : "Aromatic Repelente 2x5L",
+		"stock" : 9,
+		"precioUnitario" : 58
+	},
+	{
+		"codigoExterno" : "6200008",
+		"descripcion" : "LIZ Quita Esmalte 12x320mL",
+		"stock" : 0,
+		"precioUnitario" : 15.7
+	},
+	{
+		"codigoExterno" : "6060030 ",
+		"descripcion" : "Pastillas Aromatic Tripack Past Tanque 3x16x50g",
+		"stock" : 43,
+		"precioUnitario" : 21
+	},
+	{
+		"codigoExterno" : "6280100",
+		"descripcion" : "YACOBS Aceite de Oliva Clasico 2x2L",
+		"stock" : 0,
+		"precioUnitario" : 132.5
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Rexona Aerosol",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "612",
+		"descripcion" : "REXONA DEO AER ANTIBAC FRESH 12X150G",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "1638",
+		"descripcion" : "REXONA DEO AER BAMBOO 12X90G/150ML",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "51",
+		"descripcion" : "AXE AER BS EXCITE 96GR/150ML(POLARIS)",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "54",
+		"descripcion" : "AXE AER BS BLACK 96GR (MCQUEEN AXE)",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "63",
+		"descripcion" : "REXONA DEO AER SPORTFAN 90G",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "65",
+		"descripcion" : "REXONA DEO AER V8 90G",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "186",
+		"descripcion" : "REXONA DEO AER ANTIBACTERIAL 90G",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "188",
+		"descripcion" : "REXONA DEO AER SENSITIVE 90G",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "259",
+		"descripcion" : "AXE AER APOLLO 96G/150ML",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "261",
+		"descripcion" : "AXE AER MARINE 96G/150ML",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "407",
+		"descripcion" : "REXONA DEO AER QUANTUM12X90G",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "408",
+		"descripcion" : "REXONA DEO AER XTRACOOL",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "610",
+		"descripcion" : "AXE BS BLACK NIGHT 12X96G",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "611",
+		"descripcion" : "REXONA F MEN AER ANTIBAC FRESH 12X90G",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "1736",
+		"descripcion" : "AXE AER BS YOU 12X96G/150ML",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "1",
+		"descripcion" : "REXONA MIX",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "2",
+		"descripcion" : "AXE MIX",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "6020066",
+		"descripcion" : "Maximus Limpia Baños 5L",
+		"stock" : 0,
+		"precioUnitario" : 63
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Surf Mix",
+		"stock" : -1071,
+		"precioUnitario" : 1.8
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Rexona Mix Women",
+		"stock" : 0,
+		"precioUnitario" : 13.5
+	},
+	{
+		"codigoExterno" : "30223609",
+		"descripcion" : "ROPIN ADU PPLUS ACT PLUS G/XG 2X16",
+		"stock" : 0,
+		"precioUnitario" : 105
+	},
+	{
+		"codigoExterno" : "6300058",
+		"descripcion" : "Poder Activo Remocion Sensaciones 1x15Kg",
+		"stock" : -2,
+		"precioUnitario" : 210
+	},
+	{
+		"codigoExterno" : "30221482",
+		"descripcion" : "TOA HUM SUPREM FTOP 24X48 ROJO",
+		"stock" : -542,
+		"precioUnitario" : 17.5
+	},
+	{
+		"codigoExterno" : "204914",
+		"descripcion" : "Crema Dental COLGATE Max fresh 72X100",
+		"stock" : 0,
+		"precioUnitario" : 0
+	},
+	{
+		"codigoExterno" : "2028028",
+		"descripcion" : "Crema Dental COLGATE Total 12 Prof. kleen 72X167",
+		"stock" : 0,
+		"precioUnitario" : 0
+	},
+	{
+		"codigoExterno" : "205286",
+		"descripcion" : "Crema Dental COLGATE Total 12 Prof. Enc. Salud. 72X167",
+		"stock" : 0,
+		"precioUnitario" : 0
+	},
+	{
+		"codigoExterno" : "6050020",
+		"descripcion" : "Brillante Lustramuebles Aer 12x360mL",
+		"stock" : 19,
+		"precioUnitario" : 19.8
+	},
+	{
+		"codigoExterno" : "6050028",
+		"descripcion" : "Brillante Lustramuebles Lavanda Orig 12x850mL",
+		"stock" : 0,
+		"precioUnitario" : 19.8
+	},
+	{
+		"codigoExterno" : "6220131",
+		"descripcion" : "LIZ Shampoo SACHET Mix3 48x50mL",
+		"stock" : 17,
+		"precioUnitario" : 6.6
+	},
+	{
+		"codigoExterno" : "30224762",
+		"descripcion" : "KOTEX FITNESS UF DC 12X10",
+		"stock" : -102,
+		"precioUnitario" : 6.8
+	},
+	{
+		"codigoExterno" : "30223924",
+		"descripcion" : "PAÑ HUG NATCARE M 2X52 X1 NIÑA Pe",
+		"stock" : -17,
+		"precioUnitario" : 95.8
+	},
+	{
+		"codigoExterno" : "30223925",
+		"descripcion" : "PAÑ HUG NATCARE M 2X52 X1 NIÑO Pe",
+		"stock" : -4,
+		"precioUnitario" : 95.8
+	},
+	{
+		"codigoExterno" : "30223929",
+		"descripcion" : "PAÑ HUG NATCARE G 2X46 X1 NIÑA Pe",
+		"stock" : -19,
+		"precioUnitario" : 95.8
+	},
+	{
+		"codigoExterno" : "30223942",
+		"descripcion" : "PAÑ HUG NATCARE G 2X46 X1 NIÑO Pe",
+		"stock" : -13,
+		"precioUnitario" : 95.8
+	},
+	{
+		"codigoExterno" : "30223946",
+		"descripcion" : "PAÑ HUG NATCARE XG 2X42 X1 NIÑA Pe",
+		"stock" : -16,
+		"precioUnitario" : 95.8
+	},
+	{
+		"codigoExterno" : "30223947",
+		"descripcion" : "PAÑ HUG NATCARE XG 2X42 X1 NIÑO Pe",
+		"stock" : -16,
+		"precioUnitario" : 95.8
+	},
+	{
+		"codigoExterno" : "30224006",
+		"descripcion" : "PAÑ HUG NATCARE XXG 2X38 X1 NIÑA Pe",
+		"stock" : -12,
+		"precioUnitario" : 95.8
+	},
+	{
+		"codigoExterno" : "30224026",
+		"descripcion" : "PAÑ HUG NATCARE XXG 2X38 X1 NIÑO Pe",
+		"stock" : 0,
+		"precioUnitario" : 95.8
+	},
+	{
+		"codigoExterno" : "30221394",
+		"descripcion" : "TC SCOTT DURAMAX 12X2 58H COOP",
+		"stock" : 0,
+		"precioUnitario" : 26
+	},
+	{
+		"codigoExterno" : "6250079 ",
+		"descripcion" : "Sanitizador LIZ KIDS Lin Naranja 6x1L",
+		"stock" : 4,
+		"precioUnitario" : 28.6
+	},
+	{
+		"codigoExterno" : "6020023",
+		"descripcion" : "Maximus Antisarro Limon 12x550mL",
+		"stock" : 0,
+		"precioUnitario" : 15
+	},
+	{
+		"codigoExterno" : "6220127",
+		"descripcion" : "LIZ Shampoo Hombre 2en1 12x900mL",
+		"stock" : 36,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6120017",
+		"descripcion" : "Jabon Limp Tot Antibacterial 50x220g",
+		"stock" : 0,
+		"precioUnitario" : 2.64
+	},
+	{
+		"codigoExterno" : "6060017 ",
+		"descripcion" : "Pastillas Aromatic Inodoro Lavanda 24x40g",
+		"stock" : 50,
+		"precioUnitario" : 3.6
+	},
+	{
+		"codigoExterno" : "6220125",
+		"descripcion" : "LIZ Shampoo Aceite Coco y Prot Leche 12x950mL",
+		"stock" : 65,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6040023",
+		"descripcion" : "Brillante Limpiador Piso Flotante 12x1L",
+		"stock" : 17,
+		"precioUnitario" : 19.1
+	},
+	{
+		"codigoExterno" : "6330010",
+		"descripcion" : "Aromatic Aer Desinf Bebe 12x390mL",
+		"stock" : 3,
+		"precioUnitario" : 18.5
+	},
+	{
+		"codigoExterno" : "6110006",
+		"descripcion" : "Brillante Betun Liquido Neutro 12x60mL",
+		"stock" : 6,
+		"precioUnitario" : 6.7
+	},
+	{
+		"codigoExterno" : "6110014",
+		"descripcion" : "Brillante Betun Liquido Cafe 12x60mL",
+		"stock" : 2,
+		"precioUnitario" : 6.7
+	},
+	{
+		"codigoExterno" : "6110012",
+		"descripcion" : "Brillante Betun Liquido Negro 12x60mL",
+		"stock" : 10,
+		"precioUnitario" : 6.7
+	},
+	{
+		"codigoExterno" : "6280039",
+		"descripcion" : "YACOBS Frijol Negro 12x425g",
+		"stock" : -17,
+		"precioUnitario" : 9.2
+	},
+	{
+		"codigoExterno" : "6280040",
+		"descripcion" : "YACOBS Frijol Rojo 12x425g",
+		"stock" : -5,
+		"precioUnitario" : 9.2
+	},
+	{
+		"codigoExterno" : "6280041",
+		"descripcion" : "YACOBS Frijol Rosado 12x425g",
+		"stock" : -6,
+		"precioUnitario" : 9.2
+	},
+	{
+		"codigoExterno" : "6280092",
+		"descripcion" : "YACOBS Garbanzo 12x425g",
+		"stock" : -7,
+		"precioUnitario" : 9.7
+	},
+	{
+		"codigoExterno" : "30223627",
+		"descripcion" : "PAÑAL RN VERDE 8X30",
+		"stock" : 0,
+		"precioUnitario" : 30
+	},
+	{
+		"codigoExterno" : "6030113 ",
+		"descripcion" : "Suavecito Plancha  Facil Clasico 12x1L",
+		"stock" : 0,
+		"precioUnitario" : 15.6
+	},
+	{
+		"codigoExterno" : "6040078",
+		"descripcion" : "Brillante Cera Pino Prom 6x1L  x2",
+		"stock" : 6,
+		"precioUnitario" : 42.2
+	},
+	{
+		"codigoExterno" : "6070197",
+		"descripcion" : "Aromatic Neutralizador de Olor(Mascota) 6x1800mL",
+		"stock" : 18,
+		"precioUnitario" : 15.8
+	},
+	{
+		"codigoExterno" : "6070196",
+		"descripcion" : "Aromatic Neutralizador de Olor(Mascota) 12x900mL",
+		"stock" : 31,
+		"precioUnitario" : 8.8
+	},
+	{
+		"codigoExterno" : "6220126",
+		"descripcion" : "LIZ Acond Aceite Coco y Prot Leche 12x950mL",
+		"stock" : 14,
+		"precioUnitario" : 12.3
+	},
+	{
+		"codigoExterno" : "6280052",
+		"descripcion" : "YACOBS Esparrago Verde 12x350g",
+		"stock" : -8,
+		"precioUnitario" : 19.1
+	},
+	{
+		"codigoExterno" : "6280053",
+		"descripcion" : "YACOBS Corazones de Alcachofa 12x290g",
+		"stock" : -7,
+		"precioUnitario" : 22.57
+	},
+	{
+		"codigoExterno" : "30221481",
+		"descripcion" : "TOA HUM ONE&DONE FTOP 12X80",
+		"stock" : -19,
+		"precioUnitario" : 29
+	},
+	{
+		"codigoExterno" : "6350001",
+		"descripcion" : "LIZ Shampoo SUAVECITO Bebe 12x400mL",
+		"stock" : 0,
+		"precioUnitario" : 20
+	},
+	{
+		"codigoExterno" : "6060023 ",
+		"descripcion" : "Pastillas Aromatic Tripack Inod Lavanda 3x8x40g",
+		"stock" : 0,
+		"precioUnitario" : 10
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Sardina Manu",
+		"stock" : -68,
+		"precioUnitario" : 8.5
+	},
+	{
+		"codigoExterno" : "00010782",
+		"descripcion" : "Guantes de Goma ASATEX talla S",
+		"stock" : -58,
+		"precioUnitario" : 8.5
+	},
+	{
+		"codigoExterno" : "00010783",
+		"descripcion" : "Guantes de Goma ASATEX talla M",
+		"stock" : -42,
+		"precioUnitario" : 8.5
+	},
+	{
+		"codigoExterno" : "7891187",
+		"descripcion" : "Trapo de piso GRIS BIANCO 60X50cm",
+		"stock" : -141,
+		"precioUnitario" : 6
+	},
+	{
+		"codigoExterno" : "78911871",
+		"descripcion" : "Franela Naranja",
+		"stock" : -141,
+		"precioUnitario" : 5
+	},
+	{
+		"codigoExterno" : "6130014",
+		"descripcion" : "ECO FRESH Cherry 2x5L",
+		"stock" : 2,
+		"precioUnitario" : 61.5
+	},
+	{
+		"codigoExterno" : "6220128",
+		"descripcion" : "LIZ Shampoo SACHET Aloe Vera 48x50mL",
+		"stock" : 0,
+		"precioUnitario" : 6.6
+	},
+	{
+		"codigoExterno" : "6250074 ",
+		"descripcion" : "Burbujas LIZ KIDS 12x700mL",
+		"stock" : 18,
+		"precioUnitario" : 14.7
+	},
+	{
+		"codigoExterno" : "6120018",
+		"descripcion" : "Jabon Limp Tot Frescura Limon 50x220g",
+		"stock" : 0,
+		"precioUnitario" : 2.64
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "PAÑAL Pompili Lila G",
+		"stock" : -1,
+		"precioUnitario" : 85
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Lavandina X5",
+		"stock" : -180,
+		"precioUnitario" : 2.17
+	},
+	{
+		"codigoExterno" : "6030143",
+		"descripcion" : "Suavecito Momentos Felices 6x1.8L",
+		"stock" : 12,
+		"precioUnitario" : 24.5
+	},
+	{
+		"codigoExterno" : "6030144",
+		"descripcion" : "Suavecito Momentos Felices 3x3.8L",
+		"stock" : 4,
+		"precioUnitario" : 44.5
+	},
+	{
+		"codigoExterno" : "6120019",
+		"descripcion" : "Jabon Limp Tot Sensaciones 50x220g",
+		"stock" : 0,
+		"precioUnitario" : 2.64
+	},
+	{
+		"codigoExterno" : "6130015",
+		"descripcion" : "ECO FRESH Spring 2x5L",
+		"stock" : 2,
+		"precioUnitario" : 61.5
+	},
+	{
+		"codigoExterno" : "6120015",
+		"descripcion" : "Jabon Limp Tot Floral R Blanca 50x220g",
+		"stock" : 3,
+		"precioUnitario" : 2.64
+	},
+	{
+		"codigoExterno" : "6030146",
+		"descripcion" : "Suavecito Sensaciones 2x5L",
+		"stock" : 7,
+		"precioUnitario" : 50
+	},
+	{
+		"codigoExterno" : "30222724",
+		"descripcion" : "KOTEX DIARIA QUIN 12X 50 PH",
+		"stock" : -9,
+		"precioUnitario" : 17
+	},
+	{
+		"codigoExterno" : "6040055",
+		"descripcion" : "Brillante Cera al Agua Roja SR 5L",
+		"stock" : 3,
+		"precioUnitario" : 76.7
+	},
+	{
+		"codigoExterno" : "6220130",
+		"descripcion" : "LIZ Shampoo SACHET Anticaspa 48x50mL",
+		"stock" : -5,
+		"precioUnitario" : 6.6
+	},
+	{
+		"codigoExterno" : "6220129",
+		"descripcion" : "LIZ Shampoo SACHET Proteina Trigo 48x50mL",
+		"stock" : -4,
+		"precioUnitario" : 6.6
+	},
+	{
+		"codigoExterno" : "30217729",
+		"descripcion" : "TOA COCINA ABSORB MEGA 2X1X107H",
+		"stock" : -7,
+		"precioUnitario" : 16
+	},
+	{
+		"codigoExterno" : "6040057",
+		"descripcion" : "Brillante Cera Neutra Sachet T 24x400mL",
+		"stock" : 33,
+		"precioUnitario" : 12.2
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Promocion toallas Humedas",
+		"stock" : -1,
+		"precioUnitario" : 0
+	},
+	{
+		"codigoExterno" : "6030111",
+		"descripcion" : "Suavecito Plancha Facil Clasico 12x550mL",
+		"stock" : 12,
+		"precioUnitario" : 11.7
+	},
+	{
+		"codigoExterno" : "6110010",
+		"descripcion" : "Brillante Betun Negro 24x88mL",
+		"stock" : 32,
+		"precioUnitario" : 5
+	},
+	{
+		"codigoExterno" : "6110011",
+		"descripcion" : "Brillante Betun Cafe 24x88mL",
+		"stock" : 17,
+		"precioUnitario" : 5
+	},
+	{
+		"codigoExterno" : "30222965",
+		"descripcion" : "KOTEX DIARIA RESP VERDE 12X120 ",
+		"stock" : -64,
+		"precioUnitario" : 36
+	},
+	{
+		"codigoExterno" : "6340002 ",
+		"descripcion" : "LIZ Jaboncillo Frescura Citrica 72x125g",
+		"stock" : 0,
+		"precioUnitario" : 3.5
+	},
+	{
+		"codigoExterno" : "6340004 ",
+		"descripcion" : "LIZ Jaboncillo Sensacion Frutal 72x125g",
+		"stock" : 5,
+		"precioUnitario" : 3.5
+	},
+	{
+		"codigoExterno" : "6340005 ",
+		"descripcion" : "LIZ Jaboncillo Tentacion Cremosa 72x125g",
+		"stock" : 0,
+		"precioUnitario" : 3.5
+	},
+	{
+		"codigoExterno" : "6340003",
+		"descripcion" : "LIZ Jaboncillo Lavanda 72x125g",
+		"stock" : 0,
+		"precioUnitario" : 3.5
+	},
+	{
+		"codigoExterno" : "6340007",
+		"descripcion" : "LIZ Jaboncillo Floral 72x125g",
+		"stock" : 0,
+		"precioUnitario" : 3.5
+	},
+	{
+		"codigoExterno" : "6250079 ",
+		"descripcion" : "Jabon Liq LIZ KIDS Lin Naranja 12x360mL",
+		"stock" : 14,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "6270068",
+		"descripcion" : "PAÑAL SUAVECITO PLUS VERDE Pañal 4x58 G",
+		"stock" : 15,
+		"precioUnitario" : 80
+	},
+	{
+		"codigoExterno" : "6270064",
+		"descripcion" : "PAÑAL SUAVECITO AZUL 4x64 M",
+		"stock" : 15,
+		"precioUnitario" : 68
+	},
+	{
+		"codigoExterno" : "6270065",
+		"descripcion" : "PAÑAL SUAVECITO AZUL 4x58 G",
+		"stock" : 42,
+		"precioUnitario" : 68
+	},
+	{
+		"codigoExterno" : "6270066",
+		"descripcion" : "PAÑAL SUAVECITO AZUL 4x48 XG",
+		"stock" : 12,
+		"precioUnitario" : 68
+	},
+	{
+		"codigoExterno" : "000406",
+		"descripcion" : "Kolynos 75ml packX3",
+		"stock" : -30,
+		"precioUnitario" : 8
+	},
+	{
+		"codigoExterno" : "6050015",
+		"descripcion" : "Brillante Melamina y Plastico 12x900mL",
+		"stock" : 8,
+		"precioUnitario" : 15.8
+	},
+	{
+		"codigoExterno" : "6280077",
+		"descripcion" : "YACOBS Alcaparras Capucines 12x450g",
+		"stock" : 0,
+		"precioUnitario" : 30
+	},
+	{
+		"codigoExterno" : "6280001",
+		"descripcion" : "YACOBS Pepinillos al Vinagre 12x820g",
+		"stock" : -3,
+		"precioUnitario" : 17.7
+	},
+	{
+		"codigoExterno" : "6360001",
+		"descripcion" : "Shampoo GALA Control Caspa 12x340mL",
+		"stock" : 40,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "6360002",
+		"descripcion" : "Shampoo GALA Liso Radiante 12x340mL",
+		"stock" : 17,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "6360004",
+		"descripcion" : "Shampoo GALA Hidratacion Natural 12x340mL",
+		"stock" : 21,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "6360003",
+		"descripcion" : "Shampoo GALA Rizos Glamorosos 12x340mL",
+		"stock" : 27,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "6360005",
+		"descripcion" : "Shampoo GALA Reparacion Intensa 12x340mL",
+		"stock" : 20,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "6360015",
+		"descripcion" : "Shampoo GALA Brillo Seductor 12x340mL",
+		"stock" : 21,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "6360006",
+		"descripcion" : "Shampoo GALA Renovacion y Crec 12x340mL",
+		"stock" : 28,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "6360007",
+		"descripcion" : "Acond GALA Liso Radiante 12x340mL",
+		"stock" : 8,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "6360008",
+		"descripcion" : "Acond GALA Rizos Glamorosos 12x340mL",
+		"stock" : 9,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "6360009",
+		"descripcion" : "Acond GALA Hidratacion Natural 12x340mL",
+		"stock" : 5,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "6360010",
+		"descripcion" : "Acond GALA Reparacion Intensa 12x340mL",
+		"stock" : 19,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "6360016",
+		"descripcion" : "Acond GALA Brillo Seductor 12x340mL",
+		"stock" : 15,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "6360011",
+		"descripcion" : "Acond GALA Renovacion y Crec 12x340mL",
+		"stock" : 9,
+		"precioUnitario" : 13.2
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Surf 850 kg Mix",
+		"stock" : -191,
+		"precioUnitario" : 11.5
+	},
+	{
+		"codigoExterno" : "6330009",
+		"descripcion" : "Aromatic Aer Desinf Original 12x390mL",
+		"stock" : 2,
+		"precioUnitario" : 18.5
+	},
+	{
+		"codigoExterno" : "6010143 ",
+		"descripcion" : "OLA Vajilla 1050mL+P.A. Sensaciones 850g x4",
+		"stock" : 0,
+		"precioUnitario" : 20
+	},
+	{
+		"codigoExterno" : "6010141 ",
+		"descripcion" : "OLA Vajilla 1050mL+P.A. Floral 850g x4",
+		"stock" : 0,
+		"precioUnitario" : 20
+	},
+	{
+		"codigoExterno" : "6010142 ",
+		"descripcion" : "OLA Vajilla 1050mL+P.A. Limon 850g x4",
+		"stock" : 0,
+		"precioUnitario" : 20
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Regalo Chaleco",
+		"stock" : 0,
+		"precioUnitario" : 0
+	},
+	{
+		"codigoExterno" : "30224318",
+		"descripcion" : "PAÑAL CALZON HUG P 5 X 40 AP",
+		"stock" : -1,
+		"precioUnitario" : 63
+	},
+	{
+		"codigoExterno" : "30224371",
+		"descripcion" : "PAÑAL CALZON HUG  M  6X34 AP",
+		"stock" : -7,
+		"precioUnitario" : 50.5
+	},
+	{
+		"codigoExterno" : "30224382",
+		"descripcion" : "PAÑAL CALZON HUG G  5X28 AP",
+		"stock" : -51,
+		"precioUnitario" : 50.5
+	},
+	{
+		"codigoExterno" : "30224338",
+		"descripcion" : "PAÑAL CALZON HUG XG 4X22 AP",
+		"stock" : -48,
+		"precioUnitario" : 50.5
+	},
+	{
+		"codigoExterno" : "30224348",
+		"descripcion" : "PAÑAL CALZON HUG XXG 4X20 AP",
+		"stock" : -18,
+		"precioUnitario" : 50.5
+	},
+	{
+		"codigoExterno" : "6150112",
+		"descripcion" : "LA GAUCHITA Escobillon Grande c/Cabo x12",
+		"stock" : 5,
+		"precioUnitario" : 22
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Gomas de trapear",
+		"stock" : -6,
+		"precioUnitario" : 9.5
+	},
+	{
+		"codigoExterno" : "6010140 ",
+		"descripcion" : "OLA Vajilla 1050mL+Arom Flores 900mL x6",
+		"stock" : 24,
+		"precioUnitario" : 18
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "PH PERLITA NARANJA MALETA 4X12",
+		"stock" : -13,
+		"precioUnitario" : 16.2
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Pack Poder 4,2Kg+Vajillero 600ml",
+		"stock" : 0,
+		"precioUnitario" : 74
+	},
+	{
+		"codigoExterno" : "6070198",
+		"descripcion" : "Aromatic Neutralizador de Olor(Mascotas) 2x5L",
+		"stock" : 4,
+		"precioUnitario" : 40.8
+	},
+	{
+		"codigoExterno" : "6300062",
+		"descripcion" : "OLA Poder Activo Floral Prom 15x1Kg",
+		"stock" : -276,
+		"precioUnitario" : 13.8
+	},
+	{
+		"codigoExterno" : "6300063",
+		"descripcion" : "OLA Poder Activo Limon Prom  15x1Kg",
+		"stock" : -206,
+		"precioUnitario" : 13.8
+	},
+	{
+		"codigoExterno" : "6300064",
+		"descripcion" : "OLA Poder Activo Sensaciones Prom 15x1Kg",
+		"stock" : -463,
+		"precioUnitario" : 13.8
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Perlita Super Mega 8X8",
+		"stock" : 0,
+		"precioUnitario" : 27.5
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Detergente PATITO Amarillo 1.6g",
+		"stock" : -45,
+		"precioUnitario" : 21
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH CERAMIDAS 340ML",
+		"stock" : 17,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH CREC SALUD 340ML",
+		"stock" : -22,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH NEGRO LUMIN 340ML",
+		"stock" : -18,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH RESTA INS 340ML",
+		"stock" : -17,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH BOM NUTRI 340ML",
+		"stock" : -18,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH CASPA 2EN1 340ML",
+		"stock" : 1,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH DUO 2EN1 340ML",
+		"stock" : -5,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH LISO PERF 340ML",
+		"stock" : -13,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH MIEL Y GERM 340ML",
+		"stock" : -21,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH MIEL ANTIQ 340ML",
+		"stock" : -5,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH PURE DETOX 340ML",
+		"stock" : -5,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH RIZOS DEF 340ML",
+		"stock" : -14,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "170850",
+		"descripcion" : "Alikal normal 1x30",
+		"stock" : 2,
+		"precioUnitario" : 70
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "SEDAL SH MIX 340 ML",
+		"stock" : -11,
+		"precioUnitario" : 13.4
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Alikal Limon 1x30",
+		"stock" : 8,
+		"precioUnitario" : 70
+	},
+	{
+		"codigoExterno" : "",
+		"descripcion" : "Lisoform",
+		"stock" : -6,
+		"precioUnitario" : 19.5
+	}
+]
