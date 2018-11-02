@@ -2,24 +2,165 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="msapplication-tap-highlight" content="no">
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">        
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Discal Android</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-select.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/bootstrap-dialog.min.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-select.min.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/bootstrap-dialog.min.js"></script>
     <script src="js/dataTables.bootstrap.min.js"></script>
-
+<style>
+td { 
+    text-transform:uppercase;
+    padding: 20px;    
+}
+</style>
 </head>
+<script type="text/javascript">
+    var dataProduct = [];
+    $(function () {            
+        console.log("loading product");
+        $.ajax({
+            url: "http://discald.com/provider/api/discal/producto/getAjaxListProducts/1",
+            headers: {
+                "X-API-KEY":"12345abcde"                
+            },
+            dataType: "json",
+            success: function (json) {                
+                console.log(json);      
+                var data = json.data;                
+                for (var x = 0; x < data.length; x++) {                 
+                    key = data[x].idProducto;
+                    dataProduct[key] = data[x];
+                }
+                console.log(dataProduct);
+            },
+            error: function () {
+                
+            }
+        });
+        $("#table_productos").DataTable({
+            destroy: true,
+            info: false,            
+            paging: false,
+            bLengthChange: false,
+            ajax: 
+                 {
+                url: "http://discald.com/provider/api/discal/producto/getAjaxListProducts/1",
+                dataSrc: 'data',
+                headers: {
+                    "X-API-KEY":"12345abcde"                    
+                },
+            }, 
+            "columns": [
+                { "data": "codigoExterno", sDefaultContent: "" },                            
+                { "data": "options" , sDefaultContent: ""},
+            ],
+            paging: true,
+        });
 
+    });
+    function editProduct(id) {
+        var $content = $('<table class="table"></table>');
+                var checked = "";
+                // if(json.activo == 1) {
+                //     checked = "checked";
+                // }                
+                img = ""
+                if( dataProduct[id].img == "") {
+                    img = "box.png";
+                } else {
+                    img = dataProduct[id].img;
+                }
+                $content.append('<tr><td style="text-align:center;"  colspan="2"><img src="img/'+ img +'" width="128px" height="128px"></td></tr>');
+                $content.append('<tr><td>Codigo Externo</td><td>'+ dataProduct[id].codigoExterno+'</td></tr>');
+                $content.append('<tr><td>Descripcion</td><td>'+ dataProduct[id].descripcion+'</td></tr>');
+                $content.append('<tr><td>Cantida</td><td>'+ dataProduct[id].cantidad+'</td></tr>');
+                $content.append('<tr><td>U.Venta</td><td>'+ dataProduct[id].unidadVenta+'</td></tr>');
+                $content.append('<tr><td># Unidades</td><td>'+ dataProduct[id].numeroUnidades+'</td></tr>');
+                $content.append('<tr><td>Precio Unitario</td><td>'+ dataProduct[id].precioUnitario+'</td></tr>');
+        BootstrapDialog.show({
+                    title: 'Producto',
+                    message: $content,
+                    // onshown: function(){                           
+                    //         $('#status').bootstrapToggle({  
+                    //              on: 'Activo',
+                    //              off: 'Inactivo'
+                    //         });
+                    //         var url = "<?php echo site_url('producto/ajaxGetCategoria') ?>";
+                    //         loadCategoria(url, "empresa", optionSelected);
+                    // },
+                    buttons: [{
+                        icon: 'glyphicon glyphicon-check',
+                        label: 'Aceptar',
+                        title: 'Aceptar',
+                        autospin: true,
+                        cssClass: 'btn-primary',
+                    //     action: function(dialogRef){
+                    //         console.log($('#status').prop('checked'));
+                    //         var activo = $('#status').prop('checked') == true ? 1 : 0;
+                    //         var dataProduct = {
+                    //             idProducto: idProduct,
+                    //             codigoExterno: $('#codigoExterno').val(),
+                    //             descripcion: $('#descripcion').val(),
+                    //             cantidad: $('#cantidad').val(),                                
+                    //             unidadVenta: $('#unidadVenta').val(),
+                    //             numeroUnidades: $('#numeroUnidades').val(),
+                    //             precioUnitario: $('#precioUnitario').val(),
+                    //             empresa: $('#empresa').val(),
+                    //             activo: activo,
+                    //         }
+                    //         $.ajax({
+                    //             url: "<?=site_url('producto/jsonGuardarProducto')?>",
+                    //             dataType: "json",
+                    //             data: dataProduct,
+                    //             type: 'POST',   
+                    //             success: function(json) {
+                    //                 var n = noty({
+                    //                     type: "success",
+                    //                     layout: "top",
+                    //                     text: json.message,
+                    //                     animation: {
+                    //                         open: {
+                    //                             height: 'toggle'
+                    //                         },
+                    //                         close: {
+                    //                             height: 'toggle'
+                    //                         },
+                    //                         easing: 'swing',
+                    //                         speed: 500 // opening & closing animation speed
+                    //                     }
+                    //                 });
+                    //                 var urln = "<?= site_url('producto/ajaxListProduct')?>";
+                    //                 $("#product_table").DataTable().ajax.url(urln);
+                    //                 $("#product_table").DataTable().ajax.reload();                                    
+                    //                 setTimeout(function(){
+                    //                     dialogRef.close();
+                    //                 }, 3000);
+                    //             }
+                    //         });
+                    //     }
+                    // }, {
+                        icon: 'glyphicon glyphicon-ban-circle',
+                        label: 'Cerrar',
+                        title: 'Cerrar',
+                        cssClass: 'btn-warning',
+                        action: function(dialogItself){
+                            dialogItself.close();
+                        }
+                    }]
+                });             
+    }
+</script>
 <body>
     <!-- menu var -->
     <nav class="navbar navbar-inverse">
@@ -60,8 +201,19 @@
     </nav>
     <div class="panel panel-info">
         <div class="panel-heading">Productos</div>
-        <!-- Default panel contents -->                        
-        <div class="panel-body">      
+        <!-- Default panel contents -->                   
+        <div class="panel-body">
+                <table class="table table-striped table-bordered bootstrap-datatable datatable responsive" id="table_productos">
+                        <thead>
+                            <tr>
+                                <th style="width:30%">Codigo</th>
+                                <th style="width:60%">Descripcion</th>                                
+                            </tr>
+                        </thead>
+                        <tbody>                                
+                        </tbody>
+                    </table>
+        </div>      
     </div>
 </body>
 
