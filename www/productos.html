@@ -18,6 +18,7 @@
     <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/bootstrap-dialog.min.js"></script>
     <script src="js/dataTables.bootstrap.min.js"></script>
+    <script src="js/discal.js"></script>
 <style>
 td { 
     text-transform:uppercase;
@@ -30,10 +31,10 @@ td {
     $(function () {            
         console.log("loading product");
         $.ajax({
-            url: "http://discald.com/provider/api/discal/producto/getAjaxListProducts/1",
-            headers: {
-                "X-API-KEY":"12345abcde"                
-            },
+            url: baseUrl + "api/discal/producto/getAjaxListProducts/1",
+            // headers: {
+            //     "X-API-KEY":"12345abcde"                
+            // },
             dataType: "json",
             success: function (json) {                
                 console.log(json);      
@@ -55,11 +56,11 @@ td {
             bLengthChange: false,
             ajax: 
                  {
-                url: "http://discald.com/provider/api/discal/producto/getAjaxListProducts/1",
+                url: baseUrl + "api/discal/producto/getAjaxListProducts/1",
                 dataSrc: 'data',
-                headers: {
-                    "X-API-KEY":"12345abcde"                    
-                },
+                // headers: {
+                //     "X-API-KEY":"12345abcde"                    
+                // },
             }, 
             "columns": [
                 { "data": "codigoExterno", sDefaultContent: "" },                            
@@ -195,6 +196,7 @@ td {
                         </ul>
                     </li>
                     <li><a href="configuracion.html">Configuracion</a></li>
+                    <li><a href="logout.html">Logout</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

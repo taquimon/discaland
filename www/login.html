@@ -2,8 +2,13 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/discal.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/waitingfor.js"></script>
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: Arial, Helvetica, sans-serif; margin-top:30px;}
 form {border: 3px solid #f1f1f1;}
 
 input[type=text], input[type=password] {
@@ -64,35 +69,98 @@ span.psw {
        width: 100%;
     }
 }
+hr.message-inner-separator
+{
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
 </style>
+<script>
+    var userId = 0;
+    function do_login()
+    {
+        waitingDialog.show('Login please wait...', {dialogSize: 'xs', progressType: 'warning'});
+        var username=$("#username").val();
+        var pass=$("#password").val();
+        if(username!="" && pass!="")
+        {
+            $("#spinner").show();
+            $.ajax({
+                type:'get',
+                url: baseUrl + 'api/discal/user/login/1',
+                data:{                  
+                    username: username,
+                    password: pass
+                },
+                success: function(response) {                    
+                    waitingDialog.hide();
+                    console.log(response);
+                    if(response.login == true) {
+                        sessionStorage.userId = response.dataUser.user_id;
+                        sessionStorage.idVendedor = response.dataVendedor.idVendedor;
+                        sessionStorage.nombreVendedor = response.dataVendedor.nombres;
+                        sessionStorage.apellidosVendedor = response.dataVendedor.apellidos;
+                        window.location.href="index.html";
+                    }                    
+                },
+                error: function (xhr, status) {
+                    console.log(xhr);
+                    console.log(status);
+                    $("#error_container").show();
+                    waitingDialog.hide();
+                },
+            });
+        } else {
+            alert("Please Fill All The Details");
+        }
+        return false;
+    }
+</script>
 </head>
 <body>
 
-<h2>Login Form</h2>
+<h2 style="text-align:center;">Login Discal</h2>
 
-<form action="/action_page.php">
+<form onsubmit="return do_login();">
   <div class="imgcontainer">
     <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
     <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <input type="text" placeholder="Enter Username" name="username" id="username" required>
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" placeholder="Enter Password" name="password" required id="password">
         
     <button type="submit">Login</button>
-    <label>
+    <!-- <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
+    </label> -->
   </div>
 
-  <div class="container" style="background-color:#f1f1f1">
+  <!-- <div class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
     <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
+  </div> -->
 </form>
-
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="alert alert-danger"  id="error_container" style="display:none;">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Error !</strong> Usuario o password no validos, intente de nuevo.
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
 </body>
 </html>

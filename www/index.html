@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -17,9 +17,24 @@
     <script src="js/bootstrap-select.min.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/dataTables.bootstrap.min.js"></script>
+    <script src="js/discal.js"></script>
 
 </head>
+<script>
+$(function () {  
+    var currentTime = new Date();
+    //set the date
+    $("#currentDate").html(getCurrentDate());
+    console.log(sessionStorage.userId);
+    console.log(sessionStorage.vendedor);
+    $("#welcome").html("Bienvenido(a): " + sessionStorage.nombreVendedor + " " +  sessionStorage.apellidosVendedor);
+    //TODO: set the clients assigned
+    //TODO: set the zones
+    //TODO: set the 
 
+    console.log(currentTime);
+});
+</script>
 <body>
     <!-- menu var -->
     <nav class="navbar navbar-inverse">
@@ -53,11 +68,67 @@
                         </ul>
                     </li>
                     <li><a href="configuracion.html">Configuracion</a></li>
+                    <li><a href="logout.html">Logout</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
-    <script type="text/javascript" src="cordova.js"></script>
+
+<div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="alert alert-info" role="alert" id="welcome">
+                    
+                  </div>
+            </div>    
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="panel panel-primary">
+                        <div class="panel-heading" style="height: 20px;padding:0; text-align: center">Fecha</div>                        
+                        <div class="panel-body">      
+                            <div class="card text-white bg-primary">
+                                    <div class="card-body" id="currentDate"> 
+                                        12
+                                    </div>
+                                </div>        
+                        </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="panel panel-success">
+                        <div class="panel-heading" style="height: 20px;padding:0; text-align: center">Pedidos Hoy</div>                        
+                        <div class="panel-body">
+                            <div class="card text-white bg-success">
+                                <div class="card-body" style="height: 50px;">                                  
+                                  12
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="panel-footer"><button class="btn btn-xs btn-success"> Go</button></div>
+                </div>
+            </div>
+        </div>        
+        <div class="row">
+                <div class="col-xs-6">
+                    <div class="panel panel-info">
+                            <div class="panel-heading" style="height: 20px;padding:0; text-align: center">Clientes</div>                        
+                            <div class="panel-body" style="height: 50px;">
+                                10
+                            </div>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="panel panel-danger">
+                            <div class="panel-heading" style="height: 20px;padding:0; text-align: center">Zonas</div>
+                            <div class="panel-body" style="height: 50px;">
+                                12
+                            </div>
+                    </div>
+                </div>
+            </div>                    
+</div>
+    <!-- <script type="text/javascript" src="cordova.js"></script> -->
     <script type="text/javascript" src="js/index.js"></script>
 </body>
 

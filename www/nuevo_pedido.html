@@ -54,6 +54,7 @@
     <script src="js/bootstrap-select.min.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/dataTables.bootstrap.min.js"></script>    
+    <script src="js/discal.js"></script>    
 
 </head>
 <script type="text/javascript">
@@ -106,29 +107,51 @@
             console.log(element);                  
             detailTable.row.add([  
             '<div class= "card" onClick="showProductName('+ element +')"><a class="test" data-toggle="tooltip" data-placement="right" title="'+ productsArray[element] +'" id="prodId'+element+'"><p class="ellipsis">' + productsArray[element] + '</p></a><div>',
-            '<div class="form-group"><input type="number" class="form-control input-sm" name="mail' + counter + '" value="' + '"/></div>',
-            '<span class="label label-success fontD">' + productsObjectArray[element].stock +'</span>',
-            '<span class="label label-info fontD">' + productsObjectArray[element].precioUnitario +'</span>',
-            '<span class="label label-info" fontD id="precioTotal"></span>',
+            '<div class="form-group"><input type="number" class="form-control input-sm" id="cant_' + element + '" value="' + '"/></div>',
+            '<span class="label label-success fontD">' + productsObjectArray[element].cantidad +'</span>',
+            '<span class="label label-info fontD" id="pu_'+ element+ '">' + productsObjectArray[element].precioUnitario +'</span>',
+            '<div class="form-group"><input type="number" class="form-control input-sm" disabled id="pt_' + element + '" value="' + '"/></div>',
             '<td><button type="button" class="btn btn-labeled btn-danger btn-xs ibtnDel"><span class="btn-label"><i class="glyphicon glyphicon-remove"></i></span></button>',
             ]).draw();
-            console.log(productsObjectArray[element].stock);
+            console.log(productsObjectArray[element].cantidad);
+            console.log(productsObjectArray[element].precioUnitario);
 
             // newRow.append(cols);
             // detailTable.append(newRow);            
             counter++;
-        });                
+            // $('#cant_' + element).bind('input', function() {
+            //     console.log(document.getElementById('pu_'+ element).innerHTML);
+            //     total = $('#cant_'+element).val() * $('#pu_'+ element).val();
+            //     $('#pt'+element).val(total);
+            //     // calcularTotal(productIds);
+            // }); 
+        });      
+        dataProduct.forEach(idProd => {                
+            $('#cant_'+idProd).bind('input', function() {                        
+                console.log(document.getElementById('pu_'+idProd).innerHTML);
+                total = $('#cant_'+idProd).val() * document.getElementById('pu_'+idProd).innerHTML; //$('#pu_'+idProd).val();
+                console.log(total);
+                $('#pt_'+idProd).val(total);
+                
+                $('#precioTotal').val(total);
+            });                    
+        });                  
     }
     function fillClientes() {
+        var client_options = {
+            idVendedor : 5,
+            idUser : 5
+        }
         $.ajax({
-            url: "json/clientes.json",
+            url: baseUrl + "api/discal/cliente/vendedor/1",
+            data: client_options,
             dataType: "json",
             success: function (json) {
 
                 var options = '';
                 for (var x = 0; x < json.length; x++) {
-                    options += '<option value="' + json[x].codigoCliente + '" ' + 'data-subtext="' + json[x].codigoCliente + '">' + json[x].nombres + ' ' + json[x].apellidos + ", " + json[x].razonSocial + '</option>';
-                    var key = json[x].codigoCliente;
+                    options += '<option value="' + json[x].idCliente + '" ' + 'data-subtext="' + json[x].codigoCliente + '">' + json[x].nombres + ' ' + json[x].apellidos + ", " + json[x].razonSocial + '</option>';
+                    var key = json[x].idCliente;
                     clientesArray[key] = json[x];
                 }
 
@@ -142,16 +165,16 @@
     }
     function fillProductos() {
         $.ajax({
-            url: "json/productos.json",
+            url: baseUrl + "api/discal/producto",
             dataType: "json",            
             success: function (json) {
                 var options = '';
                 for (var x = 0; x < json.length; x++) {
-                    options += '<option value="' + json[x].codigoExterno + '" ' + 'data-subtext="' + json[x].codigoExterno + '">' + json[x].descripcion + '</option>';
-                    var key = json[x].codigoExterno;
+                    options += '<option value="' + json[x].idProducto + '" ' + 'data-subtext="' + json[x].codigoExterno + '">' + json[x].descripcion + '</option>';
+                    var key = json[x].idProducto;
                     productsArray[key] = json[x].descripcion;
                     productsObjectArray[key] = json[x];
-                }
+                }                
 
                 $('#productos').html(options);
                 $('#productos').selectpicker('refresh');
@@ -163,7 +186,7 @@
     }
     function selectCliente() {
         current = $('#clientes').val();
-        console.log(current);
+        console.log(current);        
         $('#razonSocialMessage').html('<b>' + clientesArray[current].razonSocial + '</b>');
         $('#nitMessage').html('<b>' + clientesArray[current].nit + '</b>');
         $('#codigoClienteMessage').html('<b>' + clientesArray[current].codigoCliente + '</b>');
@@ -173,6 +196,33 @@
         $('#codigoClienteMessage').show();
         $('#direccionMessage').show();
     }    
+    function register() {
+       $("#clientes").val();
+       console.log(sessionStorage.userId);
+       var order_options = {
+           idCliente : $("#clientes").val(),
+           idUser: sessionStorage.userId,
+           fecha: getCurrentDate(),
+           tipo_pedido: "CONTADO",
+           descuento: 0,
+           idVendedor: sessionStorage.idVendedor,
+           detalle: "",
+       }
+       console.log(order_options);       
+       console.log(getCurrentDate());
+       $.ajax({
+            url: baseUrl + "api/discal/pedido",
+            dataType: "json",           
+            type: "post",
+            data: order_options, 
+            success: function (json) {                
+                console.log(json);
+            },
+            error: function () {
+                console.log("Error on create pedido");
+            }
+        });
+    }
 </script>
 <body>        
     <!-- menu var -->
@@ -206,20 +256,21 @@
                     </ul>
                   </li>
                   <li><a href="configuracion.html">Configuracion</a></li>
+                  <li><a href="logout.html">Logout</a></li>
                 </ul>                
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
           </nav>
-<div class="panel panel-primary">
+<div class="panel panel-primary" style="width:100% !important;">
     <div class="panel-heading">Nuevo Pedido</div>
     <!-- Default panel contents -->                        
     <div class="panel-body">                
             <div class="row">
-                <div class="col-xs-12">
-                    <div class="form-group">                        
+                <div class="col-xs-11">
+                    <div class="form-group">
                         <div class="input-group">
                             <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-user orange"><label class="fontD">Cliente</label></span>
+                                <span class="glyphicon glyphicon-user orange"></span>
                             </span>
                             <select id="clientes" onchange="selectCliente()" class="selectpicker" data-live-search="true"
                                 data-style="btn-warning" title="Elija un cliente..." data-width="100px">
@@ -249,7 +300,7 @@
                     <div class="form-group">                        
                         <div class="input-group">
                             <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-shopping-cart orange"><label class="fontD"> Producto</label></span>
+                                <span class="glyphicon glyphicon-shopping-cart orange"></span>
                             </span>
                             <select id="productos" onchange="addRowTable()" class="selectpicker" data-live-search="true"
                                 data-style="btn-warning" title="Elija un producto..." data-width="100px" multiple
@@ -269,11 +320,11 @@
                         <table class="table" id="table_pedidos">
                             <thead>
                                 <tr>
-                                    <th style="width:45%">Articulo</th>
+                                    <th style="width:35%">Articulo</th>
                                     <th style="width:20%">Cant.</th>
                                     <th style="width:10%">St.</th>
                                     <th style="width:10%">P.U.</th>
-                                    <th style="width:10%">P.T</th>
+                                    <th style="width:20%">P.T</th>
                                     <th style="width:5%">X</th>
                                 </tr>
                             </thead>
@@ -288,9 +339,12 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="form-group">
-                        <label id="total">Total</label>
+                        <label id="total">Total: </label>
+                        <div class="form-group">
+                            <input type="number" class="form-control input-sm alert-info" disabled id="precioTotal"/>
+                        </div>
                         <div class="input-group">
-                            <a class="btn btn-success btn-xs" href="#" role="button"><span class="glyphicon glyphicon-ok"></span>
+                            <a class="btn btn-success btn-xs" href="#" onclick="register()" role="button"><span class="glyphicon glyphicon-ok"></span>
                                 Registrar</a>
                                 
                         </div>
