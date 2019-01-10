@@ -87,8 +87,8 @@ hr.message-inner-separator
     function do_login()
     {
         waitingDialog.show('Login please wait...', {dialogSize: 'xs', progressType: 'warning'});
-        var username=$("#username").val();
-        var pass=$("#password").val();
+        var username = $("#username").val() + "@discald.com";
+        var pass = $("#password").val();
         if(username!="" && pass!="")
         {
             $("#spinner").show();
