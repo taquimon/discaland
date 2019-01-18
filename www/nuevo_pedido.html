@@ -108,9 +108,9 @@
             // console.log(element);                  
             detailTable.row.add([  
             '<div class= "card" onClick="showProductName('+ element +')"><a class="test" data-toggle="tooltip" data-placement="right" title="'+ productsArray[element] +'" id="prodId'+element+'"><p class="ellipsis">' + productsArray[element] + '</p></a><div>',
-            '<div class="form-group"><input type="number" class="form-control input-sm" id="cant_' + element + '" oninput="cantidadKeys('+ element+')" style="padding:0;"/></div>',
+            '<div class="form-group"><input type="number" class="form-control input-sm" name="cantidad'+element +'" id="cant_' + element + '" oninput="cantidadKeys('+ element+')" style="padding:0;"/></div>',
             '<span class="label label-success fontD">' + productsObjectArray[element].cantidad +'</span>',
-            '<span class="label label-info fontD" id="pu_'+ element+ '">' + productsObjectArray[element].precioUnitario +'</span>',
+            '<div class="form-group"><input type="number" class="form-control input-sm" name="precioUnitario'+ element +'" id="pu_'+ element+ '" value="' + productsObjectArray[element].precioUnitario +'" style="padding:0;"/></div>',
             '<div class="form-group"><input type="number" class="form-control input-sm" disabled id="pt_' + element + '" style="padding:0;" /></div>',
             '<td><button type="button" class="btn btn-labeled btn-danger btn-xs ibtnDel"><span class="btn-label"><i class="glyphicon glyphicon-remove"></i></span></button>',
             ]).draw();
@@ -182,10 +182,10 @@
     function to register pedido
     */
     function register() {
-        detailTable = $("#table_pedidos").DataTable();
-        console.log(detailTable);
+        detailTable = $("#table_pedidos").DataTable();        
         console.log(sessionStorage.userId);
         var dataDetail = detailTable.$("input").serializeArray();
+        console.log(dataDetail);
        
         detalle = {
            
@@ -197,7 +197,7 @@
            tipo_pedido: "CONTADO",
            descuento: 0,
            idVendedor: sessionStorage.idVendedor,
-           detalle: "",
+           detalle: JSON.stringify(dataDetail),
        }
        console.log(order_options);       
        console.log(getCurrentDate());
@@ -216,8 +216,8 @@
     }   
     
     function cantidadKeys(element){                 
-        console.log(document.getElementById("pu_" + element).innerHTML);
-        total = $("#cant_" + element).val() * document.getElementById('pu_'+element).innerHTML; //$('#pu_'+idProd).val();
+        
+        total = $("#cant_" + element).val() * $('#pu_' + element).val(); //$('#pu_'+idProd).val();
         console.log(total);
         total = total.toString().match(/^-?\d+(?:\.\d{0,2})?/)[0];
         $('#pt_'+element).val(total);
@@ -331,7 +331,7 @@
                         <!-- Default panel contents -->                        
                         <div class="panel-body" style="overflow-y: scroll;height: 200px;">
                         <!-- Table -->
-
+                        <form id="form1">
                         <table class="table table-striped table-bordered bootstrap-datatable datatable" id="table_pedidos">
                             <thead>
                                 <tr>
@@ -346,6 +346,7 @@
                             <tbody>                                
                             </tbody>
                         </table>
+                        </form>
                         </div>
                     </div>
                 </div>
