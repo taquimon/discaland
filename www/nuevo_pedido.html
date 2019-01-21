@@ -55,6 +55,7 @@
     <script src="js/bootstrap-select.min.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/dataTables.bootstrap.min.js"></script>    
+    <script src="js/bootstrap-notify.min.js"></script>
     <script src="js/discal.js"></script>    
 
 </head>
@@ -108,11 +109,11 @@
             // console.log(element);                  
             detailTable.row.add([  
             '<div class= "card" onClick="showProductName('+ element +')"><a class="test" data-toggle="tooltip" data-placement="right" title="'+ productsArray[element] +'" id="prodId'+element+'"><p class="ellipsis">' + productsArray[element] + '</p></a><div>',
-            '<div class="form-group"><input type="number" class="form-control input-sm" name="cantidad'+element +'" id="cant_' + element + '" oninput="cantidadKeys('+ element+')" style="padding:0;"/></div>',
             '<span class="label label-success fontD">' + productsObjectArray[element].cantidad +'</span>',
-            '<div class="form-group"><input type="number" class="form-control input-sm" name="precioUnitario'+ element +'" id="pu_'+ element+ '" value="' + productsObjectArray[element].precioUnitario +'" style="padding:0;"/></div>',
-            '<div class="form-group"><input type="number" class="form-control input-sm" disabled id="pt_' + element + '" style="padding:0;" /></div>',
-            '<td><button type="button" class="btn btn-labeled btn-danger btn-xs ibtnDel"><span class="btn-label"><i class="glyphicon glyphicon-remove"></i></span></button>',
+            '<div class="input-group"><input type="number" class="form-control input-sm" name="cantidad'+element +'" id="cantidad' + element + '" oninput="cantidadKeys('+ element+')" style="padding:0;"></div>',            
+            '<div class="input-group"><input type="number" class="form-control input-sm" name="precioUnitario'+ element +'" id="precioUnitario'+ element+ '" value="' + productsObjectArray[element].precioUnitario +'" style="padding:0;" readonly></div>',
+            '<div class="input-group"><input type="number" class="form-control input-sm" name="precioTotal'+ element +'" disabled id="pt_' + element + '" style="padding:0;"></div>',
+            '<button type="button" class="btn btn-labeled btn-danger btn-xs ibtnDel"><span class="btn-label"><i class="glyphicon glyphicon-remove"></i></span></button>',
             ]).draw();
             // console.log(productsObjectArray[element].cantidad);
             // console.log(productsObjectArray[element].precioUnitario);
@@ -186,16 +187,13 @@
         console.log(sessionStorage.userId);
         var dataDetail = detailTable.$("input").serializeArray();
         console.log(dataDetail);
-       
-        detalle = {
-           
-           }
-       var order_options = {
+        var order_options = {
            idCliente : $("#clientes").val(),
            idUser: sessionStorage.userId,
            fecha: getCurrentDate(),
            tipo_pedido: "CONTADO",
            descuento: 0,
+           productos: $("#productos").val(),
            idVendedor: sessionStorage.idVendedor,
            detalle: JSON.stringify(dataDetail),
        }
@@ -206,18 +204,38 @@
             dataType: "json",           
             type: "post",
             data: order_options, 
-            success: function (json) {                
-                console.log(json);
+            success: function (json) {                                
+                $.notify({
+                    // options
+                    message: json.message
+                },{
+                    // settings
+                    type: 'success',
+                    placement: {
+                        from: "top",
+                        align: "center"
+                    },
+                });
             },
             error: function () {
-                console.log("Error on create pedido");
+                $.notify({
+                    // options
+                    message: "Error al crear pedido"
+                },{
+                    // settings
+                    type: 'danger',
+                    placement: {
+                        from: "top",
+                        align: "center"
+                    },
+                });
             }
         });
     }   
     
     function cantidadKeys(element){                 
         
-        total = $("#cant_" + element).val() * $('#pu_' + element).val(); //$('#pu_'+idProd).val();
+        total = $("#cantidad" + element).val() * $('#precioUnitario' + element).val(); //$('#pu_'+idProd).val();
         console.log(total);
         total = total.toString().match(/^-?\d+(?:\.\d{0,2})?/)[0];
         $('#pt_'+element).val(total);
@@ -336,8 +354,8 @@
                             <thead>
                                 <tr>
                                     <th style="width:35%">Articulo</th>
-                                    <th style="width:20%">Cant.</th>
                                     <th style="width:10%">St.</th>
+                                    <th style="width:20%">Cant.</th>
                                     <th style="width:10%">P.U.</th>
                                     <th style="width:20%">P.T</th>
                                     <th style="width:5%">X</th>
