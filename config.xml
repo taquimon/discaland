@@ -8,7 +8,7 @@
         Edwin Taquichiri
     </author>
     <preference name="Fullscreen" value="false" />
-    <content src="nuevo_pedido.html" />
+    <content src="login.html" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
     <access origin="*" />

@@ -1,5 +1,5 @@
 var baseUrl = 'http://discald.com/provider/'
-//var baseUrl = 'http://provider.local/'
+// var baseUrl = 'http://provider.local/'
 
 function getCurrentDate() {
     var d = new Date();

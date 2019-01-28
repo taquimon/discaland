@@ -23,6 +23,13 @@
     <script>
       $(function() {
           // fill clientes
+        console.log(sessionStorage.userId);
+        console.log(sessionStorage.idVendedor);
+        var clientOptions = {
+            idVendedor : sessionStorage.idVendedor,
+            idUser : sessionStorage.userId,
+            dataFlag: true
+        }
         $("#table_clientes").DataTable({
             destroy: true,
             info: false,            
@@ -30,8 +37,9 @@
             bLengthChange: false,
             ajax: 
                  {
-                url: baseUrl + "api/discal/cliente",
-                dataSrc: 'data',                
+                    url: baseUrl + "api/discal/cliente/vendedor/1",
+                    data: clientOptions,                                    
+                    dataSrc: 'data'
             }, 
             "columns": [
                 { "data": "idCliente", sDefaultContent: "" },                            

@@ -29,7 +29,46 @@
                     format: 'YYYY-MM-DD',
                     locale: 'es',
                 });
+
+                console.log(sessionStorage.userId);
+                console.log(sessionStorage.idVendedor);
+                var clientOptions = {
+                    idVendedor : sessionStorage.idVendedor,
+                    idUser : sessionStorage.userId,
+                    fecha : $("#datetimepicker1").data('date'),
+                    dataFlag: true
+                }
+                $("#table_pedidos").DataTable({                    
+                    destroy: true,
+                    info: false,            
+                    paging: false,
+                    bLengthChange: false,
+                    // serverSide: true,
+                    ajax: 
+                        {
+                            url: baseUrl + "api/discal/pedido/vendedor/1",                            
+                            data: function(d) {
+                                d.idVendedor = sessionStorage.idVendedor;
+                                d.idUser =  sessionStorage.userId;
+                                d.fecha = $("#datetimepicker1").data('date');
+                                d.dataFlag = true;
+                            },
+                            dataSrc: 'data'
+                    }, 
+                    "columns": [
+                        { "data": "numPedido", sDefaultContent: "" },                            
+                        { "data": "fecha" , sDefaultContent: ""},
+                        { "data": "codigoCliente" , sDefaultContent: ""},
+                        { "data": "razonSocial" , sDefaultContent: ""},
+                    ],
+                    paging: true,
+                });
             });
+            function verPedido() {
+                 var urlReload = baseUrl + "api/discal/pedido/vendedor/1";
+                $("#table_pedidos").DataTable().ajax.url(urlReload);
+                $("#table_pedidos").DataTable().ajax.reload();
+            }
     </script>
 </head>
 
@@ -97,9 +136,10 @@
                 <table class="table table-striped table-bordered bootstrap-datatable datatable" id="table_pedidos">
                     <thead>
                         <tr>
-                            <th style="width:30%">Id</th>
-                            <th style="width:40%">Cliente</th>
-                            <th style="width:30%">Vendedor</th>                            
+                            <th style="width:20%">IdPedido</th>
+                            <th style="width:30%">Fecha</th>
+                            <th style="width:18%">Cod. Cliente</th>
+                            <th style="width:32%">Razon Social</th>
                         </tr>
                     </thead>
                     <tbody>                                
