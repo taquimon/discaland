@@ -27,9 +27,11 @@
             $(function() {
                 $('#datetimepicker1').datetimepicker({
                     format: 'YYYY-MM-DD',
+                    defaultDate: Date(),
                     locale: 'es',
                 });
-
+                $('#datetimepicker1').val(Date());
+                var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024); 
                 console.log(sessionStorage.userId);
                 console.log(sessionStorage.idVendedor);
                 var clientOptions = {

@@ -64,6 +64,8 @@
     var counter = 0;
     var detailTable;
     var dataProduct = [];
+    var prodDialog;
+    var table;
     $(function () {    
         console.log("init pedidos page");
 
@@ -112,8 +114,7 @@
             '<div class="input-group"><input type="number" class="form-control input-sm" name="precioTotal'+ element +'" disabled id="pt_' + element + '" style="padding:0;"></div>',
             '<button type="button" class="btn btn-labeled btn-danger btn-xs ibtnDel"><span class="btn-label"><i class="glyphicon glyphicon-remove"></i></span></button>',
             ]).draw();
-            // console.log(productsObjectArray[element].cantidad);
-            // console.log(productsObjectArray[element].precioUnitario);
+            
             counter++;                        
         }              
     }
@@ -145,15 +146,16 @@
     }
     function fillProductos() {
         $.ajax({
-            url: baseUrl + "api/discal/producto",
-            dataType: "json",            
+            url: "json/productos.json",
+            dataType: "json",                        
             success: function (json) {
                 var options = '';
-                for (var x = 0; x < json.length; x++) {
-                    options += '<option value="' + json[x].idProducto + '" ' + 'data-subtext="' + json[x].codigoExterno + '">' + json[x].descripcion + '</option>';
-                    var key = json[x].idProducto;
-                    productsArray[key] = json[x].descripcion;
-                    productsObjectArray[key] = json[x];
+                console.log(json.data);
+                for (var x = 0; x < json.data.length; x++) {
+                    options += '<option value="' + json.data[x].idProducto + '" ' + 'data-subtext="' + json.data[x].codigoExterno + '">' + json.data[x].descripcion + '</option>';
+                    var key = json.data[x].idProducto;
+                    productsArray[key] = json.data[x].descripcion;
+                    productsObjectArray[key] = json.data[x];
                 }                
 
                 $('#productos').html(options);
@@ -175,7 +177,45 @@
         $('#nitMessage').show();
         $('#codigoClienteMessage').show();
         $('#direccionMessage').show();
-    }    
+    } 
+    function testDB(jsonPedido) {
+        var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024); 
+        var msg;
+        db.transaction(function (tx) { 
+            var cd = getCurrentDate();
+            console.log(jsonPedido);
+            tx.executeSql('CREATE TABLE IF NOT EXISTS PEDIDOS (id INTEGER PRIMARY KEY, json, fecha)'); 
+            tx.executeSql('INSERT INTO PEDIDOS (json, fecha) VALUES (?,?)', [JSON.stringify(jsonPedido) , cd]);
+            msg = '<p>Pedido creado correctamente.</p>';             
+            $.notify({
+                // options
+                message: msg
+            },{
+                // settings
+                type: 'success',
+                placement: {
+                    from: "top",
+                    align: "center"
+                },
+            });
+            // setTimeout(function () {
+            //     window.location.href = "registrado.html"; 
+            // }, 3000); 
+         })    
+
+         db.transaction(function (tx) { 
+            tx.executeSql('SELECT * FROM PEDIDOS', [], function (tx, results) { 
+               var len = results.rows.length, i; 
+               msg = "<p>Found rows: " + len + "</p>"; 
+               document.querySelector('#status').innerHTML +=  msg; 
+      
+               for (i = 0; i < len; i++) { 
+                  msg = "<p><b>" + results.rows.item(i).id + " - " +results.rows.item(i).jsonPedido + "</b></p>"; 
+                  document.querySelector('#status').innerHTML +=  msg; 
+               } 
+            }, null); 
+         }); 
+    }   
     /*
     function to register pedido
     */
@@ -201,41 +241,42 @@
        }
        console.log(order_options);       
        console.log(getCurrentDate());
-       $.ajax({
-            url: baseUrl + "api/discal/pedido",
-            dataType: "json",           
-            type: "post",
-            data: order_options, 
-            success: function (json) {                                
-                $.notify({
-                    // options
-                    message: json.message
-                },{
-                    // settings
-                    type: 'success',
-                    placement: {
-                        from: "top",
-                        align: "center"
-                    },
-                });
-                setTimeout(function () {
-                    window.location.href = "registrado.html"; 
-                }, 3000); 
-            },
-            error: function () {
-                $.notify({
-                    // options
-                    message: "Error al crear pedido"
-                },{
-                    // settings
-                    type: 'danger',
-                    placement: {
-                        from: "top",
-                        align: "center"
-                    },
-                });
-            }
-        });
+       testDB(order_options);
+    //    $.ajax({
+    //         url: "json/register.json",
+    //         dataType: "json",           
+    //         type: "post",
+    //         data: order_options, 
+    //         success: function (json) {                                
+    //             $.notify({
+    //                 // options
+    //                 message: json.message
+    //             },{
+    //                 // settings
+    //                 type: 'success',
+    //                 placement: {
+    //                     from: "top",
+    //                     align: "center"
+    //                 },
+    //             });
+    //             setTimeout(function () {
+    //                 window.location.href = "registrado.html"; 
+    //             }, 3000); 
+    //         },
+    //         error: function () {
+    //             $.notify({
+    //                 // options
+    //                 message: "Error al crear pedido"
+    //             },{
+    //                 // settings
+    //                 type: 'danger',
+    //                 placement: {
+    //                     from: "top",
+    //                     align: "center"
+    //                 },
+    //             });
+    //         }
+    //     });
     }   
     
     function cantidadKeys(element){                 
@@ -263,15 +304,18 @@
     }
 
     function loadProducts() {
-        var table;
-        var $content = $(' <div class="panel panel-success">' +                         
+        
+        var $content = $('<div class="panel panel-success" style="overflow-y: scroll;height: 300px;">' +                         
                          '<div class="panel-body" style="overflow-y: scroll;height: 500px;">' +
+                         '<a class="btn btn-success btn-xs" href="#" onclick="closeDialogProducts()" role="button"><span class="glyphicon glyphicon-ok"></span>Aceptar</a> ' +
+                         '<a class="btn btn-danger btn-xs" href="#" onclick="closeDialog()" role="button"><span class="glyphicon glyphicon-close"></span>Cerrar</a>' +
                          '<table class="table table-striped table-bordered bootstrap-datatable datatable responsive" id="table_productos">' +
                             '<thead>' +
                             '<tr>'+
                                 '<th style="width:10%"></th>'+                                
                                 '<th style="width:20%">Codigo Externo</th>' + 
-                                '<th style="width:60%">Descripcion</th>' + 
+                                '<th style="width:50%">Descripcion</th>' + 
+                                '<th style="width:10%">PU</th>' + 
                             '</tr>' +
                         '</thead>' +
                         '<tbody>' +
@@ -288,11 +332,15 @@
                 // $content.append('<tr><td>U.Venta</td><td>'+ dataProduct[id].unidadVenta+'</td></tr>');
                 // $content.append('<tr><td># Unidades</td><td>'+ dataProduct[id].numeroUnidades+'</td></tr>');
                 // $content.append('<tr><td>Precio Unitario</td><td>'+ dataProduct[id].precioUnitario+'</td></tr>');
-        BootstrapDialog.show({
+        prodDialog = BootstrapDialog.show({
             
                     title: 'Productos',
                     message: $content,
-                    onshown: function(){                           
+                    onshown: function(){       
+                        $('[data-toggle="tooltip"]').tooltip({
+                            trigger: 'click',
+                            delay: { "show": 500, "hide": 100 },
+                        });                    
                         table = $('#table_productos').DataTable({
                             destroy: true,
                             info: false,            
@@ -300,7 +348,7 @@
                             bLengthChange: false,
                             ajax: 
                                 {
-                                url: baseUrl + "api/discal/producto/getAjaxListProducts/1",
+                                url: "json/productos.json",
                                 dataSrc: 'data',
                                 // headers: {
                                 //     "X-API-KEY":"12345abcde"                    
@@ -309,33 +357,41 @@
                             'columnDefs': [
                                 {
                                     'targets': 0,
-                                    'checkboxes': true
+                                    'checkboxes': true,                                    
+                                },
+                                {
+                                    'targets': 2,
+                                    "render": function ( data, type, row ) {
+                                        return '<div class= "card" onClick="showProductName('+ row.idProducto+ ')"><a class="test" data-toggle="tooltip" data-placement="top" title="'+ data +'" id="prodId'+row.idProducto+'"><p class="ellipsis">' + data + '</p></a></div>';
+                                    }
                                 }
-                            ],
+                            ],                            
                             "columns": [
                                 { "data": "idProducto", sDefaultContent: "" },
                                 { "data": "codigoExterno", sDefaultContent: "" },
-                                { "data": "options" , sDefaultContent: ""},
+                                { "data": "descripcion", sDefaultContent: ""},
+                                { "data": "precioUnitario" , sDefaultContent: ""},
                             ],
                             paging: true,
 
                         });
-                    },
-                    buttons: [{
-                        icon: 'glyphicon glyphicon-check',
-                        label: 'Aceptar',
-                        title: 'Aceptar',                        
-                        cssClass: 'btn-primary btn-xs',
-                        action: function(dialogRef){
-                            var rows_selected = table.column(0).checkboxes.selected();
-                            // Iterate over all selected checkboxes
-                            $.each(rows_selected, function(index, rowId){
-                                // Create a hidden element
-                                addRowTable(rows_selected);                                
-                                console.log(rowId);
-                                dialogRef.close();
-                            });
-                            }
+                    }
+                    // ,
+                    // buttons: [{
+                    //     icon: 'glyphicon glyphicon-check',
+                    //     label: 'Aceptar',
+                    //     title: 'Aceptar',                        
+                    //     cssClass: 'btn-primary btn-xs',
+                    //     action: function(dialogRef){
+                    //         var rows_selected = table.column(0).checkboxes.selected();
+                    //         // Iterate over all selected checkboxes
+                    //         $.each(rows_selected, function(index, rowId){
+                    //             // Create a hidden element
+                    //             addRowTable(rows_selected);                                
+                    //             console.log(rowId);
+                    //             dialogRef.close();
+                    //         });
+                    //         }
                     //         $.ajax({
                     //             url: "<?=site_url('producto/jsonGuardarProducto')?>",
                     //             dataType: "json",
@@ -366,17 +422,31 @@
                     //             }
                     //         });
                     //     }
-                        }, {
-                        icon: 'glyphicon glyphicon-ban-circle',
-                        label: 'Cerrar',
-                        title: 'Cerrar',
-                        cssClass: 'btn-warning btn-xs',
-                        action: function(dialogItself){
-                            dialogItself.close();
-                        }
-                    }]
+                        // }, {
+                        // icon: 'glyphicon glyphicon-ban-circle',
+                        // label: 'Cerrar',
+                        // title: 'Cerrar',
+                        // cssClass: 'btn-warning btn-xs',
+                        // action: function(dialogItself){
+                        //     dialogItself.close();
+                        // }
+                    // }]
                 });             
     }
+    function closeDialog() {
+        prodDialog.close();
+    }
+    function closeDialogProducts() {
+        var rows_selected = table.column(0).checkboxes.selected();
+            // Iterate over all selected checkboxes
+            $.each(rows_selected, function(index, rowId){
+                // Create a hidden element
+                addRowTable(rows_selected);                                
+                console.log(rowId);
+                prodDialog.close();
+            });
+    }
+    
 
 </script>
 <body>        
@@ -510,5 +580,5 @@
             </div>
         </div>    
 </body>
-
+<div id = "status" name = "status">Status Message</div> 
 </html>
