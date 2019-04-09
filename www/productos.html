@@ -31,7 +31,7 @@ td {
     $(function () {            
         console.log("loading product");
         $.ajax({
-            url: baseUrl + "api/discal/producto/getAjaxListProducts/1",
+            url: "json/productos.json",
             // headers: {
             //     "X-API-KEY":"12345abcde"                
             // },
@@ -56,7 +56,7 @@ td {
             bLengthChange: false,
             ajax: 
                  {
-                url: baseUrl + "api/discal/producto/getAjaxListProducts/1",
+                url: "json/productos.json",
                 dataSrc: 'data',
                 // headers: {
                 //     "X-API-KEY":"12345abcde"                    
@@ -64,8 +64,16 @@ td {
             }, 
             "columns": [
                 { "data": "codigoExterno", sDefaultContent: "" },                            
-                { "data": "options" , sDefaultContent: ""},
+                { "data": "descripcion" , sDefaultContent: ""},
             ],
+            'columnDefs': [                
+                {
+                    'targets': 1,
+                    "render": function ( data, type, row ) {
+                        return '<a href="#" onClick="editProduct('+ row.idProducto+ ')"><p class="ellipsis">' + data + '</p></a>';
+                    }
+                }
+            ],                  
             paging: true,
         });
 
