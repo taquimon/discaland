@@ -179,7 +179,7 @@
         $('#direccionMessage').show();
     } 
     function testDB(jsonPedido) {
-        var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024); 
+        var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024); 
         var msg;
         db.transaction(function (tx) { 
             var cd = getCurrentDate();

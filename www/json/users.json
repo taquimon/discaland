@@ -1,0 +1,15 @@
+[
+	{
+		"idUser" : "1",
+		"user" : "cjimenez",
+		"password" : "discal123!",
+		"email" : "cjimenez@discald.com"
+    },
+    {
+		"idUser" : "2",
+		"user" : "ptaquichiri",
+		"password" : "discal123!",
+		"email" : "ptaquichiri@discald.com"
+    }
+]
+    

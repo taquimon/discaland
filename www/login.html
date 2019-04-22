@@ -86,29 +86,42 @@ hr.message-inner-separator
     var userId = 0;
     function do_login()
     {
+        
         waitingDialog.show('Login please wait...', {dialogSize: 'xs', progressType: 'warning'});
-        var username = $("#username").val() + "@discald.com";
+        var username = $("#username").val(); //+ "@discald.com";
         var pass = $("#password").val();
         if(username!="" && pass!="")
         {
-            $("#spinner").show();
+            $("#spinner").show();            
+            //  if (getUser(username) == true) {
+            //      window.location.href="index.html";
+            //  }
+            //  else {
+            //     $("#error_container").show();
+            //     waitingDialog.hide();
+            //  }
             $.ajax({
                 type:'get',
-                url: baseUrl + 'api/discal/user/login/1',
+                url: 'json/users.json',
                 data:{                  
                     username: username,
                     password: pass
                 },
-                success: function(response) {                    
-                    waitingDialog.hide();
+                success: function(response) {                                        
                     console.log(response);
-                    if(response.login == true) {
-                        sessionStorage.userId = response.dataUser.user_id;
-                        sessionStorage.idVendedor = response.dataVendedor.idVendedor;
-                        sessionStorage.nombreVendedor = response.dataVendedor.nombres;
-                        sessionStorage.apellidosVendedor = response.dataVendedor.apellidos;
-                        window.location.href="index.html";
-                    }                    
+                    for(var i = 0; i<response.length; i++) {
+                        if(response[i].user == username && response[i].password == pass)
+                        {
+                            console.log(response[i].password)
+                            waitingDialog.hide();
+                            sessionStorage.userId = response[i].idUser;
+                            sessionStorage.idVendedor = response[i].idUser;
+                            sessionStorage.nombreVendedor = response[i].user;
+                            window.location.href="index.html";
+                        }    
+                    }       
+                    $("#error_container").show();
+                    waitingDialog.hide();                                                     
                 },
                 error: function (xhr, status) {
                     console.log(xhr);
@@ -121,6 +134,49 @@ hr.message-inner-separator
             alert("Please Fill All The Details");
         }
         return false;
+    }
+    // fill users
+    // function setupUsers()
+    // {
+    //     var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);                 
+
+    //     db.transaction(function(tx) {
+    //         //create table
+    //         tx.executeSql("CREATE TABLE IF NOT EXISTS users (id integer primary key, user text, password text)");
+    //             //insert data
+    //             tx.executeSql("INSERT INTO users (user, password) VALUES (?,?)", ["cjimenez", "discal123!"]);
+
+    //     }, function(err){
+
+    //         //errors for all transactions are reported here
+    //         alert("Error: " + err.message)
+
+    //     });
+    // }
+    function getUser(username) {
+        var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);                 
+        var user = false;
+
+        $.ajax({
+                type:'get',
+                url: 'json/users',
+                data:{                  
+                    username: username,
+                    password: pass
+                },
+                success: function(response) {                    
+                    waitingDialog.hide();
+                    console.log();                    
+                                        
+                },
+                error: function (xhr, status) {
+                    console.log(xhr);
+                    console.log(status);
+                    $("#error_container").show();
+                    waitingDialog.hide();
+                },
+        });
+        return user;
     }
 </script>
 </head>
