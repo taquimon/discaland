@@ -37,12 +37,28 @@
     </script>
     <script type="text/javascript">
         
-            $(function() {
+            $(function() {               
                 
                 $('#datetimepicker1').datetimepicker({
                     format: 'YYYY-MM-DD',
                     defaultDate: Date(),
                     locale: 'es',
+                });
+                $("#table_pedidos").on("click", ".ibtnReg", function (event) {
+                    console.log( $( this ).attr('id') );
+                    idPedido = $( this ).attr('id')
+                    var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);         
+                    //select Pedidos and sent to register online
+                    db.transaction(function (tx) { 
+                        tx.executeSql('SELECT * FROM PEDIDOS where id = ?', [idPedido], function (tx, results) { 
+                        var len = results.rows.length, i; 
+                        for (i = 0; i < len; i++) { 
+                            console.log(results.rows.item(i).json);
+                        }
+                        });
+                    });
+                    // disable button
+                    $( this ).prop('disabled', true);
                 });
                 $('#datetimepicker1').val(Date());
                 var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);                 
@@ -130,11 +146,11 @@
                 '<b>'+ results.rows.item(i).id +'</b>',
                 '<div>'+ obj.fecha+'</div>',                
                 '<a href="#" class="btn btn-labeled btn-warning btn-xs"><span class="glyphicon glyphicon-zoom-in"></span></a>',
-                '<a href="#" onclick="javascript:sendToPedidos('+ idPedido  +')" class="btn btn-labeled btn-warning btn-xs"><span class="glyphicon glyphicon-ok"></span></a>'
+                '<button type="button" class="btn btn-labeled btn-warning btn-xs ibtnReg" id="'+idPedido+'"><span class="glyphicon glyphicon-ok"></span></button>'
                 ]).draw();
                } 
             }, null); 
-         }); 
+         });          
     }      
     </script>
 </head>
