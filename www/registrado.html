@@ -20,6 +20,7 @@
     <script src="js/discal.js"></script>
     <script src="js/moment-with-locales.js"></script>
     <script src="js/bootstrap-datetimepicker.js"></script>    
+    <script src="js/bootstrap-notify.min.js"></script>
     
     <script type="text/javascript">
      function sentToPedidos(idPedido) {
@@ -44,6 +45,52 @@
                     defaultDate: Date(),
                     locale: 'es',
                 });
+                /*Button display pedido*/
+                $("#table_pedidos").on("click", ".ibtnView", function (event) {
+                   console.log( $( this ).attr('id') );
+                   idPedido = $( this ).attr('id')
+                    var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);         
+                    //select Pedidos and sent to register online
+                    db.transaction(function (tx) { 
+                        tx.executeSql('SELECT * FROM PEDIDOS where id = ?', [idPedido], function (tx, results) { 
+                        var len = results.rows.length, i; 
+                        console.log("length:"); 
+                        console.log(len);
+                        for (i = 0; i < len; i++) { 
+                            console.log(results.rows.item(i));
+                            pedido_data = results.rows.item(i);                            
+                        }
+                        var order_options = {
+                            idCliente : pedido_data.idCliente,
+                            idUser: pedido_data.idUser,
+                            fecha: pedido_data.fecha,
+                            tipo_pedido: pedido_data.tipo_pedido,
+                            descuento: pedido_data.descuento,
+                            productos: pedido_data.productos,
+                            idVendedor: pedido_data.idVendedor,
+                            detalle: pedido_data.detalle,
+                            observaciones: pedido_data.observaciones,
+                        }
+                        console.log(order_options);
+                        msg =  JSON.stringify(order_options); 
+                        $.notify({
+                            // options
+                            title: 'Success',
+                            icon: 'glyphicon glyphicon-info-sign',
+                            message: msg
+                        },{
+                            // settings
+                            type: 'success',
+                            placement: {
+                                from: "top",
+                                align: "center"
+                            },
+                        });                                                                                   
+                        });                                                
+                    });
+                });
+
+                /* button display register*/
                 $("#table_pedidos").on("click", ".ibtnReg", function (event) {
                     console.log( $( this ).attr('id') );
                     idPedido = $( this ).attr('id')
@@ -52,9 +99,63 @@
                     db.transaction(function (tx) { 
                         tx.executeSql('SELECT * FROM PEDIDOS where id = ?', [idPedido], function (tx, results) { 
                         var len = results.rows.length, i; 
+                        console.log(len);
                         for (i = 0; i < len; i++) { 
-                            console.log(results.rows.item(i).json);
+                            console.log(results.rows.item(i));
+                            pedido_data = results.rows.item(i);                            
                         }
+                        var order_options = {
+                            idCliente : pedido_data.idCliente,
+                            idUser: pedido_data.idUser,
+                            fecha: pedido_data.fecha,
+                            tipo_pedido: pedido_data.tipo_pedido,
+                            descuento: pedido_data.descuento,
+                            productos: pedido_data.productos,
+                            idVendedor: pedido_data.idVendedor,
+                            detalle: pedido_data.detalle,
+                            observaciones: pedido_data.observaciones,
+                        }
+                        
+                            $.ajax({
+                                url: baseUrl + "api/discal/pedido/vendedor/1",
+                                data: order_options,
+                                type: "POST",
+                                dataType: "json",
+                                success: function (json) {
+                                    console.log(json);
+                                    msg = '<h3><span class="glyphicon glyphicon-info-sign"></span> ' + json + '.</h3>'; 
+                                    $.notify({
+                                        // options
+                                        title: 'Success',
+                                        icon: 'glyphicon glyphicon-info-sign',
+                                        message: msg
+                                    },{
+                                        // settings
+                                        type: 'success',
+                                        placement: {
+                                            from: "top",
+                                            align: "center"
+                                        },
+                                    });
+                                },
+                                error: function () {
+                                    console.log("error on add pedido");
+                                    msg = '<h3><span class="glyphicon glyphicon-remove-circle"></span> Error al registrar en el Sistema!!!.</h3>';
+                                    $.notify({
+                                        // options
+                                        title: 'Error',
+                                        icon: 'glyphicon glyphicon-remove-circle',
+                                        message: msg
+                                    },{
+                                        // settings
+                                        type: 'danger',
+                                        placement: {
+                                            from: "top",
+                                            align: "center"
+                                        },
+                                    });
+                                }
+                            });
                         });
                     });
                     // disable button
@@ -125,28 +226,30 @@
 			ordering: false
         });
          db.transaction(function (tx) { 
-            tx.executeSql('SELECT * FROM PEDIDOS', [], function (tx, results) { 
+            fecha = $("#datetimepicker1").find("input").val();
+            console.log(fecha);
+            tx.executeSql('SELECT * FROM PEDIDOS where date(fecha) = ?', [fecha], function (tx, results) { 
                var len = results.rows.length, i; 
                tablePedidos.clear();
             //    msg = "<p>Found rows: " + len + "</p>"; 
             //    document.querySelector('#status').innerHTML +=  msg; 
       
                for (i = 0; i < len; i++) { 
-                   console.log(results.rows.item(i).json);
-                   x = results.rows.item(i).json;
-                   x = x.replace(/\\"/g, '"');
-                   x = x.replace(/\"\[/g, '[');
-                   x = x.replace(/\]\"/g, ']');
-                   console.log(x);
-                   var obj =  JSON.parse(x);
-                   console.log(obj);
+                //    console.log(results.rows.item(i).json);
+                //    x = results.rows.item(i).json;
+                //    x = x.replace(/\\"/g, '"');
+                //    x = x.replace(/\"\[/g, '[');
+                //    x = x.replace(/\]\"/g, ']');
+                //    console.log(x);
+                //    var obj =  JSON.parse(x);
+                //    console.log(obj);
                    idPedido = results.rows.item(i).id;
                    console.log(idPedido);
                 tablePedidos.row.add([              
                 '<b>'+ results.rows.item(i).id +'</b>',
-                '<div>'+ obj.fecha+'</div>',                
-                '<a href="#" class="btn btn-labeled btn-warning btn-xs"><span class="glyphicon glyphicon-zoom-in"></span></a>',
-                '<button type="button" class="btn btn-labeled btn-warning btn-xs ibtnReg" id="'+idPedido+'"><span class="glyphicon glyphicon-ok"></span></button>'
+                '<div>'+ results.rows.item(i).fecha+'</div>',              
+                '<button type="button" class="btn btn-labeled btn-primary btn-xs ibtnView" id="'+idPedido+'"><span class="glyphicon glyphicon-zoom-in"></span></button>',
+                '<button type="button" class="btn btn-labeled btn-success btn-xs ibtnReg" id="'+idPedido+'"><span class="glyphicon glyphicon-ok"></span></button>'
                 ]).draw();
                } 
             }, null); 
@@ -201,8 +304,8 @@
                         <div class="row">
                             <div class='col-xs-10'>
                                 <div class="form-group">                                                                        
-                                    <div class='input-group date' id='datetimepicker1'>                                        
-                                        <input type='text' class="form-control" />
+                                    <div class='input-group date' id='datetimepicker1'>
+                                        <input type='text' data-format="yyyy-MM-dd hh:mm:ss" class="form-control" />
                                         <span class="input-group-addon">
                                             <span class="glyphicon glyphicon-calendar"></span>
                                         </span>                                        

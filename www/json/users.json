@@ -1,15 +1,16 @@
-[
-	{
-		"idUser" : "4",
-		"user" : "cjimenez",
-		"password" : "discal123!",
-		"email" : "cjimenez@discald.com"
-    },
-    {
-		"idUser" : "5",
-		"user" : "ptaquichiri",
-		"password" : "discal123!",
-		"email" : "ptaquichiri@discald.com"
-    }
-]
-    
+{
+	"data": [
+	  {
+		"idUser": "3",
+		"user": "cjimenez",
+		"password": "discal123!",
+		"email": "cjimenez@discald.com"
+	  },
+	  {
+		"idUser": "2",
+		"user": "ptaquichiri",
+		"password": "discal123!",
+		"email": "ptaquichiri@discald.com"
+	  }
+	]
+}

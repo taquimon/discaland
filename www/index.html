@@ -20,7 +20,10 @@
     <script src="js/bootstrap-notify.min.js"></script>
     <script src="js/discal.js"></script>
     <!-- <script src="js/sqlite-plugin.js"></script> -->
-
+<style>
+.panel-body {
+background:#337ab7;}
+</style>
 
 </head>
 <script>
@@ -30,7 +33,28 @@ $(function () {
     $("#currentDate").html(getCurrentDate());
     console.log(sessionStorage.userId);
     console.log(sessionStorage.idVendedor);
-    $("#welcome").html("Bienvenido(a): " + sessionStorage.nombreVendedor + " " +  sessionStorage.apellidosVendedor);
+    icon  = ' <span class="glyphicon glyphicon-user"></span>';
+    $("#welcome").html("Bienvenido(a): " + sessionStorage.nombreVendedor + icon);
+    var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);    
+    var len = 0;
+
+    db.transaction(function (tx) { 
+        var currentDate = getCurrentDate().split(" ");        
+        tx.executeSql('SELECT * FROM PEDIDOS where date(fecha) = ?', [currentDate[0]], function (tx, results) { 
+            len = results.rows.length;       
+            console.log(len);  
+            for (var i = 0; i < len; i++) { 
+                console.log(results.rows.item(i));            
+            }
+            console.log("----------");
+            $("#numero_pedidos").html("<h1>" + len + "</h1>");
+        });        
+        console.log(len);
+    });
+    console.log(len);
+
+    
+
     //TODO: set the clients assigned
     //TODO: set the zones
     //TODO: set the 
@@ -89,29 +113,27 @@ $(function () {
         <div class="row">
             <div class="col-xs-6">
                 <div class="panel panel-primary">
-                        <div class="panel-heading" style="height: 20px;padding:0; text-align: center">Fecha</div>                        
-                        <div class="panel-body">      
+                        <div class="panel-heading" style="height: 30px;padding:0; text-align: center">Fecha <span class="glyphicon glyphicon-calendar"></span></div>
+                        <div class="panel-body">
                             <div class="card text-white bg-primary">
-                                    <div class="card-body" id="currentDate"> 
-                                        12
+                                    <div class="card-body" id="currentDate">
                                     </div>
-                                </div>        
+                                </div>
                         </div>
                 </div>
             </div>
             <div class="col-xs-6">
-                <div class="panel panel-success">
-                        <div class="panel-heading" style="height: 20px;padding:0; text-align: center">Pedidos Hoy</div>                        
+                <div class="panel panel-primary">
+                        <div class="panel-heading" style="height: 30px;padding:0; text-align: center">Pedidos Hoy <span class="glyphicon glyphicon-shopping-cart"></span></div>
                         <div class="panel-body">
-                            <div class="card text-white bg-success">
-                                <div class="card-body" style="height: 50px;">                                  
-                                  12
+                            <div class="card text-white bg-primary">
+                                <div class="card-body" id="numero_pedidos">
                                 </div>
                             </div>                            
                         </div>
                         <div class="panel-footer">
-                            <a class="btn btn-xs btn-success" href="nuevo_pedido.html"><span class="glyphicon glyphicon-plus"></span></a>
-                            <a class="btn btn-xs btn-success" href="registrado.html"><span class="glyphicon glyphicon-search"></span></a>
+                            <a class="btn btn-sm btn-primary" href="nuevo_pedido.html"><span class="glyphicon glyphicon-plus"></span></a>
+                            <a class="btn btn-sm btn-primary" href="registrado.html"><span class="glyphicon glyphicon-search"></span></a>
                         </div>
                 </div>
             </div>

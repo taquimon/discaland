@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">    
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <script src="js/jquery.min.js"></script>
 <script src="js/discal.js"></script>
@@ -101,22 +104,18 @@ hr.message-inner-separator
             //     waitingDialog.hide();
             //  }
             $.ajax({
-                type:'get',
-                url: 'json/users.json',
-                data:{                  
-                    username: username,
-                    password: pass
-                },
+                type: 'get',
+                dataType : "json",
+                url: 'json/users.json',                
                 success: function(response) {                                        
-                    console.log(response);
-                    for(var i = 0; i<response.length; i++) {
-                        if(response[i].user == username && response[i].password == pass)
-                        {
-                            console.log(response[i].password)
+                    $("#spinner").hide();                                        
+                    for(var i = 0; i<response.data.length; i++) {
+                        if(response.data[i].user == username && response.data[i].password == pass)
+                        {                            
                             waitingDialog.hide();
-                            sessionStorage.userId = response[i].idUser;
-                            sessionStorage.idVendedor = response[i].idUser;
-                            sessionStorage.nombreVendedor = response[i].user;
+                            sessionStorage.userId = response.data[i].idUser;
+                            sessionStorage.idVendedor = response.data[i].idUser;
+                            sessionStorage.nombreVendedor = response.data[i].user;
                             window.location.href="index.html";
                         }    
                     }       
@@ -126,7 +125,8 @@ hr.message-inner-separator
                 error: function (xhr, status) {
                     console.log(xhr);
                     console.log(status);
-                    $("#error_container").show();
+                    $("#spinner").hide();
+                    $("#error_container").show();                    
                     waitingDialog.hide();
                 },
             });
@@ -134,25 +134,7 @@ hr.message-inner-separator
             alert("Please Fill All The Details");
         }
         return false;
-    }
-    // fill users
-    // function setupUsers()
-    // {
-    //     var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);                 
-
-    //     db.transaction(function(tx) {
-    //         //create table
-    //         tx.executeSql("CREATE TABLE IF NOT EXISTS users (id integer primary key, user text, password text)");
-    //             //insert data
-    //             tx.executeSql("INSERT INTO users (user, password) VALUES (?,?)", ["cjimenez", "discal123!"]);
-
-    //     }, function(err){
-
-    //         //errors for all transactions are reported here
-    //         alert("Error: " + err.message)
-
-    //     });
-    // }
+    }    
     function getUser(username) {
         var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);                 
         var user = false;

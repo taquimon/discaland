@@ -75,19 +75,25 @@
             trigger: 'click',
             delay: { "show": 500, "hide": 100 },
         });
-        $("#table_pedidos").on("click", ".ibtnDel", function (event) {
-            tr = $(this).closest("tr");            
+        $("#table_pedidos").on("click", ".ibtnDel", function () {
+            detailTable
+                .row( $(this).parents('tr') )
+                .remove()
+                .draw();
+            
+            tr = $(this).closest("tr");
             row = detailTable.row(tr);            
             var re = /id=\"(\w*)\"/g;
             var idCantidad = re.exec(row.data()[2]);
             console.log(idCantidad[1]);
             console.log(row.data()[2]);
-            $(this).closest("tr").remove();            
-            var params = detailTable.$('input,select,textarea').serializeArray();
-            params.splice(params.findIndex(v => v.name === idCantidad[1]), 1);
-            //detailTable.ajax.reload();
-            console.log(params);
-            counter -= 1
+            // $(this).closest("tr").remove();         
+            
+            // var params = detailTable.$('input,select,textarea').serializeArray();
+            // params.splice(params.findIndex(v => v.name === idCantidad[1]), 1);
+            
+            // console.log(params);
+            // counter -= 1
         });
 
         $(document).on('shown.bs.tooltip', function (e) {
@@ -112,14 +118,15 @@
     /*add new row to table*/
     function addRowTable(rows, values) {
         dataProduct = rows;
-        console.log(dataProduct);             
-        detailTable.clear(); 
-        for (var i = 0; i< dataProduct.length; i++) {
+        console.log(dataProduct.length);             
+        
+        //detailTable.clear(); 
+        for (var i = 0; i < dataProduct.length; i++) {
             element = dataProduct[i];
             var newRow = $("<tr>");            
             var index = "nameProd" + element;            
             console.log(element);                  
-            detailTable.row.add([  
+            detailTable.row.add([
             '<div class= "card" onClick="showProductName('+ element +')"><a class="test" data-toggle="tooltip" data-placement="right" title="'+ productsArray[element] +'" id="prodId'+element+'"><p class="ellipsis">' + productsArray[element] + '</p></a><div>',
             '<span class="label label-success fontD">' + productsObjectArray[element].cantidad +'</span>',
             '<div class="input-group"><input type="number" class="form-control input-sm" name="cantidad'+element +'" id="cantidad' + element + '" oninput="cantidadKeys('+ element+')" style="padding:0;" value="'+values[index]+'"></div>',            
@@ -197,12 +204,15 @@
         var msg;
         db.transaction(function (tx) { 
             var cd = getCurrentDate();
-            console.log(jsonPedido);
-            tx.executeSql('CREATE TABLE IF NOT EXISTS PEDIDOS (id INTEGER PRIMARY KEY, json, fecha)'); 
-            tx.executeSql('INSERT INTO PEDIDOS (json, fecha) VALUES (?,?)', [JSON.stringify(jsonPedido) , cd]);
-            msg = '<p>Pedido creado correctamente.</p>';             
+            console.log(jsonPedido.idVendedor);
+            tx.executeSql('CREATE TABLE IF NOT EXISTS PEDIDOS (id INTEGER PRIMARY KEY, idCliente, idUser, idVendedor, fecha, tipo_pedido, productos, descuento, detalle, observaciones)'); 
+            tx.executeSql('INSERT INTO PEDIDOS (idCliente, idUser, idVendedor, fecha, tipo_pedido, productos, descuento, detalle, observaciones) VALUES (?,?,?,?,?,?,?,?,?)', 
+            [jsonPedido.idCliente, jsonPedido.idUser, jsonPedido.idVendedor, cd, jsonPedido.tipo_pedido, jsonPedido.productos, jsonPedido.descuento, jsonPedido.detalle, jsonPedido.observaciones]);
+            msg = '<h3><span class="glyphicon glyphicon-info-sign"></span> Pedido creado correctamente.</h3>';             
             $.notify({
                 // options
+                title: 'Success',
+                icon: 'glyphicon glyphicon-info-sign',
                 message: msg
             },{
                 // settings
@@ -254,7 +264,7 @@
            productos: prods,
            idVendedor: sessionStorage.idVendedor,
            detalle: JSON.stringify(dataDetail),
-           observacion: $("#obs").val(),
+           observaciones: $("#obs").val(),
        }
        console.log(order_options);       
        console.log(getCurrentDate());
@@ -433,12 +443,12 @@
         console.log(arrayValues);
         
             // Iterate over all selected checkboxes
-            $.each(rows_selected, function(index, rowId){
+            // $.each(rows_selected, function(index, rowId){
                 // Create a hidden element
                 addRowTable(rows_selected, arrayValues); 
-                console.log(rowId);
+                //console.log(rowId);
                 prodDialog.close();
-            });
+            // });
     }
     function loadObservacion() {
         
