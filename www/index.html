@@ -18,6 +18,8 @@
     <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/dataTables.bootstrap.min.js"></script>
     <script src="js/bootstrap-notify.min.js"></script>
+    <script src="js/moment-with-locales.js"></script>
+    <script src="js/bootstrap-datetimepicker.js"></script>
     <script src="js/discal.js"></script>
     <!-- <script src="js/sqlite-plugin.js"></script> -->
 <style>
@@ -28,6 +30,12 @@ background:#337ab7;}
 </head>
 <script>
 $(function () {  
+
+    $('#fecha_pedido').datetimepicker({
+        format: 'YYYY-MM-DD',
+        defaultDate: Date(),
+        locale: 'es',
+    });
     var currentTime = new Date();
     //set the date
     $("#currentDate").html(getCurrentDate());
@@ -117,8 +125,16 @@ $(function () {
                         <div class="panel-body">
                             <div class="card text-white bg-primary">
                                     <div class="card-body" id="currentDate">
-                                    </div>
-                                </div>
+                                    </div>                                    
+                            </div>
+                            <div class="form-group">                                                                        
+                                <div class='input-group date' id='fecha_pedido'>
+                                    <input type='text' data-format="yyyy-MM-dd hh:mm:ss" class="form-control" />
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>                                        
+                                </div>                                         
+                            </div>
                         </div>
                 </div>
             </div>

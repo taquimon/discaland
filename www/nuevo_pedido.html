@@ -69,6 +69,7 @@
     var dataProduct = [];
     var prodDialog;
     var table;
+    var arrayValues = [];
     $(function () {            
 
         $('[data-toggle="tooltip"]').tooltip({
@@ -117,9 +118,12 @@
     }
     /*add new row to table*/
     function addRowTable(rows, values) {
-        dataProduct = rows;
-        console.log(dataProduct.length);             
-        
+        for (var j = 0; j < rows.length; j++) {
+            dataProduct[j] = rows[j];
+        }        
+
+        console.log(productsObjectArray);
+        console.log(dataProduct);
         //detailTable.clear(); 
         for (var i = 0; i < dataProduct.length; i++) {
             element = dataProduct[i];
@@ -141,20 +145,22 @@
     }
     function fillClientes() {
         var client_options = {
-            idVendedor : 5,
-            idUser : 5
+            idVendedor : sessionStorage.idVendedor,
+            idUser : sessionStorage.idVendedor
         }
         $.ajax({
-            url: baseUrl + "api/discal/cliente/vendedor/1",
+            url: "json/clientes.json",
             data: client_options,
             dataType: "json",
             success: function (json) {
 
                 var options = '';
-                for (var x = 0; x < json.length; x++) {
-                    options += '<option value="' + json[x].idCliente + '" ' + 'data-subtext="' + json[x].codigoCliente + '">' + json[x].nombres + ' ' + json[x].apellidos + ", " + json[x].razonSocial + '</option>';
-                    var key = json[x].idCliente;
-                    clientesArray[key] = json[x];
+                for (var x = 0; x < json.data.length; x++) {                    
+                    if (parseInt(json.data[x].idVendedor, 10) == sessionStorage.idVendedor) {
+                        options += '<option value="' + json.data[x].idCliente + '" ' + 'data-subtext="' + json.data[x].codigoCliente + '">' + json.data[x].nombres + ' ' + json.data[x].apellidos + ", " + json.data[x].razonSocial + '</option>';
+                        var key = json.data[x].idCliente;
+                        clientesArray[key] = json.data[x];
+                    }                    
                 }
 
                 $('#clientes').html(options);
@@ -434,8 +440,7 @@
     }
     function closeDialogProducts() {
         var rows_selected = table.column(0).checkboxes.selected();
-        var data = table.column(1).$("input").serializeArray();
-        var arrayValues = []
+        var data = table.column(1).$("input").serializeArray();        
         $.each(data, function(i, field){
             if(field.value != "")
                 arrayValues[field.name] = field.value;
