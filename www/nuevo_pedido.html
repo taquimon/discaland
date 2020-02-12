@@ -70,7 +70,8 @@
     var prodDialog;
     var table;
     var arrayValues = [];
-    $(function () {            
+    var rows_selected = [];
+    $(document).ready(function (){
 
         $('[data-toggle="tooltip"]').tooltip({
             trigger: 'click',
@@ -88,14 +89,16 @@
             var idCantidad = re.exec(row.data()[2]);
             console.log(idCantidad[1]);
             console.log(row.data()[2]);
-            // $(this).closest("tr").remove();         
+        });
+            // $(this).closest("tr").remove();
             
             // var params = detailTable.$('input,select,textarea').serializeArray();
             // params.splice(params.findIndex(v => v.name === idCantidad[1]), 1);
             
             // console.log(params);
             // counter -= 1
-        });
+
+
 
         $(document).on('shown.bs.tooltip', function (e) {
             setTimeout(function () {
@@ -377,10 +380,40 @@
                 // $content.append('<tr><td># Unidades</td><td>'+ dataProduct[id].numeroUnidades+'</td></tr>');
                 // $content.append('<tr><td>Precio Unitario</td><td>'+ dataProduct[id].precioUnitario+'</td></tr>');
         prodDialog = BootstrapDialog.show({
-            
+
                     title: 'Productos',
                     message: $content,
-                    onshown: function(){       
+                    onshown: function(){
+
+                        $('#table_productos tbody').on('click', 'input[type="checkbox"]', function(e){
+                            var $row = $(this).closest('tr');
+                            // Get row data
+                            var data = table.row($row).data();
+                            console.log(data);
+                            // Get row ID
+                            var rowId = data.idProducto;
+                            console.log(rowId);
+                            // Determine whether row ID is in the list of selected row IDs
+                            var index = $.inArray(rowId, rows_selected);
+
+                            // If checkbox is checked and row ID is not in list of selected row IDs
+                            if(this.checked && index === -1){
+                                rows_selected.push(rowId);
+
+                                // Otherwise, if checkbox is not checked and row ID is in list of selected row IDs
+                            } else if (!this.checked && index !== -1){
+                                rows_selected.splice(index, 1);
+                            }
+
+                            if(this.checked){
+                                $row.addClass('selected');
+                            } else {
+                                $row.removeClass('selected');
+                            }
+                            console.log(rows_selected);
+                            e.stopPropagation();
+                        });
+                        var prices = rows_selected;
                         $('[data-toggle="tooltip"]').tooltip({
                             trigger: 'click',
                             delay: { "show": 500, "hide": 100 },
@@ -404,7 +437,17 @@
                             'columnDefs': [
                                 {
                                     'targets': 0,
-                                    'checkboxes': true,                                    
+                                    //'checkboxes': true,
+                                    // 'checkboxes': {
+                                    //     'selectRow': true
+                                    // },
+                                    "render": function ( data, type, row ) {
+                                        if ( prices.includes(data) ) {             //if column data is 1 then set attr to checked, use row id as input id (plus prefix)
+                                            return '<input type="checkbox" checked' + ' id="prod'+row.idProducto + '"/>';
+
+                                        }
+                                        return '<input type="checkbox"' + ' id="prod'+row.idProducto + '"/>';
+                                    }
                                 },
                                 {
                                     'targets': 1,
@@ -429,7 +472,10 @@
                                         return '<div onClick="showProductName('+ row.idProducto+ ')"><a class="test" data-toggle="tooltip" data-placement="top" title="'+ data +'" id="prodId'+row.idProducto+'"><p class="fontD">' + data + '</p></a></div>';
                                     }
                                 }
-                            ],                            
+                            ],
+                            'select': {
+                                'style': 'multi'
+                            },
                             "columns": [
                                 { "data": "idProducto", sDefaultContent: "" },
                                 { "data": "codigoExterno", sDefaultContent: "" },
@@ -447,7 +493,10 @@
         prodDialog.close();
     }
     function closeDialogProducts() {
-        var rows_selected = table.column(0).checkboxes.selected();
+        // var rows_selected = table.column(0).checkboxes.selected();
+        // var rows_selected1 = table.row(); //.$("input").serializeArray();
+        console.log("rows selected");
+        console.log(rows_selected);
         var data = table.column(1).$("input").serializeArray();        
         $.each(data, function(i, field){
             if(field.value !== "")
@@ -487,7 +536,7 @@
     }
 function saveObs(){
     console.log($("#observacion").val());
-    obs = $("#observacion").val()
+    obs = $("#observacion").val();
     $("#obs").val($("#observacion").val());
     $("#obsDialog").modal('hide');
 }
