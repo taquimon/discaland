@@ -62,6 +62,7 @@
 <script type="text/javascript">
     var productIds = [];
     var clientesArray = [];
+    var pricesArray = [];
     var productsArray = [];
     var productsObjectArray = [];
     var counter = 0;
@@ -121,10 +122,13 @@
     }
     /*add new row to table*/
     function addRowTable(rows, values) {
+        dataProduct = [];
+        pricesArray = [];
         var prices = {};
         for (var j = 0; j < rows.length; j++) {
             dataProduct[j] = rows[j];
             prices[rows[j]] = values['nameProd'+rows[j]];
+            pricesArray[rows[j]] = values['nameProd'+rows[j]];
         }        
 
         console.log("Products Selected");
@@ -133,9 +137,11 @@
         console.log(values);
         console.log("Product Prices Object");
         console.log(prices);
+        console.log("Product Prices Array");
+        console.log(pricesArray);
 
         sessionStorage.setItem("product_prices", prices);
-        //detailTable.clear(); 
+        detailTable.clear();
         for (var i = 0; i < dataProduct.length; i++) {
             element = dataProduct[i];
             var newRow = $("<tr>");            
@@ -220,7 +226,8 @@
         var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024); 
         var msg;
         db.transaction(function (tx) { 
-            var cd = getCurrentDate();
+            //var cd = getCurrentDate();
+            var cd = sessionStorage.currentDate;
             console.log(jsonPedido.idVendedor);
             tx.executeSql('CREATE TABLE IF NOT EXISTS PEDIDOS (id INTEGER PRIMARY KEY, idCliente, idUser, idVendedor, fecha, tipo_pedido, productos, descuento, detalle, observaciones)'); 
             tx.executeSql('INSERT INTO PEDIDOS (idCliente, idUser, idVendedor, fecha, tipo_pedido, productos, descuento, detalle, observaciones) VALUES (?,?,?,?,?,?,?,?,?)', 
@@ -238,10 +245,10 @@
                     from: "top",
                     align: "center"
                 },
-            });
-            // setTimeout(function () {
-            //     window.location.href = "registrado.html"; 
-            // }, 3000); 
+            });            
+            setTimeout(function () {
+                 window.location.href = "registrado.html"; 
+            }, 3000); 
          })    
 
         //  db.transaction(function (tx) { 
@@ -283,8 +290,7 @@
            detalle: JSON.stringify(dataDetail),
            observaciones: $("#obs").val(),
        }
-       console.log(order_options);       
-       console.log(getCurrentDate());
+       console.log(order_options);              
        testDB(order_options);
     //    $.ajax({
     //         url: "json/register.json",
@@ -452,7 +458,14 @@
                                 {
                                     'targets': 1,
                                     "render": function ( data, type, row ) {
-                                        return '<div class="input-group"><input type="number" class="form-control input-sm fontD alert-success" style="padding:0;" name="nameProd'+row.idProducto+'" id="idProduct'+row.idProducto+'"/></div>';
+                                        //console.log(pricesArray);
+                                        if (pricesArray[row.idProducto] !== "") {
+                                            //console.log(pricesArray[row.idProducto]);
+                                            return '<div class="input-group"><input type="number" class="form-control input-sm fontD alert-success" style="padding:0;" name="nameProd'+row.idProducto+'" id="idProduct'+row.idProducto+'" value="'+pricesArray[row.idProducto]+'"/></div>';
+                                        } else {
+                                            return '<div class="input-group"><input type="number" class="form-control input-sm fontD alert-success" style="padding:0;" name="nameProd'+row.idProducto+'" id="idProduct'+row.idProducto+'"/></div>';
+                                        }
+                                        
                                     }
                                 },
                                 {
@@ -498,10 +511,13 @@
         console.log("rows selected");
         console.log(rows_selected);
         var data = table.column(1).$("input").serializeArray();        
+        console.log(data);   
+        arrayValues = [];
         $.each(data, function(i, field){
             if(field.value !== "")
                 arrayValues[field.name] = field.value;
         });
+        console.log("arrayValues");
         console.log(arrayValues);
         
             // Iterate over all selected checkboxes

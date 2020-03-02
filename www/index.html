@@ -32,13 +32,25 @@ background:#337ab7;}
 $(function () {  
 
     $('#fecha_pedido').datetimepicker({
-        format: 'YYYY-MM-DD',
+        format: 'YYYY-MM-DD HH:mm:ss',
         defaultDate: Date(),
         locale: 'es',
     });
-    var currentTime = new Date();
     //set the date
-    $("#currentDate").html(getCurrentDate());
+    // var currentTime = $("#fecha_pedido").find("input").val();
+    // $("#currentDate").html(currentTime);
+    //sessionStorage.currentDate = currentTime;
+    $("#fecha_pedido").on("dp.change", function (e) {
+        var myDate = $("#fecha_pedido").find("input").val();
+        $("#currentDate").html(myDate);
+        console.log(myDate);
+        sessionStorage.currentDate = myDate;
+    //alert(myDate);
+    });    
+        
+    var currentTime = $("#fecha_pedido").find("input").val();
+    //set the date
+    
     console.log(sessionStorage.userId);
     console.log(sessionStorage.idVendedor);
     icon  = ' <span class="glyphicon glyphicon-user"></span>';
