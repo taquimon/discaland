@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"> -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <style>
     .orange {
@@ -106,7 +107,7 @@
                 $(e.target).tooltip('hide');
             }, 5000);
         });
-        //fillProductos();
+        fillProductos();
         fillClientes();
         detailTable = $("#table_pedidos").DataTable({
             destroy: true,
@@ -168,7 +169,7 @@
         $.ajax({
             url: "json/clientes.json",
             data: client_options,
-            dataType: "json",
+            type: "GET",            
             success: function (json) {
 
                 var options = '';
@@ -184,7 +185,7 @@
                 $('#clientes').selectpicker('refresh');
             },
             error: function () {
-                
+                console.log("Error on get clients");
             }
         });
     }
@@ -461,14 +462,15 @@
                                     'targets': 1,
                                     "render": function ( data, type, row ) {
                                         //console.log(pricesArray);
-                                        if (pricesArray[row.idProducto] !== "") {
-                                          //  console.log(pricesArray[row.idProducto]);
+                                        // console.log(row.idProducto);
+                                        if (row.idProducto in pricesArray) {
+                                            // console.log(pricesArray[row.idProducto]);
                                             return '<div class="input-group"><input type="number" class="form-control input-sm fontD alert-success" style="padding:0;" name="nameProd'+row.idProducto+'" id="idProduct'+row.idProducto+'" value="'+parseInt(pricesArray[row.idProducto])+'"/></div>';
                                         } else {
+                                            // console.log(pricesArray[row.idProducto]);
                                             //console.log(type(pricesArray[row.idProducto]));
                                             return '<div class="input-group"><input type="number" class="form-control input-sm fontD alert-success" style="padding:0;" name="nameProd'+row.idProducto+'" id="idProduct'+row.idProducto+'"/></div>';
-                                        }
-                                        
+                                        }                                        
                                     }
                                 },
                                 {
