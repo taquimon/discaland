@@ -106,7 +106,7 @@
                 $(e.target).tooltip('hide');
             }, 5000);
         });
-        fillProductos();
+        //fillProductos();
         fillClientes();
         detailTable = $("#table_pedidos").DataTable({
             destroy: true,
@@ -163,7 +163,7 @@
     function fillClientes() {
         var client_options = {
             idVendedor : sessionStorage.idVendedor,
-            idUser : sessionStorage.idVendedor
+            idUser : sessionStorage.idUser
         }
         $.ajax({
             url: "json/clientes.json",
@@ -451,8 +451,10 @@
                                         if ( prices.includes(data) ) {             //if column data is 1 then set attr to checked, use row id as input id (plus prefix)
                                             return '<input type="checkbox" checked' + ' id="prod'+row.idProducto + '"/>';
 
+                                        } else {
+                                            return '<input type="checkbox"' + ' id="prod'+row.idProducto + '"/>';
                                         }
-                                        return '<input type="checkbox"' + ' id="prod'+row.idProducto + '"/>';
+                                        
                                     }
                                 },
                                 {
@@ -460,9 +462,10 @@
                                     "render": function ( data, type, row ) {
                                         //console.log(pricesArray);
                                         if (pricesArray[row.idProducto] !== "") {
-                                            //console.log(pricesArray[row.idProducto]);
-                                            return '<div class="input-group"><input type="number" class="form-control input-sm fontD alert-success" style="padding:0;" name="nameProd'+row.idProducto+'" id="idProduct'+row.idProducto+'" value="'+pricesArray[row.idProducto]+'"/></div>';
+                                          //  console.log(pricesArray[row.idProducto]);
+                                            return '<div class="input-group"><input type="number" class="form-control input-sm fontD alert-success" style="padding:0;" name="nameProd'+row.idProducto+'" id="idProduct'+row.idProducto+'" value="'+parseInt(pricesArray[row.idProducto])+'"/></div>';
                                         } else {
+                                            //console.log(type(pricesArray[row.idProducto]));
                                             return '<div class="input-group"><input type="number" class="form-control input-sm fontD alert-success" style="padding:0;" name="nameProd'+row.idProducto+'" id="idProduct'+row.idProducto+'"/></div>';
                                         }
                                         
