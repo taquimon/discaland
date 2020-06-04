@@ -1,4 +1,5 @@
-var baseUrl = 'http://discald.com/provider/'
+//var baseUrl = 'http://discald.com/provider/'
+var baseUrl = 'https://discald.herokuapp.com/'
 // var baseUrl = 'http://provider.local/'
 
 function getCurrentDate() {

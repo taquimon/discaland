@@ -73,7 +73,8 @@
     var table;
     var arrayValues = [];
     var rows_selected = [];
-    $(document).ready(function (){
+    var products_selected = [];
+    $(document).ready(function () {
 
         $('[data-toggle="tooltip"]').tooltip({
             trigger: 'click',
@@ -92,13 +93,6 @@
             console.log(idCantidad[1]);
             console.log(row.data()[2]);
         });
-            // $(this).closest("tr").remove();
-            
-            // var params = detailTable.$('input,select,textarea').serializeArray();
-            // params.splice(params.findIndex(v => v.name === idCantidad[1]), 1);
-            
-            // console.log(params);
-            // counter -= 1
 
 
 
@@ -106,7 +100,7 @@
             setTimeout(function () {
                 $(e.target).tooltip('hide');
             }, 5000);
-        });
+        });                
         fillProductos();
         fillClientes();
         detailTable = $("#table_pedidos").DataTable({
@@ -125,10 +119,10 @@
     function addRowTable(rows, values) {
         dataProduct = [];
         pricesArray = [];
-        var prices = {};
+        var pricesObject = {};
         for (var j = 0; j < rows.length; j++) {
             dataProduct[j] = rows[j];
-            prices[rows[j]] = values['nameProd'+rows[j]];
+            pricesObject[rows[j]] = values['nameProd'+rows[j]];
             pricesArray[rows[j]] = values['nameProd'+rows[j]];
         }        
 
@@ -137,17 +131,18 @@
         console.log("Product Prices");
         console.log(values);
         console.log("Product Prices Object");
-        console.log(prices);
+        console.log(pricesObject);
         console.log("Product Prices Array");
         console.log(pricesArray);
 
-        sessionStorage.setItem("product_prices", prices);
+        sessionStorage.setItem("product_prices", pricesObject);
+        sessionStorage.setItem("productIds", dataProduct);
         detailTable.clear();
         for (var i = 0; i < dataProduct.length; i++) {
             element = dataProduct[i];
-            var newRow = $("<tr>");            
-            var index = "nameProd" + element;            
-            console.log(element);                  
+            var newRow = $("<tr>");  
+            var index = "nameProd" + element;
+            console.log(element);
             detailTable.row.add([
             '<div class= "card" onClick="showProductName('+ element +')"><a class="test" data-toggle="tooltip" data-placement="right" title="'+ productsArray[element] +'" id="prodId'+element+'"><p class="ellipsis">' + productsArray[element] + '</p></a><div>',
             '<span class="label label-success fontD">' + productsObjectArray[element].cantidad +'</span>',
@@ -157,19 +152,18 @@
             '<button type="button" class="btn btn-labeled btn-danger btn-xs ibtnDel"><span class="btn-label"><i class="glyphicon glyphicon-remove"></i></span></button>',
             ]).draw();
             
-            counter++;                       
-            cantidadKeys(element); 
-        }              
+            counter++;
+            cantidadKeys(element);
+        }
     }
     function fillClientes() {
         var client_options = {
             idVendedor : sessionStorage.idVendedor,
-            idUser : sessionStorage.idUser
+            idUser : sessionStorage.userId
         }
         $.ajax({
             url: "json/clientes.json",
-            data: client_options,
-            type: "GET",            
+            dataType: "json",
             success: function (json) {
 
                 var options = '';
@@ -178,7 +172,7 @@
                         options += '<option value="' + json.data[x].idCliente + '" ' + 'data-subtext="' + json.data[x].codigoCliente + '">' + json.data[x].nombres + ' ' + json.data[x].apellidos + ", " + json.data[x].razonSocial + '</option>';
                         var key = json.data[x].idCliente;
                         clientesArray[key] = json.data[x];
-                    }                    
+                    }                 
                 }
 
                 $('#clientes').html(options);
@@ -194,16 +188,16 @@
             url: "json/productos.json",
             dataType: "json",                        
             success: function (json) {
-                var options = '';
+                var options_prod = '';
                 //console.log(json.data);
                 for (var x = 0; x < json.data.length; x++) {
-                    options += '<option value="' + json.data[x].idProducto + '" ' + 'data-subtext="' + json.data[x].codigoExterno + '">' + json.data[x].descripcion + '</option>';
+                    options_prod += '<option value="' + json.data[x].idProducto + '" ' + 'data-subtext="' + json.data[x].codigoExterno + '">' + json.data[x].descripcion + '</option>';
                     var key = json.data[x].idProducto;
                     productsArray[key] = json.data[x].descripcion;
                     productsObjectArray[key] = json.data[x];
                 }                
 
-                $('#productos').html(options);
+                $('#productos').html(options_prod);
                 $('#productos').selectpicker('refresh');
             },
             error: function () {
@@ -213,7 +207,7 @@
     }
     function selectCliente() {
         current = $('#clientes').val();
-        console.log(current);        
+        console.log(current);
         $('#razonSocialMessage').html('<b>' + clientesArray[current].razonSocial + '</b>');
         $('#nitMessage').html('<b>' + clientesArray[current].nit + '</b>');
         $('#codigoClienteMessage').html('<b>' + clientesArray[current].codigoCliente + '</b>');
@@ -222,7 +216,7 @@
         $('#nitMessage').show();
         $('#codigoClienteMessage').show();
         $('#direccionMessage').show();
-    } 
+    }
     function testDB(jsonPedido) {
         var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024); 
         var msg;
@@ -230,9 +224,9 @@
             //var cd = getCurrentDate();
             var cd = sessionStorage.currentDate;
             console.log(jsonPedido.idVendedor);
-            tx.executeSql('CREATE TABLE IF NOT EXISTS PEDIDOS (id INTEGER PRIMARY KEY, idCliente, idUser, idVendedor, fecha, tipo_pedido, productos, descuento, detalle, observaciones)'); 
-            tx.executeSql('INSERT INTO PEDIDOS (idCliente, idUser, idVendedor, fecha, tipo_pedido, productos, descuento, detalle, observaciones) VALUES (?,?,?,?,?,?,?,?,?)', 
-            [jsonPedido.idCliente, jsonPedido.idUser, jsonPedido.idVendedor, cd, jsonPedido.tipo_pedido, jsonPedido.productos, jsonPedido.descuento, jsonPedido.detalle, jsonPedido.observaciones]);
+            tx.executeSql('CREATE TABLE IF NOT EXISTS PEDIDOS (id INTEGER PRIMARY KEY, idCliente, idUser, idVendedor, fecha, tipo_pedido, productos, product_ids, descuento, detalle, observaciones, registrado)'); 
+            tx.executeSql('INSERT INTO PEDIDOS (idCliente, idUser, idVendedor, fecha, tipo_pedido, productos, product_ids, descuento, detalle, observaciones, registrado) VALUES (?,?,?,?,?,?,?,?,?,?,?)', 
+            [jsonPedido.idCliente, jsonPedido.idUser, jsonPedido.idVendedor, cd, jsonPedido.tipo_pedido, jsonPedido.productos, jsonPedido.product_ids, jsonPedido.descuento, jsonPedido.detalle, jsonPedido.observaciones,0]);
             msg = '<h3><span class="glyphicon glyphicon-info-sign"></span> Pedido creado correctamente.</h3>';             
             $.notify({
                 // options
@@ -250,23 +244,8 @@
             setTimeout(function () {
                  window.location.href = "registrado.html"; 
             }, 3000); 
-         })    
-
-        //  db.transaction(function (tx) { 
-        //     tx.executeSql('SELECT * FROM PEDIDOS', [], function (tx, results) { 
-        //        var len = results.rows.length, i; 
-        //        msg = "<p>Found rows: " + len + "</p>"; 
-        //        document.querySelector('#status').innerHTML +=  msg; 
-      
-        //        for (i = 0; i < len; i++) { 
-        //           msg = "<p><b>" + results.rows.item(i).id + " - " +results.rows.item(i).jsonPedido + "</b></p>"; 
-        //           document.querySelector('#status').innerHTML +=  msg; 
-        //        } 
-        //     }, null); 
-
-
-        //  }); 
-    }   
+         })          
+    }
     /*
     function to register pedido
     */
@@ -274,63 +253,33 @@
         detailTable = $("#table_pedidos").DataTable();
         console.log(sessionStorage.userId);
         var dataDetail = detailTable.$("input").serializeArray();
+        console.log("Detail table");
         console.log(dataDetail);
         var prods = [];
         for (var i =0; i < dataProduct.length; i++) {
             prods[i] = dataProduct[i];
         };
-        console.log(prods);
+        console.log("Productos");
+        console.log(products_selected);
+        console.log("Product Ids");
+        console.log(sessionStorage.getItem("productIds"));
         var order_options = {
            idCliente : $("#clientes").val(),
            idUser: sessionStorage.userId,
-           fecha: getCurrentDate(),
+           fecha: sessionStorage.currentDate,
            tipo_pedido: "CONTADO",
            descuento: 0,
-           productos: prods,
+           productos: products_selected,
+           product_ids: sessionStorage.getItem("productIds"),
            idVendedor: sessionStorage.idVendedor,
            detalle: JSON.stringify(dataDetail),
            observaciones: $("#obs").val(),
        }
        console.log(order_options);              
-       testDB(order_options);
-    //    $.ajax({
-    //         url: "json/register.json",
-    //         dataType: "json",           
-    //         type: "post",
-    //         data: order_options, 
-    //         success: function (json) {                                
-    //             $.notify({
-    //                 // options
-    //                 message: json.message
-    //             },{
-    //                 // settings
-    //                 type: 'success',
-    //                 placement: {
-    //                     from: "top",
-    //                     align: "center"
-    //                 },
-    //             });
-    //             setTimeout(function () {
-    //                 window.location.href = "registrado.html"; 
-    //             }, 3000); 
-    //         },
-    //         error: function () {
-    //             $.notify({
-    //                 // options
-    //                 message: "Error al crear pedido"
-    //             },{
-    //                 // settings
-    //                 type: 'danger',
-    //                 placement: {
-    //                     from: "top",
-    //                     align: "center"
-    //                 },
-    //             });
-    //         }
-    //     });
-    }   
+       testDB(order_options);    
+    }
     
-    function cantidadKeys(element){                 
+    function cantidadKeys(element) {
         
         total = $("#cantidad" + element).val() * $('#precioUnitario' + element).val(); //$('#pu_'+idProd).val();
         console.log(total);
@@ -376,16 +325,9 @@
                         '</tbody>' +
                     '</table></div></div>');
         
-                var checked = "";                
+                var checked = "";
                 img = "";
-                //$content.append(table);
-                //$content.append('<tr><td style="text-align:center;"  colspan="2"><img src="img/'+ img +'" width="128px" height="128px"></td></tr>');
-                // $content.append('<tr><td>Codigo Externo</td><td>'+ dataProduct[id].codigoExterno+'</td></tr>');
-                // $content.append('<tr><td>Descripcion</td><td>'+ dataProduct[id].descripcion+'</td></tr>');
-                // $content.append('<tr><td>Cantida</td><td>'+ dataProduct[id].cantidad+'</td></tr>');
-                // $content.append('<tr><td>U.Venta</td><td>'+ dataProduct[id].unidadVenta+'</td></tr>');
-                // $content.append('<tr><td># Unidades</td><td>'+ dataProduct[id].numeroUnidades+'</td></tr>');
-                // $content.append('<tr><td>Precio Unitario</td><td>'+ dataProduct[id].precioUnitario+'</td></tr>');
+                
         prodDialog = BootstrapDialog.show({
 
                     title: 'Productos',
@@ -396,20 +338,24 @@
                             var $row = $(this).closest('tr');
                             // Get row data
                             var data = table.row($row).data();
-                            console.log(data);
+                            // console.log("row selected");
+                            // console.log(data);
                             // Get row ID
                             var rowId = data.idProducto;
-                            console.log(rowId);
+                            var product_description =  data.descripcion;
+                            // console.log(rowId);
                             // Determine whether row ID is in the list of selected row IDs
                             var index = $.inArray(rowId, rows_selected);
 
                             // If checkbox is checked and row ID is not in list of selected row IDs
                             if(this.checked && index === -1){
                                 rows_selected.push(rowId);
+                                products_selected.push(product_description);
 
                                 // Otherwise, if checkbox is not checked and row ID is in list of selected row IDs
                             } else if (!this.checked && index !== -1){
                                 rows_selected.splice(index, 1);
+                                products_selected.splice(index, 1);
                             }
 
                             if(this.checked){
@@ -417,7 +363,8 @@
                             } else {
                                 $row.removeClass('selected');
                             }
-                            console.log(rows_selected);
+                            // console.log(rows_selected);
+                            // console.log(products_selected);
                             e.stopPropagation();
                         });
                         var prices = rows_selected;
@@ -437,6 +384,7 @@
                                 {
                                 url: "json/productos.json",
                                 dataSrc: 'data',
+                                dataType: 'json',
                                 // headers: {
                                 //     "X-API-KEY":"12345abcde"                    
                                 // },
@@ -448,11 +396,19 @@
                                     // 'checkboxes': {
                                     //     'selectRow': true
                                     // },
-                                    "render": function ( data, type, row ) {
-                                        if ( prices.includes(data) ) {             //if column data is 1 then set attr to checked, use row id as input id (plus prefix)
-                                            return '<input type="checkbox" checked' + ' id="prod'+row.idProducto + '"/>';
+                                    "render": function ( data, type, row ) {     
+                                        // console.log(prices);
+                                        if (prices.length > 0) {
+                                            //console.log(data);
+                                            if ( prices.includes(String(data))) {      
+                                                //if column data is 1 then set attr to checked, use row id as input id (plus prefix)
+                                                return '<input type="checkbox" checked' + ' id="prod'+row.idProducto + '"/>';
 
-                                        } else {
+                                            }
+                                            else {
+                                                return '<input type="checkbox"' + ' id="prod'+row.idProducto + '"/>';
+                                            }
+                                         } else {
                                             return '<input type="checkbox"' + ' id="prod'+row.idProducto + '"/>';
                                         }
                                         
@@ -507,55 +463,54 @@
                     }
                 });             
     }
-    function closeDialog() {
-        prodDialog.close();
-    }
-    function closeDialogProducts() {
-        // var rows_selected = table.column(0).checkboxes.selected();
-        // var rows_selected1 = table.row(); //.$("input").serializeArray();
-        console.log("rows selected");
-        console.log(rows_selected);
-        var data = table.column(1).$("input").serializeArray();        
-        console.log(data);   
-        arrayValues = [];
-        $.each(data, function(i, field){
-            if(field.value !== "")
-                arrayValues[field.name] = field.value;
-        });
-        console.log("arrayValues");
-        console.log(arrayValues);
+function closeDialog() {
+    prodDialog.close();
+}
+
+function closeDialogProducts() {
+    // var rows_selected = table.column(0).checkboxes.selected();
+    // var rows_selected1 = table.row(); //.$("input").serializeArray();
+    console.log("rows selected");
+    console.log(rows_selected);
+    
+    var data = table.column(1).$("input").serializeArray();                
+    arrayValues = [];
+    $.each(data, function(i, field){
+        if(field.value !== "")
+            arrayValues[field.name] = field.value;
+    });
+    console.log("arrayValues");
+    console.log(arrayValues);        
         
-            // Iterate over all selected checkboxes
-            // $.each(rows_selected, function(index, rowId){
-                // Create a hidden element
-                addRowTable(rows_selected, arrayValues); 
-                //console.log(rowId);
-                prodDialog.close();
-            // });
-    }
-    function loadObservacion() {
-        
-        var $content = $('<div class="panel panel-success" style="overflow-y: scroll;height: 450px;">' +                         
-                         '<a class="btn btn-success btn-xs" href="#" onclick="closeDialogProducts()" role="button"><span class="glyphicon glyphicon-ok"></span>Aceptar</a> ' +
-                         '<a class="btn btn-danger btn-xs" href="#" onclick="closeDialog()" role="button"><span class="glyphicon glyphicon-close"></span>Cerrar</a>' +
-                         '<div class="panel-body" style="overflow-y: scroll;height: 500px;">' +                         
-                         '</div></div>');
-        
-                var checked = "";                
-                img = "";                
-        obsDialog = BootstrapDialog.show({
+    addRowTable(rows_selected, arrayValues); 
             
-                    title: 'Observaciones',
-                    message: $content,
-                    onshown: function(){       
-                        $('[data-toggle="tooltip"]').tooltip({
-                            trigger: 'click',
-                            delay: { "show": 500, "hide": 100 },
-                        });                                            
-                    }
-                });             
-    }
-function saveObs(){
+    prodDialog.close();
+        
+}
+    
+function loadObservacion() {
+    
+    var $content = $('<div class="panel panel-success" style="overflow-y: scroll;height: 450px;">' +                         
+        '<a class="btn btn-success btn-xs" href="#" onclick="closeDialogProducts()" role="button"><span class="glyphicon glyphicon-ok"></span>Aceptar</a> ' +
+        '<a class="btn btn-danger btn-xs" href="#" onclick="closeDialog()" role="button"><span class="glyphicon glyphicon-close"></span>Cerrar</a>' +
+        '<div class="panel-body" style="overflow-y: scroll;height: 500px;">' +                         
+        '</div></div>');
+
+    var checked = "";                
+    img = "";                
+    obsDialog = BootstrapDialog.show({
+        
+        title: 'Observaciones',
+        message: $content,
+        onshown: function(){       
+            $('[data-toggle="tooltip"]').tooltip({
+                trigger: 'click',
+                delay: { "show": 500, "hide": 100 },
+            });                                            
+        }
+    });             
+}
+function saveObs() {
     console.log($("#observacion").val());
     obs = $("#observacion").val();
     $("#obs").val($("#observacion").val());
@@ -636,14 +591,7 @@ function saveObs(){
             <div class="row">
                 <div class="col-xs-12">
                     <div class="form-group">                        
-                        <div class="input-group">
-                            <!-- <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-shopping-cart orange"></span>
-                            </span> -->
-                            <!-- <select id="productos" onchange="addRowTable()" class="selectpicker" data-live-search="true"
-                                data-style="btn-warning" title="Elija un producto..." data-width="100px" multiple
-                                data-selected-text-format="count > 1">
-                            </select> -->
+                        <div class="input-group">                            
                             <a href="#ref" onclick="loadProducts()" class="btn btn-xs btn-danger"><span class="glyphicon glyphicon-edit"></span> Elegir Productos</a>
                         </div>
                     </div>
@@ -724,6 +672,5 @@ function saveObs(){
             </div>
         </div>
     </div>
-
 </body>
 </html>

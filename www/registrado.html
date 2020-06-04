@@ -21,7 +21,25 @@
     <script src="js/moment-with-locales.js"></script>
     <script src="js/bootstrap-datetimepicker.js"></script>    
     <script src="js/bootstrap-notify.min.js"></script>
-    
+<style>
+ .jumbotron-header {
+  padding-bottom: 9px;
+  margin: 20px 0 30px;
+}
+
+.modal-success {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dff0d8), to(#c8e5bc));
+  background-image: -webkit-linear-gradient(#dff0d8 0%, #c8e5bc 100%);
+  background-image: -moz-linear-gradient(#dff0d8 0%, #c8e5bc 100%);
+  background-image: -o-linear-gradient(#dff0d8 0%, #c8e5bc 100%);
+  background-image: linear-gradient(#dff0d8 0%, #c8e5bc 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffc8e5bc', GradientType=0);
+  border-color: #b2dba1;
+  border-radius: 6px 6px 0 0;
+}
+
+</style>    
     <script type="text/javascript">
      function sentToPedidos(idPedido) {
         var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024); 
@@ -38,184 +56,189 @@
     </script>
     <script type="text/javascript">
         
-            $(function() {               
-                
-                $('#datetimepicker1').datetimepicker({
-                    format: 'YYYY-MM-DD',
-                    defaultDate: Date(),
-                    locale: 'es',
-                });
-                /*Button display pedido*/
-                $("#table_pedidos").on("click", ".ibtnView", function (event) {
-                   console.log( $( this ).attr('id') );
-                   idPedido = $( this ).attr('id')
-                    var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);         
-                    //select Pedidos and sent to register online
-                    db.transaction(function (tx) { 
-                        tx.executeSql('SELECT * FROM PEDIDOS where id = ?', [idPedido], function (tx, results) { 
-                        var len = results.rows.length, i; 
-                        console.log("length:"); 
-                        console.log(len);
-                        for (i = 0; i < len; i++) { 
-                            console.log(results.rows.item(i));
-                            pedido_data = results.rows.item(i);                            
-                        }
-                        var order_options = {
-                            idCliente : pedido_data.idCliente,
-                            idUser: pedido_data.idUser,
-                            fecha: pedido_data.fecha,
-                            tipo_pedido: pedido_data.tipo_pedido,
-                            descuento: pedido_data.descuento,
-                            productos: pedido_data.productos,
-                            idVendedor: pedido_data.idVendedor,
-                            detalle: pedido_data.detalle,
-                            observaciones: pedido_data.observaciones,
-                        }
-                        console.log(order_options);
-                        msg =  JSON.stringify(order_options); 
-                        $.notify({
-                            // options
-                            title: 'Success',
-                            icon: 'glyphicon glyphicon-info-sign',
-                            message: msg
-                        },{
-                            // settings
-                            type: 'success',
-                            placement: {
-                                from: "top",
-                                align: "center"
-                            },
-                        });                                                                                   
-                        });                                                
-                    });
-                });
-
-                /* button display register*/
-                $("#table_pedidos").on("click", ".ibtnReg", function (event) {
-                    console.log( $( this ).attr('id') );
-                    idPedido = $( this ).attr('id')
-                    var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);         
-                    //select Pedidos and sent to register online
-                    db.transaction(function (tx) { 
-                        tx.executeSql('SELECT * FROM PEDIDOS where id = ?', [idPedido], function (tx, results) { 
-                        var len = results.rows.length, i; 
-                        console.log(len);
-                        for (i = 0; i < len; i++) { 
-                            console.log(results.rows.item(i));
-                            pedido_data = results.rows.item(i);                            
-                        }
-                        var order_options = {
-                            idCliente : pedido_data.idCliente,
-                            idUser: pedido_data.idUser,
-                            fecha: pedido_data.fecha,
-                            tipo_pedido: pedido_data.tipo_pedido,
-                            descuento: pedido_data.descuento,
-                            productos: pedido_data.productos,
-                            idVendedor: pedido_data.idVendedor,
-                            detalle: pedido_data.detalle,
-                            observaciones: pedido_data.observaciones,
-                        }
-                        
-                            $.ajax({
-                                url: baseUrl + "api/discal/pedido/vendedor/1",
-                                data: order_options,
-                                type: "POST",
-                                dataType: "json",
-                                success: function (json) {
-                                    console.log(json);
-                                    msg = '<h3><span class="glyphicon glyphicon-info-sign"></span> ' + json + '.</h3>'; 
-                                    $.notify({
-                                        // options
-                                        title: 'Success',
-                                        icon: 'glyphicon glyphicon-info-sign',
-                                        message: msg
-                                    },{
-                                        // settings
-                                        type: 'success',
-                                        placement: {
-                                            from: "top",
-                                            align: "center"
-                                        },
-                                    });
-                                },
-                                error: function () {
-                                    console.log("error on add pedido");
-                                    msg = '<h3><span class="glyphicon glyphicon-remove-circle"></span> Error al registrar en el Sistema!!!.</h3>';
-                                    $.notify({
-                                        // options
-                                        title: 'Error',
-                                        icon: 'glyphicon glyphicon-remove-circle',
-                                        message: msg
-                                    },{
-                                        // settings
-                                        type: 'danger',
-                                        placement: {
-                                            from: "top",
-                                            align: "center"
-                                        },
-                                    });
-                                }
-                            });
-                        });
-                    });
-                    // disable button
-                    $( this ).prop('disabled', true);
-                });
-                $('#datetimepicker1').val(Date());
-                var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);                 
-                console.log(sessionStorage.userId);
-                console.log(sessionStorage.idVendedor);
-                var clientOptions = {
-                    idVendedor : sessionStorage.idVendedor,
-                    idUser : sessionStorage.userId,
-                    fecha : $("#datetimepicker1").data('date'),
-                    dataFlag: true
+    $(function() {               
+        
+        $('#datetimepicker1').datetimepicker({
+            format: 'YYYY-MM-DD',
+            defaultDate: Date(),
+            locale: 'es',
+        });
+        /*Button display pedido*/
+        $("#table_pedidos").on("click", ".ibtnView", function (event) {
+            console.log( $( this ).attr('id') );
+            idPedido = $( this ).attr('id')
+            var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);         
+            //select Pedidos and sent to register online
+            db.transaction(function (tx) { 
+                tx.executeSql('SELECT * FROM PEDIDOS where id = ? AND idVendedor = ?', [idPedido, sessionStorage.idVendedor], function (tx, results) { 
+                var len = results.rows.length, i; 
+                console.log("length:"); 
+                console.log(len);
+                for (i = 0; i < len; i++) { 
+                    console.log(results.rows.item(i));
+                    pedido_data = results.rows.item(i);                            
                 }
-                $("#table_pedidos").DataTable({                    
-                    destroy: true,
-                    info: false,            
-                    paging: false,
-                    bLengthChange: false,
-                    // serverSide: true,
-                    ajax: 
-                        {
-                            url: baseUrl + "api/discal/pedido/vendedor/1",                            
-                            data: function(d) {
-                                d.idVendedor = sessionStorage.idVendedor;
-                                d.idUser =  sessionStorage.userId;
-                                d.fecha = $("#datetimepicker1").data('date');
-                                d.dataFlag = true;
-                            },
-                            dataSrc: 'data'
-                    }, 
-                    "columns": [
-                        { "data": "numPedido", sDefaultContent: "" },                            
-                        { "data": "fecha" , sDefaultContent: ""},
-                        { "data": "codigoCliente" , sDefaultContent: ""},
-                        { "data": "razonSocial" , sDefaultContent: ""},
-                    ],
-                    paging: true,
-                });
-            });
-            function verPedido() {
-                 var urlReload = baseUrl + "api/discal/pedido/vendedor/1";
-                $("#table_pedidos").DataTable().ajax.url(urlReload);
-                $("#table_pedidos").DataTable().ajax.reload();
-            }
-    function sentToPedidos(idPedido) {
-        var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024); 
-        console.log(idPedido);
-        db.transaction(function (tx) { 
-            tx.executeSql('SELECT * FROM PEDIDOS where id = ?', [idPedido], function (tx, results) { 
-            var len = results.rows.length, i; 
-            for (i = 1; i < len; i++) { 
-                console.log(results.rows.item(i).json);
-            }
+                var order_options = {
+                    idCliente : pedido_data.idCliente,
+                    idUser: pedido_data.idUser,
+                    fecha: pedido_data.fecha,
+                    tipo_pedido: pedido_data.tipo_pedido,
+                    descuento: pedido_data.descuento,
+                    producto_name: pedido_data.productos,
+                    productos: pedido_data.product_ids,
+                    idVendedor: pedido_data.idVendedor,
+                    detalle: pedido_data.detalle,
+                    observaciones: pedido_data.observaciones,
+                    registrado: pedido_data.registrado,
+                }
+                // console.log(product.fecha);
+                msg =  JSON.parse(pedido_data.detalle); 
+                console.log(msg);
+                table = '<table border=1 width=100%>';
+                table += '<tr><td><b>idCliente:</b></td><td colspan=3>' + order_options.idCliente +'</td></tr>';
+                table += '<tr><td><b>Fecha:</b></td><td colspan=3>' + order_options.fecha + '</td></tr>';  
+                table += '<tr><td><b>Producto</b></td><td><b>Cantidad</b></td><td><b>P.U.</b></td><td><b>Total</b></td></tr>';
+                var productsArray = pedido_data.productos.split(",");
+                var total_pedido = 0.0;     
+                for (var i=0, j=0; i < productsArray.length; i++, j+=2) {
+                    table += '<tr><td>' + productsArray[i] + '</td>';
+                    table += '<td>' + msg[j].value + '</td>';
+                    table += '<td>' + msg[j+1].value + '</td>';
+                    total = msg[j].value * msg[j+1].value;
+                    total_pedido += total;
+                    table += '<td>' + total + '</td></tr>';
+                }
+                var registrado = 'NO';
+                console.log(order_options.registrado);
+                if (order_options.registrado == "1") {
+                    registrado = 'SI';
+                }
+                table += '<tr><td><b>Total</b></td><td colspan=3>' + total_pedido + '</td></tr>';    
+                table += '<tr><td><b>Observaciones:</b></td><td colspan=3>' + order_options.observaciones + '</td></tr>';
+                table += '<tr><td><b>Registrado:</b></td><td colspan=3>' + registrado + '</td></tr>';
+                table += '</table>';
+                $('#pedidoModal').modal('show');
+                $('#pedidoModalContent').html(table);                                                                                                   
+                });                                                
             });
         });
+
+        /* button display register*/
+        $("#table_pedidos").on("click", ".ibtnReg", function (event) {
+            console.log( $( this ).attr('id') );
+            idPedido = $( this ).attr('id')
+            var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);         
+            //select Pedidos and sent to register online
+            db.transaction(function (tx) { 
+                tx.executeSql('SELECT * FROM PEDIDOS where id = ?', [idPedido], function (tx, results) { 
+                var len = results.rows.length, i; 
+                console.log(len);
+                for (i = 0; i < len; i++) { 
+                    console.log(results.rows.item(i));
+                    pedido_data = results.rows.item(i);                            
+                }
+                var order_options = {
+                    idCliente : pedido_data.idCliente,
+                    idUser: pedido_data.idUser,
+                    fecha: pedido_data.fecha,
+                    tipo_pedido: pedido_data.tipo_pedido,
+                    descuento: pedido_data.descuento,
+                    productos: pedido_data.product_ids.split(","),
+                    idVendedor: pedido_data.idVendedor,
+                    detalle: pedido_data.detalle,
+                    observaciones: pedido_data.observaciones,
+                }
+                
+                    $.ajax({
+                        url: baseUrl + "api/discal/pedido",
+                        data: order_options,
+                        type: "POST",
+                        dataType: "json",
+                        success: function (json) {
+                            console.log(json);
+                            msg = '<h3><span class="glyphicon glyphicon-info-sign"></span> ' + json.message + '.</h3>';                                    
+                            $.notify({
+                                // options
+                                title: 'Success',
+                                icon: 'glyphicon glyphicon-info-sign',
+                                message: msg
+                            },{
+                                // settings
+                                type: 'success',
+                                placement: {
+                                    from: "top",
+                                    align: "center"
+                                },
+                            });
+                            updateRegistro(idPedido);
+                        },
+                        error: function () {
+                            console.log("error on add pedido");
+                            msg = '<h3><span class="glyphicon glyphicon-remove-circle"></span> Error al registrar en el Sistema!!!.</h3>';
+                            $.notify({
+                                // options
+                                title: 'Error',
+                                icon: 'glyphicon glyphicon-remove-circle',
+                                message: msg
+                            },{
+                                // settings
+                                type: 'danger',
+                                placement: {
+                                    from: "top",
+                                    align: "center"
+                                },
+                            });
+                        }
+                    });
+                });
+            });
+            // disable button
+            $( this ).prop('disabled', true);
+            
+        });
+        $('#datetimepicker1').val(Date());
+        var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);                 
+        console.log(sessionStorage.userId);
+        console.log(sessionStorage.idVendedor);
+        var clientOptions = {
+            idVendedor : sessionStorage.idVendedor,
+            idUser : sessionStorage.userId,
+            fecha : $("#datetimepicker1").data('date'),
+            dataFlag: true
+        }
+        $("#table_pedidos").DataTable({                    
+            destroy: true,
+            info: false,            
+            paging: false,
+            bLengthChange: false,
+            // serverSide: true,
+            // ajax: 
+            //     {
+            //         url: baseUrl + "api/discal/pedido/vendedor/1",                            
+            //         data: function(d) {
+            //             d.idVendedor = sessionStorage.idVendedor;
+            //             d.idUser =  sessionStorage.userId;
+            //             d.fecha = $("#datetimepicker1").data('date');
+            //             d.dataFlag = true;
+            //         },
+            //         dataSrc: 'data'
+            // }, 
+            "columns": [
+                { "data": "numPedido", sDefaultContent: "" },                            
+                { "data": "fecha" , sDefaultContent: ""},
+                { "data": "codigoCliente" , sDefaultContent: ""},
+                { "data": "razonSocial" , sDefaultContent: ""},
+            ],
+            paging: true,
+        });
+    });
+    function verPedido() {
+            var urlReload = baseUrl + "api/discal/pedido/vendedor/1";
+        $("#table_pedidos").DataTable().ajax.url(urlReload);
+        $("#table_pedidos").DataTable().ajax.reload();
     }
 
-    function testDB() {
+    function verRegistrados() {
         var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024); 
         var msg;
         tablePedidos = $("#table_pedidos").DataTable({
@@ -228,33 +251,37 @@
          db.transaction(function (tx) { 
             fecha = $("#datetimepicker1").find("input").val();
             console.log(fecha);
-            tx.executeSql('SELECT * FROM PEDIDOS where date(fecha) = ?', [fecha], function (tx, results) { 
+            tx.executeSql('SELECT * FROM PEDIDOS where date(fecha) = ?  AND idVendedor = ?', [fecha, sessionStorage.idVendedor], function (tx, results) { 
                var len = results.rows.length, i; 
-               tablePedidos.clear();
-            //    msg = "<p>Found rows: " + len + "</p>"; 
-            //    document.querySelector('#status').innerHTML +=  msg; 
+               tablePedidos.clear();            
       
-               for (i = 0; i < len; i++) { 
-                //    console.log(results.rows.item(i).json);
-                //    x = results.rows.item(i).json;
-                //    x = x.replace(/\\"/g, '"');
-                //    x = x.replace(/\"\[/g, '[');
-                //    x = x.replace(/\]\"/g, ']');
-                //    console.log(x);
-                //    var obj =  JSON.parse(x);
-                //    console.log(obj);
+               for (i = 0; i < len; i++) {                 
                    idPedido = results.rows.item(i).id;
+                // verify if the order is registered
+                   registrado = results.rows.item(i).registrado;
                    console.log(idPedido);
+                var disabled = '';
+                   if (registrado == 1) {
+                    disabled = ' disabled';
+                }
+                   
                 tablePedidos.row.add([              
                 '<b>'+ results.rows.item(i).id +'</b>',
                 '<div>'+ results.rows.item(i).fecha+'</div>',              
                 '<button type="button" class="btn btn-labeled btn-primary btn-xs ibtnView" id="'+idPedido+'"><span class="glyphicon glyphicon-zoom-in"></span></button>',
-                '<button type="button" class="btn btn-labeled btn-success btn-xs ibtnReg" id="'+idPedido+'"><span class="glyphicon glyphicon-ok"></span></button>'
+                '<button type="button" class="btn btn-labeled btn-success btn-xs ibtnReg" id="'+idPedido+'" '+ disabled +'><span class="glyphicon glyphicon-ok"></span></button>'
                 ]).draw();
+
                } 
-            }, null); 
+            }, null);
          });          
     }      
+    function updateRegistro(idPedido) {
+    var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024); 
+        db.transaction(function (tx) {
+            tx.executeSql('UPDATE PEDIDOS SET registrado=? WHERE id=?', [1, idPedido]);
+        });
+    }
     </script>
 </head>
 
@@ -314,7 +341,7 @@
                                 
                             </div>
                             <div class='col-xs-2'>
-                                <a href="#" onclick="testDB()" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-search"></span></a>
+                                <a href="#" onclick="verRegistrados()" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-search"></span></a>
                             </div>                            
                         </div>
                     </div>
@@ -324,8 +351,8 @@
                         <tr>
                             <th style="width:10%">N°</th>
                             <th style="width:50%">Fecha</th>                            
-                            <th style="width:10%">Ver</th>
-                            <th style="width:10%">OK</th>
+                            <th style="width:10%">Ver Pedido</th>
+                            <th style="width:10%">Registro Online</th>                            
                         </tr>
                     </thead>
                     <tbody>                                
@@ -333,6 +360,28 @@
                 </table>
         </div>
     </div>    
+
+    <div class="modal fade" id="pedidoModal" tabindex="-1" role="dialog" aria-labelledby="pedidoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header modal-success">
+              <h5 class="modal-title" id="exampleModalLabel">Detalle del Pedido</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div id="pedidoModalContent">
+
+                </div>              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>              
+            </div>
+          </div>
+        </div>
+      </div>
+
 </body>
 
 </html>

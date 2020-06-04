@@ -37,9 +37,10 @@ $(function () {
         locale: 'es',
     });
     //set the date
-    // var currentTime = $("#fecha_pedido").find("input").val();
-    // $("#currentDate").html(currentTime);
-    //sessionStorage.currentDate = currentTime;
+    var currentTime = $("#fecha_pedido").find("input").val();
+    $("#currentDate").html(currentTime);
+    sessionStorage.currentDate = currentTime;
+
     $("#fecha_pedido").on("dp.change", function (e) {
         var myDate = $("#fecha_pedido").find("input").val();
         $("#currentDate").html(myDate);
@@ -53,6 +54,8 @@ $(function () {
     
     console.log(sessionStorage.userId);
     console.log(sessionStorage.idVendedor);
+    console.log("sessionStorage data");
+    console.log(sessionStorage.currentDate);
     icon  = ' <span class="glyphicon glyphicon-user"></span>';
     $("#welcome").html("Bienvenido(a): " + sessionStorage.nombreVendedor + icon);
     var db = openDatabase('discal', '1.0', 'Discal DB', 2 * 1024 * 1024);    
